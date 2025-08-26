@@ -1,0 +1,29 @@
+@media (max-width: 1559px) {
+    .tarif-text {
+        position: absolute;
+        max-width: 230px;
+        min-height: 65px;
+        top: 2944px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      .slider-tarif {
+        position: absolute;
+        width: 274px;
+      height: 347px;
+      
+      top: 3022px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0 auto;
+      border-radius: 36px;
+      border-width: 1px;
+      background: #352727;
+      opacity: 0.5;
+      }
+}
