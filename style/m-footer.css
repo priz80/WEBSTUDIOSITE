@@ -59,7 +59,7 @@
         width: 30px;
         height: 30px;
         background-image: url(/img/star.svg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
       }
       
