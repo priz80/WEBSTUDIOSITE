@@ -48,8 +48,8 @@
   .slider-portfolio {
     position: absolute;
     border-radius: 5px;
-    width: 567px;
-    height: 363px;
+    max-width: 567px;
+    min-height: 363px;
     top: 2267px;
     left: 676px;
     background: #4e751a;
