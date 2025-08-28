@@ -47,11 +47,12 @@
 
   .btn-clip a {
     position: absolute;
-    width: 168px;
+    width: 94px;
     height: 15px;
     display: flex;
     justify-content: space-between;
-    top: 15px;
+    align-items: center;
+    top: 12px;
     left: 20px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -85,7 +86,7 @@
     content: "Работаем в сфере web-разработки более 3-х лет";
     font-family: var(--font-family);
     font-weight: 400;
-    font-size:9px;
+    font-size: 9px;
     line-height: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 1);
@@ -110,10 +111,10 @@
   .box-down::after {
     position: relative;
     display: block;
-  /*   max-width: 287px;
+    /*   max-width: 287px;
     min-height: 15px; */
     top: 15px;
-  /*   left: 15px; */
+    /*   left: 15px; */
     content: "В нашей команде находятся лучшие исполнители";
     font-family: var(--font-family);
     font-weight: 400;
