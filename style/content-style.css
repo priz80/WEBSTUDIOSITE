@@ -94,7 +94,7 @@ a {
     height: 844px;
     top: 211px;
     right: 118px;
-    background-image: url(/img/man.svg);
+    background-image: url(../img/man.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
