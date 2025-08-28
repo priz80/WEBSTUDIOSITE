@@ -1,0 +1,182 @@
+@media (min-width: 1905px) {
+  .forma-text {
+    position: absolute;
+    width: 412px;
+    height: 66px;
+    top: 3905px;
+    left: 8px;
+   
+  }
+
+  .forma-text::after {
+    content: "Оставь заявку";
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 50px;
+    background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
+  }
+
+  .forma {
+    position: absolute;
+    max-width: 922px;
+    min-height: 280px;
+    top: 3993px;
+    left: 8px;
+    display: flex;
+    background: rgb(216, 187, 187);
+    opacity: 0.1;
+  }
+
+  .iphone {
+    position: absolute;
+    width: 269.88px;
+    height: 529px;
+    top: 3844px;
+    left: 1008px;
+    background-image: url(/img/iPhone.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .iphone-blockleft {
+    position: absolute;
+    width: 213px;
+    height: 58px;
+    top: 3918px;
+    left: 885px;
+    border-width: 1px;
+    border-radius: 29px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .elipse-up {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 7px;
+    left: 9px;
+    background-image: url(/img/ellipse-left.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .phone {
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    top: 18px;
+    left: 18px;
+    background-image: url(/img/ellipse-phone.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .note {
+    position: absolute;
+    width: 140px;
+    height: 15px;
+    top: 10px;
+    left: 59px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: left;
+  }
+
+  .note::after {
+    content: "Уведомление";
+  }
+
+  .note-text {
+    position: absolute;
+    width: 146px;
+    height: 21px;
+    top: 27px;
+    left: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 106%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .note-text::after {
+    content: "В скорейшем времени вам перезвонят";
+  }
+
+  .iphone-blockright {
+    position: absolute;
+    width: 210px;
+    height: 58px;
+    top: 4084px;
+    left: 1203px;
+    border-width: 1px;
+    border-radius: 29px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .elipse-down {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 7px;
+    left: 9px;
+    background-image: url(/img/ellipse-right.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .ball {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 14px;
+    left: 15px;
+    background-image: url(/img/ellipse-ball.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .theend {
+    position: absolute;
+    width: 146px;
+    height: 21px;
+    top: 9px;
+    left: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .theend::after {
+    content: "Работа закончена!";
+  }
+
+  .note-theend {
+    position: absolute;
+    width: 146px;
+    height: 21px;
+    top: 27px;
+    left: 60px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 106%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .note-theend::after {
+    content: "Мы закончили работу над вашим сайтом";
+  }
+
+}
+
