@@ -129,7 +129,7 @@
     box-shadow: 0px 0px 80px 0px rgba(44, 44, 45, 0.35);
   }
 
-  .card-/img {
+  .card-img {
     width: 125px;
     height: 125px;
     top: 65px;
@@ -164,7 +164,7 @@
 }
 
 @media (max-width: 335px) {
-  .card-/img {
+  .card-img {
 display: none;
   }
 
