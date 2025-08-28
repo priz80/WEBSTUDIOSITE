@@ -145,10 +145,10 @@
   }
 
   .card-img {
-    position: relative;
+    /* position: relative; */
     width: 125px;
     height: 125px;
-    top: 110px;
+    top: 65px;
     /* left: 164px; */
     /* right: 0; */
     float: right;
@@ -156,8 +156,8 @@
 
   .card-text_head {
     /* position: absolute; */
-    width: 183px;
-    height: 54px;
+    max-width: 183px;
+    min-height: 54px;
     top: 27px;
     left: 24px;
     font-family: var(--font-family);
@@ -168,10 +168,10 @@
   }
 
   .card-text {
-    position: absolute;
-    width: 242px;
-    height: 45px;
-    top: 88px;
+    /* position: absolute; */
+    max-width: 242px;
+    min-height: 45px;
+    top: 50px;
     left: 26px;
     font-family: var(--font-family);
     font-weight: 400;
