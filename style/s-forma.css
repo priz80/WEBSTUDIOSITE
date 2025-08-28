@@ -5,6 +5,11 @@
     height: 66px;
     top: 3905px;
     left: 8px;
+   
+  }
+
+  .forma-text::after {
+    content: "Оставь заявку";
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 50px;
@@ -172,5 +177,6 @@
   .note-theend::after {
     content: "Мы закончили работу над вашим сайтом";
   }
+
 }
 
