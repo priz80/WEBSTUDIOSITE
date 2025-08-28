@@ -1,10 +1,10 @@
-@media (min-width: 1560px) {
+@media (min-width: 1905px) {
   .logo-studio {
     position: absolute;
     width: 96px;
     height: 24px;
     top: 49px;
-    left: 6px;
+    left: 323px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 17px;
@@ -23,7 +23,7 @@
     width: 95px;
     height: 54px;
     top: 56px;
-    left: 7px;
+    left: 324px;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 40px;
@@ -81,7 +81,8 @@
   .btn-order {
     position: absolute;
     top: 0px;
-    left: 1035px;
+    /* left: 1035px; */
+    right: 274px;
     width: 307px;
     height: 168px;
     background-image: url(/img/btn-order.svg);
