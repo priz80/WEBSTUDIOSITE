@@ -74,7 +74,7 @@
     /* position: relative; */
     max-width: 289px;
     min-height: 289px;
-    
+    margin: 0 auto 35px;
     /* top: 1576px; */
     /* margin-bottom: 35px; */
     border-radius: 6px;
@@ -104,8 +104,8 @@
   #left-card {
     /* left: 6px; */
     
-    position: relative;
-    margin: 0 auto;
+    /* position: relative; */
+    /* margin: 0 auto; */
     border-width: 1px;
     border-image-source: linear-gradient(
       134.85deg,
@@ -120,7 +120,7 @@
 
   #middle-card {
     /* left: 441px; */
-    /* left: 6px; */margin: 0 auto;
+    /* left: 6px; *//* margin: 0 auto; */
     border-width: 1px;
     border-image-source: linear-gradient(
       134.57deg,
@@ -133,7 +133,7 @@
 
   #right-card {
     /* left: 878px; */
-    /*  left: 6px; */margin: 0 auto;
+    /*  left: 6px; *//* margin: 0 auto; */
     border-width: 1px;
     border-image-source: linear-gradient(
       136.85deg,
