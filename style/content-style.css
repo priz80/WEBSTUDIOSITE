@@ -367,4 +367,16 @@ a {
   .man {
     display: none;
   }
+
+  .circle {
+    display: none;
+  }
+
+  .circle-s {
+    display: none;
+  }
+
+  .circle-m {
+    display: none;
+  }
 }
