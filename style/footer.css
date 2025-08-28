@@ -75,7 +75,7 @@
   position: absolute;
   width: 30px;
   height: 30px;
-  background-image: url(/img/star.svg);
+  background-image: url(img/star.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -94,7 +94,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background-image: url(/img/star-small.svg);
+  background-image: url(img/star-small.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
