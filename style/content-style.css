@@ -106,7 +106,7 @@ a {
     height: 700px;
     top: 334px;
     right: 8px;
-    background-image: url(..../img/circle.svg);
+    background-image: url(../img/circle.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -131,7 +131,7 @@ a {
     width: 100%;
     min-height: 1354px;
     top: 770px;
-    background-image: url(..../img/group-lineup.svg);
+    background-image: url(../img/group-lineup.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -227,7 +227,7 @@ a {
     position: absolute;
     width: 100%;
     min-height: 640px;
-    background-image: url(..../img/room.svg);
+    background-image: url(../img/room.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -238,7 +238,7 @@ a {
     height: 412px;
     top: 228px;
     right: 0px;
-    background-image: url(..../img/m-man.svg);
+    background-image: url(../img/m-man.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
@@ -265,7 +265,7 @@ a {
     height: 347px;
     top: 299px;
     right: 0px;
-    background-image: url(..../img/elipse.svg);
+    background-image: url(../img/elipse.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -276,7 +276,7 @@ a {
     height: 289px;
     top: 328px;
     right: 0px;
-    background-image: url(..../img/s-elipse.svg);
+    background-image: url(../img/s-elipse.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -287,7 +287,7 @@ a {
     height: 231px;
     top: 357px;
     right: 0px;
-    background-image: url(..../img/m-elipse.svg);
+    background-image: url(../img/m-elipse.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -358,7 +358,7 @@ a {
   width: 100%;
   min-height: 2099px;
   top: 1541px;
-  background-image: url(..../img/group-line.svg);
+  background-image: url(../img/group-line.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
