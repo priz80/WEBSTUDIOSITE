@@ -123,17 +123,18 @@
 }
 
 .card-img {
-  position: relative;
+/*   position: relative; */
   width: 200px;
   height: 200px;
-  top: 200px;
-  left: 200px;
+  top: 73px;
+  /* left: 200px; */
+  float: right;
 }
 
 .card-text_head {
-  position: absolute;
-  width: 258px;
-  height: 64px;
+  /* position: absolute; */
+  max-width: 258px;
+  min-height: 64px;
   top: 40px;
   left: 40px;
   font-family: var(--font-family);
@@ -144,10 +145,10 @@
 }
 
 .card-text {
-  position: absolute;
-  width: 344px;
-  height: 63px;
-  top: 125px;
+  /* position: absolute; */
+  max-width: 344px;
+  min-height: 63px;
+  top: 70px;
   left: 40px;
   font-family: var(--font-family);
   font-weight: 500;
