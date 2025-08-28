@@ -1,4 +1,4 @@
-@media (max-width: 1559px) {
+@media (max-width: 1904px) {
     .tarif-text {
         position: absolute;
         max-width: 230px;
@@ -13,8 +13,8 @@
       
       .slider-tarif {
         position: absolute;
-        width: 274px;
-      height: 347px;
+        max-width: 274px;
+      min-height: 347px;
       
       top: 3022px;
       left: 0;
