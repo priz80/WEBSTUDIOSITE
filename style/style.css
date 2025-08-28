@@ -85,7 +85,7 @@ h5 {
     position: absolute;
     width: 100%;
     min-height: 1060px;
-    background-image: url(img/room.svg);
+    background-image: url(/img/room.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -96,7 +96,7 @@ h5 {
     height: 844px;
     top: 211px;
     right: 118px;
-    background-image: url(img/man.svg);
+    background-image: url(/img/man.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
@@ -108,7 +108,7 @@ h5 {
     height: 700px;
     top: 334px;
     right: 8px;
-    background-image: url(img/circle.svg);
+    background-image: url(/img/circle.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -133,7 +133,7 @@ h5 {
     width: 100%;
     min-height: 1354px;
     top: 770px;
-    background-image: url(img/group-lineup.svg);
+    background-image: url(/img/group-lineup.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -161,7 +161,7 @@ h5 {
     position: absolute;
     width: 100%;
     min-height: 640px;
-    background-image: url(img/room.svg);
+    background-image: url(/img/room.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -172,7 +172,7 @@ h5 {
     height: 412px;
     top: 228px;
     right: 0px;
-    background-image: url(img/m-man.svg);
+    background-image: url(/img/m-man.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
@@ -199,7 +199,7 @@ h5 {
     height: 346px;
     top: 299px;
     right: 0px;
-    background-image: url(img/m-circle.svg);
+    background-image: url(/img/m-circle.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -227,7 +227,7 @@ h5 {
   width: 100%;
   min-height: 2099px;
   top: 1541px;
-  background-image: url(img/group-line.svg);
+  background-image: url(/img/group-line.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
