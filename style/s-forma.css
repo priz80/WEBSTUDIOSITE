@@ -1,4 +1,4 @@
-@media (min-width: 1560px) {
+@media (min-width: 1905px) {
   .forma-text {
     position: absolute;
     width: 412px;
@@ -17,8 +17,8 @@
 
   .forma {
     position: absolute;
-    width: 922px;
-    height: 280px;
+    max-width: 922px;
+    min-height: 280px;
     top: 3993px;
     left: 8px;
     display: flex;
