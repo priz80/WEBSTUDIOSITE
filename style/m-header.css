@@ -1,8 +1,9 @@
-@media (max-width: 1559px) {
+@media (max-width: 1904px) {
   .burger {
+    position: absolute;
     width: 74px;
     height: 74px;
-    top: 20px;
+    top: 37px;
     left: 1px;
     background-image: url(/img/burger.svg);
     background-size: contain;
@@ -75,13 +76,20 @@
   }
 
   .box-up::after {
+    position: relative;
+    display: block;
+    max-width: 287px;
+    min-height: 15px;
+    top: 15px;
+    /* left: 15px; */
     content: "Работаем в сфере web-разработки более 3-х лет";
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 11px;
+    font-size:9px;
     line-height: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
   }
 
   .box-down {
@@ -100,12 +108,19 @@
   }
 
   .box-down::after {
+    position: relative;
+    display: block;
+  /*   max-width: 287px;
+    min-height: 15px; */
+    top: 15px;
+  /*   left: 15px; */
     content: "В нашей команде находятся лучшие исполнители";
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 11px;
+    font-size: 9px;
     line-height: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
   }
 }
