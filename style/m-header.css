@@ -5,7 +5,7 @@
     height: 74px;
     top: 37px;
     left: 1px;
-    background-image: url(/img/burger.svg);
+    background-image: url(../img/burger.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -16,7 +16,7 @@
     height: 47px;
     top: 56px;
     right: 18px;
-    background-image: url(/img/logo.svg);
+    background-image: url(../img/logo.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
