@@ -1,95 +1,96 @@
 @media (max-width: 1904px) {
-    .slider-contacty {
-      position: absolute;
-      width: 100%;
-      min-height: 86px;
-      top: 4987px;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      margin: auto;
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-      background: linear-gradient(110deg, #313134 0%, #222224 42.27%, #292929 100%);
-    }
-
-    .footer-copy {
-        position: absolute;
-        /* width: 529px;
-        height: 15px; */
-        top: 4694px;
-        bottom: 0;
-          left: 0;
-          right: 0;
-          margin: auto;
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 9px;
-        line-height: 106%;
-        text-align: center;
-        color: rgba(255, 255, 255, 0.7);
-      }
-      
-      .footer-politic {
-        position: absolute;
-      /*   width: 363px;
-        height: 13px; */
-        padding-bottom: 40px;
-        top: 4728px;
-        bottom: 0;
-          left: 0;
-          right: 0;
-          margin: auto;
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 9px;
-        line-height: 106%;
-        text-align: center;
-      }
-      
-      .footer-politic a {
-        color: rgba(255, 255, 255, 0.4);
-      }
-
-
-      @media (min-width: 328px) {
-        
-      .star {
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        background-image: url(/img/star.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-      }
-      
-      #star-up {
-        top: 4450px;
-        left: 293px;
-      }
-      
-      #star-down {
-        top: 4759px;
-        left: 9px;
-      }
-      
-      .star-small {
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        background-image: url(/img/star-small.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      
-      #star-small_up {
-        top: 4428px;
-        left: 259px;
-      }
-      
-      #star-small_down {
-        top: 4908px;
-        left: 310px;
-      }
-    }
+  .slider-contacty {
+    position: absolute;
+    width: 100%;
+    min-height: 86px;
+    top: 4987px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      110deg,
+      #313134 0%,
+      #222224 42.27%,
+      #292929 100%
+    );
   }
+
+  .footer-copy {
+    position: absolute;
+    /* width: 529px;
+        height: 15px; */
+    top: 4694px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 106%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .footer-politic {
+    position: absolute;
+    /*   width: 363px;
+        height: 13px; */
+    padding-bottom: 40px;
+    top: 4728px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 106%;
+    text-align: center;
+  }
+
+  .footer-politic a {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .star {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/star.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #star-up {
+    top: 4450px;
+    left: 293px;
+  }
+
+  #star-down {
+    top: 4759px;
+    left: 9px;
+  }
+
+  .star-small {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/star-small.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #star-small_up {
+    top: 4428px;
+    left: 259px;
+  }
+
+  #star-small_down {
+    top: 4908px;
+    left: 310px;
+  }
+}
