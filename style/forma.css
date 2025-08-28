@@ -37,7 +37,7 @@
     height: 529px;
     top: 3844px;
     left: 1008px;
-    background-image: url(img/iPhone.svg);
+    background-image: url(/img/iPhone.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -60,7 +60,7 @@
     height: 43px;
     top: 7px;
     left: 9px;
-    background-image: url(img/ellipse-left.svg);
+    background-image: url(/img/ellipse-left.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -71,7 +71,7 @@
     height: 24px;
     top: 18px;
     left: 18px;
-    background-image: url(img/ellipse-phone.svg);
+    background-image: url(/img/ellipse-phone.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -128,7 +128,7 @@
     height: 43px;
     top: 7px;
     left: 9px;
-    background-image: url(img/ellipse-right.svg);
+    background-image: url(/img/ellipse-right.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -139,7 +139,7 @@
     height: 31px;
     top: 14px;
     left: 15px;
-    background-image: url(img/ellipse-ball.svg);
+    background-image: url(/img/ellipse-ball.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
