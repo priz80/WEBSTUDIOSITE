@@ -94,3 +94,21 @@
     left: 310px;
   }
 }
+
+@media (max-width: 335px) {
+  #star-up {
+    display: none;
+  }
+
+  #star-down {
+    display: none;
+  }
+
+  #star-small_up {
+    display: none;
+  }
+
+  #star-small_down {
+    display: none;
+  }
+}
