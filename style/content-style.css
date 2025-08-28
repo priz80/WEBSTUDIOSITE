@@ -344,7 +344,11 @@ h5 {
 }
 
 
-
+@media (max-width: 335px) {
+  .man {
+    display: none;
+  }
+}
 
 @media (min-width: 1905px) {
   /* .line-menu_first {
