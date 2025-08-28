@@ -42,7 +42,7 @@
     width: 200px;
     min-height: 29px;
     left: 475px;
-    background-image: url(img/lamp.svg);
+    background-image: url(/img/lamp.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -85,7 +85,7 @@
     right: 274px;
     width: 307px;
     height: 168px;
-    background-image: url(img/btn-order.svg);
+    background-image: url(/img/btn-order.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
