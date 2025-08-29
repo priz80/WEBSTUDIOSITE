@@ -38,7 +38,15 @@
   }
 
   .lamp {
-    position: absolute;
+    /* position: fixed;
+    width: 800px;
+    height: 120px;
+    
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius:  16px;
+    background: linear-gradient(180deg, #B5FEEF 0%, #22A98D 100%);
+    z-index: 1;
+    opacity: 0.5; */
     width: 200px;
     min-height: 29px;
     left: 475px;
