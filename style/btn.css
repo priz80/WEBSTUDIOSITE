@@ -21,6 +21,7 @@
     /* выравниваем элементы внутри элемента по центру вдоль главной оси */
     justify-content: center;
 z-index: 1;
+opacity: 0.5;
 }
 
 @media (min-width: 1560px) {
