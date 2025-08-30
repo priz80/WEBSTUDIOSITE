@@ -259,4 +259,16 @@
     #star-small_left {
       display: none;
     }
+
+    .forma-header::after {
+ /*      content: "Оставь заявку";
+      font-family: var(--font-family);
+      font-weight: 600; */
+      font-size: 30px;
+/*       background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2); */
+  }
   }
