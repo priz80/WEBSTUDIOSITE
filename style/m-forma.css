@@ -200,8 +200,6 @@
   }
 
   #star-down {
-    /* top: 4759px;
-    left: 9px; */
     display: none;
   }
 
@@ -229,3 +227,36 @@
     left: 15px;
   }
 }
+
+
+
+
+  @media (max-width: 359px) {
+    .iphone-blockright {
+      display: none;
+    }
+
+    .iphone-blockleft {
+      display: none;
+    }
+
+    #star-up {
+      display: none;
+    }
+  
+    #star-down {
+      display: none;
+    }
+  
+    #star-small_up {
+      display: none;
+    }
+  
+    #star-small_down {
+      display: none;
+    }
+    
+    #star-small_left {
+      display: none;
+    }
+  }
