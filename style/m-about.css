@@ -224,4 +224,17 @@
       #282828 88%
     );
   }
+
+  .support {
+display: none;
+  }
+  .employ {
+display: none;
+  }
+  .time {
+display: none;
+  }
+  .money {
+display: none;
+  }
 }
