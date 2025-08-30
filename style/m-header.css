@@ -23,7 +23,7 @@
 
   .header-block_text {
     position: absolute;
-    max-width: 200px;
+    max-width: 203px;
     /* height: 100%; */
     top: 211px;
     left: 16px;
@@ -69,10 +69,10 @@
 
   .box-up {
     position: absolute;
-    max-width: 324px;
-    min-height: 38px;
-    top: 664px;
-    left: 0;
+    max-width: 321px;
+    min-height: 35px;
+    top: 646px;
+    left: -2px;
     right: 0;
     bottom: 0;
     margin: 0 auto;
@@ -85,14 +85,14 @@
   .box-up::after {
     position: relative;
     display: block;
-    max-width: 287px;
-    min-height: 15px;
-    top: 15px;
+    /* max-width: 287px;
+    min-height: 15px; */
+    top: 9px;
     content: "Работаем в сфере web-разработки более 3-х лет";
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 9px;
-    line-height: 100%;
+    font-size: 11px;
+    /*   line-height: 100%; */
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin: 0 auto;
@@ -100,15 +100,15 @@
 
   .box-down {
     position: absolute;
-    top: 720px;
-    left: 0;
+    top: 702px;
+    left: -2px;
     right: 0;
     bottom: 0;
     margin: 0 auto;
     border: 1.5px solid #208c76;
     border-radius: 41px;
-    max-width: 324px;
-    min-height: 38px;
+    max-width: 321px;
+    min-height: 35px;
     box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
     background: rgba(46, 236, 197, 0.04);
   }
@@ -116,13 +116,12 @@
   .box-down::after {
     position: relative;
     display: block;
-    top: 15px;
-    /*   left: 15px; */
+    top: 10px;
     content: "В нашей команде находятся лучшие исполнители";
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 9px;
-    line-height: 100%;
+    font-size: 11px;
+    letter-spacing: -0.1px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
     margin: 0 auto;
