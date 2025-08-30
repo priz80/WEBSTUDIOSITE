@@ -11,7 +11,7 @@
     text-align: center;
   }
 
-  .slider-portfolio {
+/*   .slider-portfolio {
     position: absolute;
     border-radius: 5px;
     max-width: 258px;
@@ -23,7 +23,7 @@
     margin: 0 auto;
     background: #4e751a;
     opacity: 0.5;
-  }
+  } */
 
   #portf::after {
     content: "Портфолио";
