@@ -40,16 +40,59 @@
     position: absolute;
     width: 254px;
     height: 492px;
-    top: 4716px;
+    top: 4470px;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: auto;
+    margin: 0 auto;
     background-image: url(../img/iPhone.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
 
+  .star {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/star.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #star-up {
+    top: 4431px;
+    left: 293px;
+  }
+
+  #star-down {
+    /* top: 4759px;
+    left: 9px; */
+    display: none;
+  }
+
+  .star-small {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/star-small.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #star-small_up {
+    top: 4408px;
+    left: 257px;
+  }
+
+  #star-small_down {
+    top: 4887px;
+    right: 16px;
+  }
+
+  #star-small_left {
+    top: 4746px;
+    left: 15px;
+  }
 }
 
 
