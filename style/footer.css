@@ -110,13 +110,12 @@
   }
 }
 
-
 @media (max-width: 1904px) {
   .slider-contacty {
     position: absolute;
     width: 100%;
     min-height: 86px;
-    top: 4987px;
+    top: 4220px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -135,7 +134,7 @@
     position: absolute;
     /* width: 529px;
     height: 15px; */
-    top: 4694px;
+    top: 4220px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -152,8 +151,8 @@
     position: absolute;
     /* width: 363px;
     height: 13px; */
-    padding-bottom: 40px;
-    top: 4728px;
+    padding-bottom: 15px;
+    top: 4692px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -179,7 +178,7 @@
   }
 
   #star-up {
-    top: 4450px;
+    top: 4431px;
     left: 293px;
   }
 
@@ -198,13 +197,13 @@
   }
 
   #star-small_up {
-    top: 4428px;
-    left: 259px;
+    top: 4408px;
+    left: 257px;
   }
 
   #star-small_down {
-    top: 4908px;
-    left: 310px;
+    top: 4887px;
+    left: 329px;
   }
 }
 
