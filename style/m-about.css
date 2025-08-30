@@ -203,7 +203,7 @@
   }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 359px) {
   .card-img {
     display: none;
   }
@@ -226,15 +226,26 @@
   }
 
   .support {
-display: none;
+    display: none;
   }
   .employ {
-display: none;
+    display: none;
   }
   .time {
-display: none;
+    display: none;
   }
   .money {
-display: none;
+    display: none;
   }
+
+  .btn-portfolio_up {
+    top: 966px;
+  }
+  .btn-portfolio_down {
+    top: 971px;
+  }
+
+  .block-card {
+    top: 1175px;
+}
 }
