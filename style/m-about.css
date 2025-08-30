@@ -2,12 +2,12 @@
   .section-about_text {
     position: absolute;
     max-width: 675px;
-    height: 100%;
-    top: 822px;
+    /*     height: 100%; */
+    top: 804px;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 auto;
+    /*     margin: 0 auto; */
     text-align: center;
   }
 
@@ -17,10 +17,10 @@
 
   .btn-portfolio_up {
     position: absolute;
-    max-width: 131px;
-    min-height: 41px;
-    top: 989px;;
-    left: 0;
+    max-width: 128px;
+    min-height: 38px;
+    top: 946px;
+    left: -8px;
     right: 0;
     bottom: 0;
     margin: 0 auto;
@@ -33,9 +33,9 @@
 
   .btn-portfolio_down {
     position: absolute;
-    max-width: 129px;
-    min-height: 41px;
-    top: 981px;
+    max-width: 126px;
+    min-height: 38px;
+    top: 955px;
     left: 13px;
     right: 0;
     bottom: 0;
@@ -46,10 +46,11 @@
 
   .btn-portfolio_up a {
     position: relative;
-    max-width: 287px;
-    min-height: 15px;
-    top: 10px;
-    left: 25px;
+    /*     max-width: 287px;
+    min-height: 15px; */
+    top: 9px;
+    left: 26px;
+    letter-spacing: -0.2px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 13px;
@@ -62,11 +63,11 @@
     width: 100%;
     min-height: 400px;
     top: 1383px;
-    
+
     /* margin: 0 auto; */
-   /*  gap: 35px; */
-/*     display: flex; */
-  /*   flex-direction: column; */
+    /*  gap: 35px; */
+    /*     display: flex; */
+    /*   flex-direction: column; */
     /* align-items: center; */
   }
 
@@ -84,7 +85,7 @@
   }
 
   #up-card {
-    top: 1028px;
+    top: 1003px;
     margin: 0 auto;
     background: linear-gradient(
       139.56deg,
@@ -136,8 +137,6 @@
     float: right;
   }
 
-
-
   .card-text_head {
     max-width: 183px;
     min-height: 54px;
@@ -165,7 +164,7 @@
 
 @media (max-width: 335px) {
   .card-img {
-display: none;
+    display: none;
   }
 
   .card-text {
