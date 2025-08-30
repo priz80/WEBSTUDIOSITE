@@ -41,7 +41,7 @@
     position: absolute;
     width: 200px;
     min-height: 29px;
-    left: 475px;
+    left: 472px;
     background-image: url(../img/lamp.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -101,12 +101,12 @@
     content: "Заказать";
   }
 
-  .header-block_text {
+  .main-block_header {
     position: absolute;
     max-width: 814px;
-    height: 100%;
-    top: 340px;
-    left: 6px;
+    /*     height: 100%; */
+    top: 339px;
+    left: 5px;
   }
 
   .blur-h1 {
@@ -124,6 +124,13 @@
 
   .blur-h1::after {
     content: "Разработка сайтов";
+  }
+
+  .main-block_description {
+    width: 672px;
+    height: 90px;
+    top: 504px;
+    left: 8px;
   }
 
   .blur-h2 {
@@ -147,16 +154,17 @@
     content: "для твоего бизнеса";
   }
 
+  
   #h4::after {
     content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
   }
 
   .btn-clip {
     position: absolute;
-    width: 200px;
-    height: 56px;
+    width: 197px;
+    height: 55px;
     top: 642px;
-    left: 6px;
+    left: 8px;
     border-radius: 49px;
     border: 1.5px solid rgba(46, 236, 197, 1);
     background-color: rgba(46, 236, 197, 0.1);
@@ -165,24 +173,31 @@
 
   .btn-clip a {
     position: absolute;
-    width: 137px;
+    width: 134px;
     height: 21px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     top: 17px;
-    left: 30px;
+    left: 32px;
     font-weight: 400;
     font-size: 18px;
     font-family: var(--font-family);
-    line-height: 100%;
+    letter-spacing: 0.4px;
+    line-height: 101%;
     color: rgba(255, 255, 255, 1);
+  }
+
+  #arrow {
+    width: 11px;
+    height: 16px;
   }
 
   .text-question {
     position: absolute;
-     width: 203px;
+    width: 203px;
     height: 25px;
-    top: 646px;
+    top: 555px;
     left: 232px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -194,6 +209,4 @@
     content: "Остались вопросы?";
     color: rgba(255, 255, 255, 0.4);
   }
-
 }
-
