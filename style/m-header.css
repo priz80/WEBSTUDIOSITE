@@ -23,10 +23,10 @@
 
   .header-block_text {
     position: absolute;
-    max-width: 228px;
-    height: 100%;
-    top: 223px;
-    left: 6px;
+    max-width: 200px;
+    /* height: 100%; */
+    top: 211px;
+    left: 16px;
   }
 
   #h4::after {
@@ -35,10 +35,10 @@
 
   .btn-clip {
     position: absolute;
-    width: 129px;
-    height: 38px;
-    top: 359px;
-    left: 6px;
+    width: 126px;
+    height: 35px;
+    top: 341px;
+    left: 17px;
     border-radius: 41px;
     border: 1.5px solid rgba(46, 236, 197, 1);
     background-color: rgba(46, 236, 197, 0.1);
@@ -47,18 +47,24 @@
 
   .btn-clip a {
     position: absolute;
-    width: 94px;
+    width: 81px;
     height: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 12px;
-    left: 20px;
+    top: 10px;
+    left: 24px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 100%;
+    letter-spacing: 0.4px;
     color: rgba(255, 255, 255, 1);
+  }
+
+  #arrow {
+    width: 10px;
+    height: 12px;
   }
 
   .box-up {
@@ -82,7 +88,6 @@
     max-width: 287px;
     min-height: 15px;
     top: 15px;
-    /* left: 15px; */
     content: "Работаем в сфере web-разработки более 3-х лет";
     font-family: var(--font-family);
     font-weight: 400;
@@ -111,8 +116,6 @@
   .box-down::after {
     position: relative;
     display: block;
-    /*   max-width: 287px;
-    min-height: 15px; */
     top: 15px;
     /*   left: 15px; */
     content: "В нашей команде находятся лучшие исполнители";
