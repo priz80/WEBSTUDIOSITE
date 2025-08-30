@@ -1,13 +1,11 @@
 @media (min-width: 1905px) {
   .contact {
     position: absolute;
-    width: 497px;
-    height: 132px;
-    top: 4470px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    max-width: 497px;
+    /* height: 132px; */
+    top: 4404px;
+    /* margin: auto; */
+    left: 393px;
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 96px;
@@ -168,7 +166,7 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  .star {
+  /*   .star {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -203,8 +201,8 @@
 
   #star-small_down {
     top: 4887px;
-    left: 329px;
-  }
+    right: 16px;
+  } */
 }
 
 @media (max-width: 335px) {
