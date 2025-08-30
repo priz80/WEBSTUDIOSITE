@@ -265,7 +265,7 @@ a {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 335px) {
+@media (max-width: 359px) {
   .man {
     display: none;
   }
