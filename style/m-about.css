@@ -249,3 +249,9 @@
     top: 1175px;
 }
 }
+
+@media (max-width: 359px) {
+  .card-text_head {
+    font-size: 15px;
+  }
+  }
