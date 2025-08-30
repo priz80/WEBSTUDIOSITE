@@ -21,12 +21,19 @@
     background-repeat: no-repeat;
   }
 
-  .header-block_text {
+  .main-block_header {
     position: absolute;
     max-width: 203px;
     /* height: 100%; */
     top: 211px;
     left: 16px;
+  }
+
+  .main-block_description {
+    width: 233px;
+    /* height: 90px; */
+    top: 266px;
+    left: 18px;
   }
 
   #h4::after {
