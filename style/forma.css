@@ -1,5 +1,5 @@
 @media (min-width: 1905px) {
-  .forma-text {
+  .forma-header {
     position: absolute;
     width: 412px;
     height: 66px;
@@ -8,7 +8,7 @@
    
   }
 
-  .forma-text::after {
+  .forma-header::after {
     content: "Оставь заявку";
     font-family: var(--font-family);
     font-weight: 600;
