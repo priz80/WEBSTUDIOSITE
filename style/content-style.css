@@ -21,7 +21,7 @@ a {
   color: #fff;
 }
 
-@media (min-width: 1905px) {
+/* @media (min-width: 1905px) {
   h1 {
     font-family: var(--font-family);
     font-weight: 600;
@@ -76,7 +76,7 @@ a {
     color: rgba(255, 255, 255, 0.65);
     margin-top: 19px;
   }
-}
+} */
 
 @media (min-width: 1905px) {
   .room {
