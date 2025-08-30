@@ -81,8 +81,7 @@
   .btn-order {
     position: absolute;
     top: 0px;
-    /* left: 1035px; */
-    right: 274px;
+    right: 245px;
     width: 307px;
     height: 168px;
     background-image: url(../img/btn-order.svg);
