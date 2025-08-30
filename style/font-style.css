@@ -33,14 +33,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
+    margin-bottom: 19px;
   }
 
   h3 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 22px;
-    line-height: 122%;
-    letter-spacing: 0.004em;
+    line-height: 131%;
+    /* letter-spacing: 0.004em; */
     color: rgba(255, 255, 255, 0.65);
   }
 
@@ -51,7 +52,7 @@
     letter-spacing: -0.005em;
     line-height: 132%;
     color: rgba(255, 255, 255, 0.65);
-    margin-top: 19px;
+    margin-bottom: 15px;
   }
 
 }
@@ -99,7 +100,7 @@
     letter-spacing: -0.05em;
     line-height: 127%;
     color: rgba(255, 255, 255, 0.65);
-    /*   margin-top: 19px; */
+      margin-bottom: 19px;
   }
 
   h6 {
