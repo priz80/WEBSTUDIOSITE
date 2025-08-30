@@ -22,7 +22,7 @@
     text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
   }
 
-  .forma {
+  /* .forma {
     position: absolute;
     max-width: 330px;
     min-height: 453px;
@@ -34,7 +34,7 @@
     display: flex;
     background: rgb(216, 187, 187);
     opacity: 0.1;
-  }
+  } */
 
   .iphone {
     position: absolute;
