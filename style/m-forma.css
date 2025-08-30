@@ -1,8 +1,8 @@
 @media (max-width: 1904px) {
-  .forma-text {
+  .forma-header {
     position: absolute;
     max-width: 277px;
-    min-height: 41px;
+ /*    min-height: 41px; */
     top: 3662px;
     left: 0;
     right: 0;
@@ -10,23 +10,11 @@
     margin: auto;
   }
 
-  .forma-text::after {
-    content: "Оставь заявку";
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 37px;
-    background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
-  }
-
   .forma {
     position: absolute;
     max-width: 330px;
     min-height: 453px;
-    top: 3981px;
+    top: 3963px;
     left: 0;
     right: 0;
     bottom: 0;
