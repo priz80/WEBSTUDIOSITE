@@ -10,9 +10,9 @@
 
 @media (max-width: 1904px) {
   .conteiner {
-    position: relative;
+/*     position: relative; */
     max-width: 360px;
-    height: 100%;
+/*     height: 100%; */
     margin: 0 auto;
   }
 }
