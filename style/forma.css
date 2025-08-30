@@ -178,5 +178,47 @@
     content: "Мы закончили работу над вашим сайтом";
   }
 
+  .star {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/star.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #star-up {
+    top: 4406px;
+    left: 886px;
+  }
+
+  #star-down {
+    top: 4486px;
+    left: 354px;
+  }
+
+  .star-small {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/star-small.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #star-small_up {
+    top: 4374px;
+    left: 874px;
+  }
+
+  #star-small_down {
+    top: 4532px;
+    left: 396px;
+  }
+
+  #star-small_left {
+    display: none;
+  }
+
 }
 
