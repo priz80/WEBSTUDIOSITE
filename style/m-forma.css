@@ -2,7 +2,7 @@
   .forma-header {
     position: absolute;
     max-width: 277px;
- /*    min-height: 41px; */
+    /*    min-height: 41px; */
     top: 3655px;
     left: 0;
     right: 0;
@@ -50,6 +50,141 @@
     background-repeat: no-repeat;
   }
 
+  .iphone-blockleft {
+    width: 161px;
+    height: 45px;
+    top: 4211px;
+    left: 7px;
+    border-width: 1px;
+    border-radius: 29px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .elipse-up {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 5px;
+    left: 4px;
+    background-image: url(../img/ellipse-left.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .phone {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    top: 15px;
+    left: 12px;
+    background-image: url(../img/ellipse-phone.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .note {
+    position: absolute;
+    width: 97px;
+    height: 15px;
+    top: 9px;
+    left: 49px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: left;
+  }
+
+  .note::after {
+    content: "Уведомление";
+  }
+
+  .note-text {
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    top: 23px;
+    left: 48px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 106%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .note-text::after {
+    content: "В скорейшем времени вам перезвонят";
+  }
+
+  .iphone-blockright {
+    position: absolute;
+    width: 161px;
+    height: 45px;
+    top: 4698px;
+    left: 194px;
+    border-width: 1px;
+    border-radius: 29px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .elipse-down {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 4px;
+    left: 5px;
+    background-image: url(../img/ellipse-right.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .ball {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 7px;
+    left: 8px;
+    background-image: url(../img/ellipse-ball.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .theend {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    top: 8px;
+    left: 48px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .theend::after {
+    content: "Работа закончена!";
+  }
+
+  .note-theend {
+    position: absolute;
+    width: 109px;
+    height: 21px;
+    top: 21px;
+    left: 48px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 106%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .note-theend::after {
+    content: "Мы закончили работу над вашим сайтом";
+  }
+
   .star {
     position: absolute;
     width: 30px;
@@ -94,5 +229,3 @@
     left: 15px;
   }
 }
-
-
