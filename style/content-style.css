@@ -21,7 +21,6 @@ a {
   color: #fff;
 }
 
-
 @media (min-width: 1905px) {
   .room {
     position: absolute;
@@ -76,6 +75,16 @@ a {
     min-height: 1354px;
     top: 770px;
     background-image: url(../img/group-lineup.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .group-line_down {
+    position: absolute;
+    width: 100%;
+    min-height: 2099px;
+    top: 1541px;
+    background-image: url(../img/group-line.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
@@ -253,16 +262,34 @@ a {
     );
   }
 
-}
+  .group-line_down {
+    position: absolute;
+    width: 100%;
+    min-height: 742px;
+    top: 2267px;
+    background-image: url(../img/group-minline.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
 
-.group-line_down {
-  position: absolute;
-  width: 100%;
-  min-height: 2099px;
-  top: 1541px;
-  background-image: url(../img/group-line.svg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  .slider-contacty {
+    position: absolute;
+    width: 100%;
+    min-height: 86px;
+    top: 4989px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      110deg,
+      #313134 0%,
+      #222224 42.27%,
+      #292929 100%
+    );
+  }
 }
 
 @media (max-width: 359px) {
