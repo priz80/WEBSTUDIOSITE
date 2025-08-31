@@ -1,10 +1,19 @@
 @media (min-width: 1905px) {
-.section-about_text {
+.about-header {
   position: absolute;
   max-width: 675px;
   height: 100%;
   top: 1157px;
   left: 9px;
+}
+
+.about-description {
+  position: absolute;
+  max-width: 670px;
+  height: 30px;
+  top: 1299px;
+  left: 7px;
+  /* text-align: center; */
 }
 
 #h5-up::after {
