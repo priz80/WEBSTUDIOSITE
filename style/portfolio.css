@@ -13,15 +13,12 @@
 
   .portf-subscribe {
     position: absolute;
-    width: 507px;
-    /* height: 34px; */
+    max-width: 507px;
     top: 2346px;
     left: 6px;
-    /* text-align: center;
-  /*   content: "В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год"; */
   }
 
-  #portf-text::after {
+  #portf-subscribe::after {
     content: "В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год";
 }
 
@@ -44,8 +41,6 @@
     content: "Компьютерные версии";
     top: 16px;
     left: 30px;
-    /* margin: 15px auto 0 15px; */
-    /*  margin: 0 auto; */
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 17px;
@@ -62,15 +57,4 @@
     line-height: 100%;
     color: rgba(255, 255, 255, 1);
   }
-
- /*  .slider-portfolio {
-    position: absolute;
-    border-radius: 5px;
-    max-width: 567px;
-    min-height: 363px;
-    top: 2267px;
-    left: 676px;
-    background: #4e751a;
-    opacity: 0.5;
-  } */
 }
