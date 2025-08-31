@@ -24,16 +24,15 @@
   .main-block_header {
     position: absolute;
     max-width: 203px;
-    /* height: 100%; */
     top: 211px;
-    left: 16px;
+    padding-left: 16px;
   }
 
   .main-block_description {
-    width: 233px;
-    /* height: 90px; */
-    top: 266px;
-    left: 18px;
+    position: absolute;
+    max-width: 202px;
+    top: 285px;
+    padding-left: 18px;
   }
 
   #h4::after {
@@ -146,6 +145,8 @@
   .man, .circle, .circle-s, .circle-m  {
     display: none;
   }
+
+  
 
 /*   .btn-portfolio_up {
       position: absolute;
