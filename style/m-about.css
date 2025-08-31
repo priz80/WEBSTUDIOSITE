@@ -1,13 +1,20 @@
 @media (max-width: 1904px) {
-  .section-about_text {
+  .about-header {
     position: absolute;
     max-width: 675px;
-    /*     height: 100%; */
     top: 804px;
-    left: 0;
+    /* left: 0;
     right: 0;
-    bottom: 0;
-    /*     margin: 0 auto; */
+    bottom: 0; */
+    text-align: center;
+  }
+
+  .about-description {
+    position: absolute;
+    max-width: 331px;
+    /* height: 30px; */
+    top: 888px;
+    left: 14px;
     text-align: center;
   }
 
@@ -93,7 +100,7 @@
   }
 
   #up-card {
-    top: 969px;
+    top: 1002px;
     margin: 0 auto;
     background: linear-gradient(
       139.56deg,
@@ -247,11 +254,11 @@
 
   .block-card {
     top: 1175px;
-}
+  }
 }
 
 @media (max-width: 359px) {
   .card-text_head {
-    font-size: 15px;
+    font-size: 10px;
   }
-  }
+}
