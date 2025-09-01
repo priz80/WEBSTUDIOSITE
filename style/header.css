@@ -101,11 +101,10 @@
     content: "Заказать";
   }
 
-  .main-block_header {
+  .main-title {
     position: absolute;
     max-width: 814px;
-    /*     height: 100%; */
-    top: 339px;
+    top: 327px;
     left: 5px;
   }
 
@@ -126,16 +125,15 @@
     content: "Разработка сайтов";
   }
 
-  .main-block_description {
-    width: 672px;
-    height: 90px;
-    top: 504px;
-    left: 8px;
+  .main-subtitle {
+    max-width: 575px;
+    top: 410px;
+    left: 7px;
   }
 
   .blur-h2 {
     position: absolute;
-    top: 85px;
+    top: 0px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 45px;
@@ -150,12 +148,13 @@
     content: "для твоего бизнеса";
   }
 
-  #h2::after {
-    content: "для твоего бизнеса";
+  .main-description {
+    width: 634px;
+    top: 441px;
+    left: 8px;
   }
 
-  
-  #h4::after {
+  #h3::after {
     content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
   }
 
@@ -193,22 +192,18 @@
     height: 16px;
   }
 
-  .text-question {
+  .question {
     position: absolute;
-    width: 203px;
-    height: 25px;
-    top: 555px;
+    max-width: 203px;
+    top: 655px;
     left: 232px;
+  }
+
+  .question a::after {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 19px;
-    line-height: 100%;
-  }
-
-  .text-question::after {
-    content: "Остались вопросы?";
     color: rgba(255, 255, 255, 0.4);
+    content: "Остались вопросы?";
   }
 }
-
-
