@@ -17,8 +17,8 @@
 
   .portf-subscribe {
     position: absolute;
-    width: 309px;
-    height: 34px;
+    max-width: 309px;
+/*     height: 34px; */
     top: 2464px;
     left: 25px;
     text-align: center;
