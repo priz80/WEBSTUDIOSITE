@@ -261,4 +261,16 @@
   .card-text_head {
     font-size: 10px;
   }
+
+  .about-header {
+    position: absolute;
+    max-width: 675px;
+    top: 804px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+
+}
 }
