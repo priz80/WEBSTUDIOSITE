@@ -21,21 +21,29 @@
     background-repeat: no-repeat;
   }
 
-  .main-block_header {
+  .main-title {
     position: absolute;
     max-width: 203px;
     top: 211px;
     padding-left: 16px;
   }
 
-  .main-block_description {
+  .main-subtitle {
+    display: none;
+  }
+
+  .question {
+    display: none;
+  }
+  
+  .main-description {
     position: absolute;
     max-width: 202px;
     top: 285px;
-    padding-left: 18px;
+    padding-left: 16px;
   }
 
-  #h4::after {
+  #h3::after {
     content: "Мы web-студия которая работает уже больше 3-х лет";
   }
 
@@ -145,22 +153,4 @@
   .man, .circle, .circle-s, .circle-m  {
     display: none;
   }
-
-  
-
-/*   .btn-portfolio_up {
-      position: absolute;
-      max-width: 128px;
-      min-height: 38px;
-      top: 966px;
-      left: -8px;
-      right: 0;
-      bottom: 0;
-      margin: 0 auto;
-      border: 1.5px solid #2eecc5;
-      border-radius: 4px;
-      box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
-      background: #161617;
-      z-index: 1;
-  } */
 }
