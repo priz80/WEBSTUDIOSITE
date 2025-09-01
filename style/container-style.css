@@ -1,18 +1,13 @@
 @media (min-width: 1905px) {
   .conteiner {
-    position: relative;
     max-width: 1270px;
-    height: 100%;
     margin: 0 auto;
-    
   }
 }
 
 @media (max-width: 1904px) {
   .conteiner {
-/*     position: relative; */
     max-width: 360px;
-/*     height: 100%; */
     margin: 0 auto;
   }
 }
