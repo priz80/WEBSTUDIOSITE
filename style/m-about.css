@@ -7,14 +7,15 @@
   }
 
   .about-subtitle {
+  display: none;
+  }
+
+  .about-subtitle_ {
     max-width: 331px;
     top: 592px;
     text-align: center;
   }
 
-  #h5-up::after {
-    content: "Вы можете ознакомиться с информацией о нас и посмотреть наше портфолио";
-  }
 
   .btn-portfolio_up {
     max-width: 128px;
