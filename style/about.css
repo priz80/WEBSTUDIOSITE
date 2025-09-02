@@ -2,12 +2,17 @@
 .about-title {
   position: absolute;
   max-width: 675px;
-/*   height: 100%; */
-  top: 1157px;
-  left: 9px;
+  top: 1156px;
+  left: 8px;
 }
 
 .about-subtitle {
+  max-width: 632px;
+  top: 1150px;
+  left: 7px;
+}
+
+.about-subtitle_ {
   max-width: 632px;
   top: 1150px;
   left: 7px;
