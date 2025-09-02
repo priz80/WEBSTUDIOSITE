@@ -206,4 +206,11 @@
     color: rgba(255, 255, 255, 0.4);
     content: "Остались вопросы?";
   }
+
+  .box-up,
+  .box-down {
+    display: none;
+  }
+  
+  
 }
