@@ -1,13 +1,13 @@
-@media (min-width: 1905px) {
+/* @media (min-width: 1905px) { */
   .conteiner {
     max-width: 1270px;
     margin: 0 auto;
   }
-}
+/* } */
 
 @media (max-width: 1904px) {
   .conteiner {
-    max-width: 360px;
+    max-width: 330px;
     margin: 0 auto;
   }
 }
