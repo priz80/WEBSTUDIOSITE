@@ -32,9 +32,9 @@
   }
 
   .footer-copy {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    top: 4314px;
+    top: 4153px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 15px;
@@ -44,10 +44,10 @@
   }
 
   .footer-politic {
-    position: absolute;
+    /* position: absolute; */
       width: 100%;
     padding-bottom: 40px;
-    top: 4343px;
+    top: 4168px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 13px;
