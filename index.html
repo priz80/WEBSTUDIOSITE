@@ -6,9 +6,13 @@
     <title>WebStudio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./font/stylesheet.css" />
-    <link rel="stylesheet" href="./style/content-style.css" />
+    <link rel="stylesheet" href="./style/normalize.css" />
     <link rel="stylesheet" href="./style/font-style.css" />
-    <link rel="stylesheet" href="./style/container-style.css" />
+    <link rel="stylesheet" href="./style/content.css" />
+    <link rel="stylesheet" href="./style/container.css" />
+    <link rel="stylesheet" href="./style/menu.css" />
+    <link rel="stylesheet" href="./style/m-menu.css" />
+    <link rel="stylesheet" href="./style/menu-burger.css" />
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/m-header.css" />
     <link rel="stylesheet" href="./style/about.css" />
@@ -28,180 +32,71 @@
     <div class="group-line_up"></div>
     <div class="group-line_down"></div>
     <div class="line"></div>
-    <div class="line-menu_first"></div>
-    <div class="line-menu_second"></div>
-    <div class="line-menu_third"></div>
-    <div class="line-menu_fourth"></div>
+    <div class="line-menu line-menu_first"></div>
+    <div class="line-menu line-menu_second"></div>
+    <div class="line-menu line-menu_third"></div>
+    <div class="line-menu line-menu_fourth"></div>
     <svg class="man"></svg>
     <div class="circle"></div>
     <div class="circle-s"></div>
     <div class="circle-m"></div>
     <div class="btn-up btn-up_hide"></div>
-    <div class="logo-studio"><p>studio</p></div>
-    <div class="logo-web"><p>web</p></div>
-    <a class="btn-order" href="#contact"><div></div></a>
-    <div class="m-menu">
-      <div class="burger"></div>
-      <div class="logo"></div>
-    </div>
+    <div class="slider-contacty"></div>
 
     <!-- conteiner -->
     <div class="conteiner">
-      <!-- section-menu -->
-      <div class="lamp" id="lamp"></div>
-      <div class="main-menu">
-        <a href="#about"><p id="menu-about"></p></a>
-        <a href="#portfolio"><p id="menu-portfolio"></p></a>
-        <a href="#tarif"><p id="menu-tarif"></p></a>
-        <a href="#contact"><p id="menu-contact"></p></a>
-      </div>
-      <!-- section-manu-end -->
-
-      <!-- section-main-end -->
-      <div class="main-title">
-        <h1>Разработка сайтов</h1>
-        <p class="blur-h1"></p>
-      </div>
-      <div class="main-subtitle">
-        <h2>Для твоего бизнеса</h2>
-        <p class="blur-h2"></p>
-      </div>
-
-      <div class="main-description">
-        <h3 id="h3">Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.</h3>
-      </div>
-      <div class="btn-clip">
-        <a href="#"
-          >Подробнее<img id="arrow" src="./img/arrow.svg" alt="arrow"
-        /></a>
-      </div>
-      <div class="question">
-        <a href="https://t.me/studio_WWW" target="_blank"></a>
-      </div>
-
-      <div class="box-up">
-        <p>Работаем в сфере web-разработки более 3-х лет</p>
-      </div>
-      <div class="box-down">
-        <p>В нашей команде находятся лучшие исполнители</p>
-      </div>
-      <!-- section-main-end -->
-
-      <!-- section-about -->
-      <div class="about-title">
-        <h4>Причины сотрудничать с нами</h4>
-      </div>
-      <div class="about-subtitle">
-        <h5>
-          Пока конкуренты говорят о том, что они лучшие - мы это доказываем
-          делом.
-        </h5>
-      </div>
-      <div class="about-subtitle_">
-        <h5>
-          Вы можете ознакомиться с информацией о нас и посмотреть наше портфолио
-        </h5>
-      </div>
-
-      <div class="btn-portfolio_up">
-        <a href="#portfolio">Портфолио</a>
-      </div>
-      <div class="btn-portfolio_down"></div>
-
-      <div class="card" id="up-card">
-        <p class="card-title">Приемлимые цены</p>
-        <p class="card-subtitle">
-          Мы максимально оптимизируем наш труд, для того, чтобы цены были
-          доступными
-        </p>
-        <div class="money"></div>
-      </div>
-      <div class="block-card">
-        <div class="card">
-          <p class="card-title">В сроки сдаем работу!</p>
-          <p class="card-subtitle">
-            Расписываем каждый этап по срокам, и придерживаемся дедлайнов
-          </p>
-          <div class="time"></div>
+      <!-- menu -->
+      <span class="main-menu">
+        <div class="logo">
+          <div class="m-logo"></div>
+          <p class="logo-studio">studio</p>
+          <p class="logo-web">web</p>
         </div>
-        <div class="card">
-          <p class="card-title">Команда специалистов</p>
-          <p class="card-subtitle">
-            В нашей команде множество специалистов, и каждый из них хорошо знает
-            свое дело
-          </p>
-          <div class="employ"></div>
+
+        <div class="menu">
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Почему именно мы?</a></li>
+          <li><a href="#">Контакты</a></li>
         </div>
-        <div class="card">
-          <p class="card-title">Консультация перед заказом</p>
-          <p class="card-subtitle">
-            Наши менеджеры в сети 24/7, и готовы помочь вам, а так же ответить
-            на ваши вопросы
-          </p>
-          <div class="support"></div>
+
+        <div>
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <label class="burger" for="burger-checkbox"></label>
         </div>
-      </div>
-      <!-- section-about-end -->
 
-      <!-- section-portfolio -->
-      <div class="portfolio-title" id="portfolio">
-        <h4 id="portf"></h4>
-      </div>
-      <div class="portfolio-subtitle">
-        <h5>В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год</h5>
-      </div>
-      <div class="btn-portfolio"><!-- <a href="#"></a> --></div>
-      <div class="slider-portfolio"></div>
-      <!-- section-portfolio-end -->
-
-      <!-- section-tarif -->
-      <div class="tarif-header" id="tarif">
-        <h4>Тарифы</h4>
-      </div>
-      <div class="slider-tarif"></div>
-      <!-- section-tarif-end -->
-
-      <!-- section-forma -->
-      <div class="forma-title">
-        <h6>Оставь заявку</h6>
-      </div>
-      <div class="iphone"></div>
-
-      <div class="iphone-blockleft">
-        <div class="elipse-up"></div>
-        <div class="phone"></div>
-        <div class="note"></div>
-        <div class="note-text"></div>
-      </div>
-
-      <div class="iphone-blockright">
-        <div class="elipse-down"></div>
-        <div class="ball"></div>
-        <div class="theend"></div>
-        <div class="note-theend"></div>
-      </div>
-      <!-- section-forma-end -->
-
-      <!-- section-contacty -->
-      <div class="contact" id="contact"><p>Контакты</p></div>
-      <div class="star" id="star-up"></div>
-      <div class="star" id="star-down"></div>
-      <div class="star-small" id="star-small_up"></div>
-      <div class="star-small" id="star-small_down"></div>
-      <div class="star-small" id="star-small_left"></div>
-      <!-- section-contacty-end -->
-
-      <footer>
-        <div class="footer-copy">
-          <p>© 2000–2025, WEB Studio - priz80@gmail.com</p>
+        <div class="btn-order">
+          <a href="#contact"><p>Заказать</p></a>
         </div>
-        <div class="footer-politic">
-          <a href="#lamp"><p>Политика сайта и обработка персональных данных</p></a>
-        </div>
-      </footer>
+      </span>
+      <!-- menu end -->
+
+      <!-- m-menu -->
+      <div class="open-menu-burger"></div>
+      <div class="open-menu">
+        <div class="menu-item"><a href="#">Главная</a></div>
+        <div class="menu-item"><a href="#">Почему именно мы?</a></div>
+        <div class="menu-item"><a href="#">Портфолио</a></div>
+        <div class="menu-item"><a href="#">Контакты</a></div>
+        <div class="menu-item"><a href="#">Оставить заявку</a></div>
+      </div>
+      <!-- m-menu end -->
+
+      <!-- header -->
+      <div class="header-title"><h1>Разработка сайтов</h1></div>
+      <div class="header-title_blur"><h1>Разработка сайтов</h1></div>
+      <div class="header-subtitle"><h2>Для твоего бизнеса</h2></div>
+      <div class="header-subtitle_blur"><h2>Для твоего бизнеса</h2></div>
+      <div class="header-description"><h3></h3></div>
+      <div class="btn-details"></div>
+      <div class="question"></div>
+
+      <!-- header end -->
     </div>
     <!-- conteiner-end -->
-    <div class="slider-contacty"></div>
+
+    <!-- menu-burger -->
+    <script src="./menu-burger.js"></script>
+
     <!-- button up -->
     <script src="./btn.js"></script>
 
