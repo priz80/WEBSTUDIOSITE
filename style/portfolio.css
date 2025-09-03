@@ -1,9 +1,7 @@
 @media (min-width: 1905px) {
-  .portfolio-header {
-    position: absolute;
-    max-width: 526px;
-    /*     height: 100%; */
-    top: 2260px;
+  .portfolio-title {
+    width: 100%;
+    top: 1590px;
     left: 8px;
   }
 
@@ -11,16 +9,11 @@
     content: "Наше портфолио";
   }
 
-  .portf-subscribe {
-    position: absolute;
-    max-width: 507px;
-    top: 2346px;
-    left: 6px;
+  .portfolio-subtitle {
+    max-width: 526px;
+    top: 1600px;
+    left: 7px;
   }
-
-  #portf-subscribe::after {
-    content: "В данном портфолио вы сможете увидеть кейсы наших работ на 2022 - 2023 год";
-}
 
   .btn-portfolio {
     position: absolute;
