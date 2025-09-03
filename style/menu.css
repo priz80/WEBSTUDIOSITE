@@ -1,0 +1,73 @@
+.main-menu {
+  position: absolute;
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  transform: rotate(-0.192deg);
+}
+
+.logo p {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140.6%; /* 23.902px */
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  font-size: 17px;
+  letter-spacing: 5.27px;
+}
+
+.logo-web {
+  font-size: 40px;
+  letter-spacing: -4.6px;
+  transform: translateY(-17px);
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  padding-inline-start: 400px;
+  margin: 15px 0;
+}
+
+.menu li {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-order {
+  width: 183px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 1.5px solid #2eecc5;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 62px rgba(46, 236, 197, 0.15);
+}
+
+.btn-order p {
+  width: 97px;
+  height: 21px;
+  flex-shrink: 0;
+  margin: 13px auto;
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
