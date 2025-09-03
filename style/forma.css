@@ -1,14 +1,11 @@
 @media (min-width: 1905px) {
-  .forma-header {
-    position: absolute;
-    width: 412px;
-    height: 66px;
-    top: 3905px;
-    left: 8px;
-   
-  }
+  .forma-title {
+width: 100%;
+    top: 3105px;
+    left: 7px;
+   }
 
-  .forma-header::after {
+  /* .forma-header::after {
     content: "Оставь заявку";
     font-family: var(--font-family);
     font-weight: 600;
@@ -19,7 +16,7 @@
     -webkit-text-fill-color: transparent;
     text-shadow: 0 0 36px 0 rgba(165, 252, 235, 0.2);
   }
-
+ */
   /* .forma {
     position: absolute;
     max-width: 922px;
