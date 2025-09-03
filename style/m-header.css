@@ -1,121 +1,44 @@
-@media (max-width: 1904px) {
-  .m-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 18px;
-  }
-
-  .burger {
-    width: 74px;
-    height: 74px;
-    background-image: url(../img/burger.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .logo {
-    width: 69px;
-    height: 47px;
-    top: 5px;
-    right: 18px;
-    background-image: url(../img/logo.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-  .main-title {
-    max-width: 203px;
-    top: 117px;
-  }
-
-  .main-subtitle {
-    display: none;
-  }
-
-  .question {
-    display: none;
-  }
-
-  .main-description {
+@media (max-width: 1905px) {
+  .header-title {
     position: absolute;
-    max-width: 202px;
-    top: 211px;
+    width: 228px;
+    top: 226px;
+    font-size: 27px;
+    z-index: 0;
   }
 
-  #h3::after {
+  .header-title h1 {
+    font-size: 27px;
+    line-height: 118.1%;
+  }
+
+  .header-title_blur {
+    display: none;
+  }
+
+  .header-subtitle {
+    display: none;
+  }
+
+  .header-subtitle_blur {
+    display: none;
+  }
+
+  .header-description {
+    position: absolute;
+    width: 218px;
+    top: 304px;
+  }
+  .header-description h3 {
+  font-size: 13px;
+  }
+
+  .header-description h3::after {
     content: "Мы web-студия которая работает уже больше 3-х лет";
   }
 
-  .btn-clip {
-    position: absolute;
-    width: 126px;
-    height: 35px;
-    top: 266px;
-    border-radius: 41px;
-    border: 1.5px solid rgba(46, 236, 197, 1);
-    background-color: rgba(46, 236, 197, 0.1);
-    box-shadow: 0px 0px 62px 0px rgba(46, 236, 197, 0.15);
+  .btn-details {
   }
-
-  .btn-clip a {
-    width: 81px;
-    height: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 10px;
-    left: 24px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 100%;
-    letter-spacing: 0.4px;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  #arrow {
-    width: 10px;
-    height: 12px;
-  }
-
-  .box-up {
-    max-width: 321px;
-    min-height: 35px;
-    top: 489px;
-    border: 1.5px solid #208c76;
-    border-radius: 41px;
-    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
-    background: rgba(46, 236, 197, 0.04);
-  }
-
-  .box-up p {
-    top: 10px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 11px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
-    margin: 0 auto;
-  }
-
-  .box-down {
-    top: 508px;
-    border: 1.5px solid #208c76;
-    border-radius: 41px;
-    max-width: 321px;
-    min-height: 35px;
-    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
-    background: rgba(46, 236, 197, 0.04);
-  }
-
-  .box-down p {
-    top: 10px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 11px;
-    letter-spacing: -0.1px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+  .question {
   }
 }
