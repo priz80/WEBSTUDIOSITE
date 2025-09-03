@@ -1,0 +1,13 @@
+.conteiner {
+  position: relative;
+  max-width: 1275px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1905px) {
+  .conteiner {
+    position: relative;
+    max-width: 330px;
+    margin: 0 auto;
+  }
+}
