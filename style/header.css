@@ -3,8 +3,12 @@
     position: absolute;
     width: 96px;
     height: 24px;
-    top: 49px;
+    top: 50px;
     left: 323px;
+    rotate: 0.19deg;
+  }
+
+  .logo-studio p {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 17px;
@@ -14,27 +18,23 @@
     color: #fff;
   }
 
-  .logo-studio::after {
-    content: "studio";
-  }
-
   .logo-web {
     position: absolute;
     width: 95px;
-    height: 54px;
-    top: 56px;
+    height: 56px;
+    top: 59px;
     left: 324px;
+    rotate: 0.19deg;
+  }
+
+  .logo-web p {
     font-family: var(--font-family);
-    font-weight: 800;
+    font-weight: 600;
     font-size: 40px;
     text-transform: uppercase;
     line-height: 141%;
     letter-spacing: -0.12em;
     color: #fff;
-  }
-
-  .logo-web::after {
-    content: "web";
   }
 
   .lamp {
@@ -104,8 +104,8 @@
   .main-title {
     position: absolute;
     max-width: 814px;
-    top: 327px;
-    left: 5px;
+    top: 335px;
+      /* left: 2px; */
   }
 
   .blur-h1 {
@@ -126,9 +126,10 @@
   }
 
   .main-subtitle {
-    max-width: 575px;
-    top: 410px;
-    left: 7px;
+    position: absolute;
+    max-width: 672px;
+    top: 416px;
+  text-align: left;
   }
 
   .blur-h2 {
@@ -149,14 +150,14 @@
   }
 
   .main-description {
-    width: 634px;
-    top: 441px;
-    left: 8px;
+    width: 672px;
+    top: 504px;
+    /* left: 8px; */
   }
 
-  #h3::after {
+  /* #h3::after {
     content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
-  }
+  } */
 
   .btn-clip {
     position: absolute;
@@ -211,6 +212,4 @@
   .box-down {
     display: none;
   }
-  
-  
 }
