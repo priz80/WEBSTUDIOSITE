@@ -1,6 +1,7 @@
 @media (max-width: 1904px) {
   .portfolio-title {
-    max-width: 526px;
+    /* max-width: 326px; */
+    width: 100%;
     top: 784px;
     text-align: center;
   }
