@@ -1,215 +1,68 @@
 @media (min-width: 1905px) {
-  .logo-studio {
+.header-title {
+  position: absolute;
+  width: 807px;
+  top: 335px;
+}
+
+.header-subtitle {
+  position: absolute;
+  width: 575px;
+  top: 416px;
+}
+
+.header-subtitle_blur {
     position: absolute;
-    width: 96px;
-    height: 24px;
-    top: 50px;
-    left: 323px;
-    rotate: 0.19deg;
-  }
+  width: 575px;
+  top: 416px;
+    background: linear-gradient(91deg, rgba(181, 254, 239, 0.30) 10.31%, rgba(46, 236, 197, 0.30) 165.09%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+filter: blur(22.5px);
+}
 
-  .logo-studio p {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 17px;
-    text-transform: uppercase;
-    line-height: 141%;
-    letter-spacing: 0.31em;
-    color: #fff;
-  }
 
-  .logo-web {
-    position: absolute;
-    width: 95px;
-    height: 56px;
-    top: 59px;
-    left: 324px;
-    rotate: 0.19deg;
-  }
+.header-description {
+  position: absolute;
+  width: 672px;
+  top: 504px;
+}
 
-  .logo-web p {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 40px;
-    text-transform: uppercase;
-    line-height: 141%;
-    letter-spacing: -0.12em;
-    color: #fff;
-  }
+.header-description h3::after {
+content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
+}
 
-  .lamp {
-    position: absolute;
-    width: 200px;
-    min-height: 29px;
-    left: 472px;
-    background-image: url(../img/lamp.svg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
+.btn-details {
+}
+.question {
+}
 
-  .main-menu {
-    position: absolute;
-    max-width: 650px;
-    height: 22px;
-    top: 71px;
-    left: 382px;
-    display: flex;
-  }
 
-  .main-menu p {
-    margin-right: 30px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    color: rgba(255, 255, 255, 1);
-  }
 
-  #menu-portfolio::after {
-    content: "Портфолио";
-  }
-  #menu-tarif::after {
-    content: "Тарифы";
-  }
-  #menu-about::after {
-    content: "Почему именно мы?";
-  }
-  #menu-contact::after {
-    content: "Контакты";
-  }
-
-  .btn-order {
-    position: absolute;
-    top: 0px;
-    right: 245px;
-    width: 307px;
-    height: 168px;
-    background-image: url(../img/btn-order.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .btn-order::after {
-    position: absolute;
-    left: 105px;
-    top: 69px;
-    line-height: 100%;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    color: rgba(255, 255, 255, 1);
-    content: "Заказать";
-  }
-
-  .main-title {
-    position: absolute;
-    max-width: 814px;
-    top: 335px;
-      /* left: 2px; */
-  }
-
-  .blur-h1 {
-    position: absolute;
-    top: 0;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 65px;
-    background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
+    .header-subtitle_blur {
+        position: absolute;
+      width: 575px;
+      top: 416px;
+        background: linear-gradient(91deg, rgba(181, 254, 239, 0.30) 10.31%, rgba(46, 236, 197, 0.30) 165.09%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter: blur(45px);
-  }
+    filter: blur(22.5px);
+    }
 
-  .blur-h1::after {
-    content: "Разработка сайтов";
-  }
-
-  .main-subtitle {
-    position: absolute;
-    max-width: 672px;
-    top: 416px;
-  text-align: left;
-  }
-
-  .blur-h2 {
-    position: absolute;
-    top: 0px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 45px;
-    background: linear-gradient(149deg, #b5feef 0%, #2eecc5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: blur(45px);
-  }
-
-  .blur-h2::after {
-    content: "для твоего бизнеса";
-  }
-
-  .main-description {
-    width: 672px;
-    top: 504px;
-    /* left: 8px; */
-  }
-
-  /* #h3::after {
-    content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
-  } */
-
-  .btn-clip {
-    position: absolute;
-    width: 197px;
-    height: 55px;
-    top: 642px;
-    left: 8px;
-    border-radius: 49px;
-    border: 1.5px solid rgba(46, 236, 197, 1);
-    background-color: rgba(46, 236, 197, 0.1);
-    box-shadow: 0px 0px 62px 0px rgba(46, 236, 197, 0.15);
-  }
-
-  .btn-clip a {
-    position: absolute;
-    width: 134px;
-    height: 21px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 17px;
-    left: 32px;
-    font-weight: 400;
-    font-size: 18px;
-    font-family: var(--font-family);
-    letter-spacing: 0.4px;
-    line-height: 101%;
-    color: rgba(255, 255, 255, 1);
-  }
-
-  #arrow {
-    width: 11px;
-    height: 16px;
-  }
-
-  .question {
-    position: absolute;
-    max-width: 203px;
-    top: 655px;
-    left: 232px;
-  }
-
-  .question a::after {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 19px;
-    color: rgba(255, 255, 255, 0.4);
-    content: "Остались вопросы?";
-  }
-
-  .box-up,
-  .box-down {
-    display: none;
-  }
+    .header-title_blur {
+        position: absolute;
+      width: 807px;
+      top: 335px;
+      background: linear-gradient(
+        91deg,
+        rgba(181, 254, 239, 0.3) 10.31%,
+        rgba(46, 236, 197, 0.3) 165.09%
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: blur(22.5px);
+    }
 }
