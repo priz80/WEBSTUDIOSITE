@@ -273,14 +273,9 @@ a {
   }
 
   .slider-contacty {
-    position: absolute;
     width: 100%;
     min-height: 86px;
-    top: 4989px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
+    top: 2577px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     background: linear-gradient(
@@ -289,23 +284,5 @@ a {
       #222224 42.27%,
       #292929 100%
     );
-  }
-}
-
-@media (max-width: 359px) {
-  .man {
-    display: none;
-  }
-
-  .circle {
-    display: none;
-  }
-
-  .circle-s {
-    display: none;
-  }
-
-  .circle-m {
-    display: none;
   }
 }
