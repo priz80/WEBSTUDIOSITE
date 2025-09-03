@@ -1,7 +1,8 @@
 @media (max-width: 1904px) {
   .tarif-header {
-    max-width: 230px;
-    top: 928px;
+    /* max-width: 230px; */
+    width: 100%;
+    top: 1231px;
     text-align: center;
   }
 
