@@ -1,6 +1,6 @@
 @media (min-width: 1905px) {
 .about-title {
-  position: absolute;
+
   max-width: 675px;
   top: 1156px;
   left: 8px;
@@ -19,7 +19,7 @@
 }
 
 .btn-portfolio_up {
-  position: absolute;
+
   width: 198px;
   height: 54px;
   top: 1449px;
@@ -32,7 +32,7 @@
 }
 
 .btn-portfolio_down {
-  position: absolute;
+
   width: 198px;
   height: 55px;
   top: 1459px;
@@ -51,7 +51,7 @@
 }
 
 .block-card {
-  position: absolute;
+
   width: 100%;
   min-height: 400px;
   top: 1576px;
@@ -60,10 +60,10 @@
 }
 
 .card {
-  /* position: relative; */
+
   width: 400px;
   height: 400px;
-  /* top: 1576px; */
+
   border-radius: 6px;
   background: linear-gradient(
     139.56deg,
