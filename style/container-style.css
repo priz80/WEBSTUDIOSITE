@@ -1,11 +1,9 @@
-/* @media (min-width: 1905px) { */
-  .conteiner {
-    max-width: 1270px;
-    margin: 0 auto;
-  }
-/* } */
+.conteiner {
+  max-width: 1275px;
+  margin: 0 auto;
+}
 
-@media (max-width: 1904px) {
+@media (max-width: 1905px) {
   .conteiner {
     max-width: 330px;
     margin: 0 auto;
