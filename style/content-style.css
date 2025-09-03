@@ -21,7 +21,7 @@ a {
   color: #fff;
 }
 
-@media (min-width: 1905px) {
+
   .room {
     position: absolute;
     width: 100%;
@@ -173,7 +173,7 @@ a {
       rgba(255, 177, 177, 0) 100%
     );
   }
-}
+
 
 @media (max-width: 1904px) {
   .room {
