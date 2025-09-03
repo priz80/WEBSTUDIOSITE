@@ -1,0 +1,243 @@
+.room {
+  position: absolute;
+  width: 100%;
+  min-height: 1060px;
+  background-image: url(../img/room.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.man {
+  position: absolute;
+  width: 663px;
+  height: 844px;
+  top: 211px;
+  right: 118px;
+  background-image: url(../img/man.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: 334px;
+  right: 8px;
+  background-image: url(../img/circle.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  flex-shrink: 0;
+  top: 1055px;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 188, 158, 0) 0%,
+    #2abc9e 48.65%,
+    rgba(42, 188, 158, 0) 100%
+  );
+}
+
+.group-line_up {
+  position: absolute;
+  width: 100%;
+  min-height: 1352px;
+  top: 770px;
+  background-image: url(../img/group-lineup.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.group-line_down {
+  position: absolute;
+  width: 100%;
+  min-height: 2099px;
+  top: 1541px;
+  background-image: url(../img/group-line.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.line-menu {
+  position: absolute;
+  left: 182px;
+  width: 2.5px;
+  background: linear-gradient(
+    70deg,
+    rgba(46, 236, 197, 0) 0%,
+    rgba(46, 236, 197, 0.5) 43.69%,
+    rgba(46, 236, 197, 0.07) 92.19%,
+    rgba(255, 177, 177, 0) 100%
+  );
+}
+
+.line-menu_first {
+  top: 0;
+  height: 1062.008px;
+}
+
+.line-menu_second {
+  height: 1062px;
+  top: 1062px;
+}
+
+.line-menu_third {
+  height: 778px;
+  top: 2110px;
+}
+
+.line-menu_fourth {
+  height: 984px;
+  top: 2888px;
+}
+
+.block-forma {
+  position: absolute;
+  width: 100%;
+  height: 458px;
+  top: 3872px;
+  flex-shrink: 0;
+  /* left: -9px; */
+  /* right: -9px; */
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: linear-gradient(
+    91.69deg,
+    #313134 -11.81%,
+    #222224 23.9%,
+    #12473c 60.63%,
+    #292929 110.44%
+  );
+}
+
+@media (max-width: 1904px) {
+  
+
+  .line-menu {
+    display: none;
+  }
+
+  .group-line_up {
+    display: none;
+  }
+
+  .room {
+    position: absolute;
+    width: 100%;
+    min-height: 640px;
+    background-image: url(../img/room.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .man {
+    position: absolute;
+    width: 241px;
+    height: 412px;
+    top: 228px;
+    right: 0px;
+    background-image: url(../img/m-man.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    width: 1920;
+    height: 5;
+    top: 640px;
+    background: linear-gradient(
+      135deg,
+      rgba(42, 188, 158, 0) 0%,
+      #2abc9e 48.65%,
+      rgba(42, 188, 158, 0) 100%
+    );
+  }
+
+  .circle {
+    position: absolute;
+    width: 200px;
+    height: 347px;
+    top: 299px;
+    right: 0px;
+    background-image: url(../img/elipse.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .circle-s {
+    position: absolute;
+    width: 171px;
+    height: 289px;
+    top: 328px;
+    right: 0px;
+    background-image: url(../img/s-elipse.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .circle-m {
+    position: absolute;
+    width: 142px;
+    height: 231px;
+    top: 357px;
+    right: 0px;
+    background-image: url(../img/m-elipse.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .block-forma {
+    position: absolute;
+    width: 100%;
+    height: 677px;
+    top: 3654px;
+    flex-shrink: 0;
+    /* left: -10px;
+    right: -9px; */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      73deg,
+      #313134 -57.16%,
+      #222224 3.42%,
+      #12473c 53.17%,
+      #292929 86.16%
+    );
+  }
+
+  .group-line_down {
+    position: absolute;
+    width: 100%;
+    min-height: 742px;
+    top: 2267px;
+    background-image: url(../img/group-minline.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .slider-contacty {
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    flex-shrink: 0;
+    top: 4942px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      110deg,
+      #313134 0%,
+      #222224 42.27%,
+      #292929 100%
+    );
+  }
+}
