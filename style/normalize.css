@@ -43,8 +43,6 @@ html {
 
   input[type="checkbox"] {
     appearance: none;
-    transform: translateX(-100px);
-    transform: translateY(-100px);
   }
 
   
