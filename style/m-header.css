@@ -74,4 +74,41 @@
   .question {
     display: none;
   }
+
+  .box-text {
+    position: absolute;
+    top: 664px;
+    width: 100%;
+    min-height: 38px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    border: 1.5px solid #208c76;
+    background: rgba(46, 236, 197, 0.04);
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box-text p {
+    max-width: 298px;
+    color: #fff;
+    text-align: center;
+    font-family: Ruberoid;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .box-text p::after {
+    content: 'Работаем в сфере web-разработки более 3-х лет';
+  }
+  .box-text_ p::after {
+    content: 'В нашей команде находятся лучшие исполнители';
+  }
+
+  .box-text_ {
+    top: 720px;
+  }
 }
