@@ -1,0 +1,30 @@
+.portfolio {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 2266px;
+  
+}
+
+.porfolio-title {
+  width: 500px;
+}
+.porfolio-subtitle {
+  width: 526px;
+  margin-bottom: 45px;
+}
+
+.btn-portfolio {
+}
+
+.slider-portfolio {
+  /* position: absolute; */
+  width: 567px;
+  height: 363px;
+  flex-shrink: 0;
+  /* top: 2267px; */
+  background-image: url(../img/slprewport.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
