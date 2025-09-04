@@ -39,3 +39,40 @@ h3 {
   font-weight: 400;
   line-height: normal;
 }
+
+h4 {
+  text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
+  font-family: var(--font-family);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110.6%; /* 60.83px */
+  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: rgba(255, 255, 255, 0.65);
+  font-family: var(--font-family);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 13px;
+}
+
+h6 {
+  text-shadow: 0 0 36px rgba(165, 252, 235, 0.2);
+  font-family: var(--font-family);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110.6%; /* 55.3px */
+  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
