@@ -1,5 +1,5 @@
-.open-menu {
-  display: none;
+.menu-open {
+ display: none;
 }
 
 @media (max-width: 1905px) {
@@ -22,6 +22,8 @@
   .burger-checkbox {
     position: absolute;
     visibility: hidden;
+    transform: translateX(-100px);
+    transform: translateY(-100px);
   }
   .burger {
     cursor: pointer;
