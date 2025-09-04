@@ -57,13 +57,16 @@
   border: 1.5px solid #2eecc5;
   background: rgba(46, 236, 197, 0.1);
   box-shadow: 0 0 62px rgba(46, 236, 197, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-order p {
+.btn-order a {
   width: 97px;
-  height: 21px;
+/*   height: 21px; */
   flex-shrink: 0;
-  margin: 13px auto;
+  /* margin: 0 auto; */
   color: var(--font-color);
   font-family: var(--font-family);
   font-size: 20px;
