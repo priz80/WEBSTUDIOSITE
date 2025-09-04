@@ -4,18 +4,30 @@
   display: flex;
   justify-content: space-between;
   top: 2266px;
-  
 }
 
 .porfolio-title {
   width: 500px;
 }
+
+.porfolio-title h4::after {
+  content: "Наше портфолио";
+}
+
 .porfolio-subtitle {
   width: 526px;
   margin-bottom: 45px;
 }
 
 .btn-portfolio {
+  width: 269px;
+  height: 51px;
+  flex-shrink: 0;
+}
+
+.btn-portfolio a {
+  width: 209px;
+  font-size: 17px;
 }
 
 .slider-portfolio {
