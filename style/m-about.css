@@ -3,7 +3,7 @@
     position: absolute;
     top: 812px;
     display: flex;
-    flex-wrap: wrap;
+    gap: 35px;
     justify-content: center;
   }
 
@@ -21,30 +21,35 @@
   }
 
   .btn-about {
-    margin: 45px 0 72px 3px;
-    width: 200px;
-    height: 57px;
+    margin: 26px auto 19px auto;
+    width: 131px;
+    height: 41px;
     flex-shrink: 0;
-    border-radius: 0;
-    border-radius: 0px;
+    border-radius: 4px;
     border: 1.5px solid #2eecc5;
     background: #161617;
     box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
+
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
   }
 
   .btn-about a {
-    width: 114px;
-    font-size: 19px;
+    width: 78px;
+    font-size: 13px;
   }
 
   .btn-about_shadow {
     position: absolute;
     margin: 25px -20px 0 0;
-    width: 200px;
-    height: 57px;
+    width: 129px;
+    height: 41px;
     flex-shrink: 0;
-    border-radius: 0;
+    border-radius: 4px;
     z-index: -1;
+    display: flex;
   }
 
   .about-box {
