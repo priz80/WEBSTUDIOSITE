@@ -2,13 +2,27 @@
   position: relative;
   max-width: 1275px;
   margin: 0 auto;
-  /* padding-left: 9px; */
 }
 
-/* @media (max-width: 1905px) {
+.lamp {
+  position: absolute;
+  width: 128px;
+  height: 8px;
+  flex-shrink: 0;
+  background-image: url(../img/lamp.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 40%;
+}
+
+@media (max-width: 1905px) {
   .conteiner {
     position: relative;
     max-width: 330px;
     margin: 0 auto;
   }
-} */
+
+  .lamp {
+    display: none;
+  }
+}
