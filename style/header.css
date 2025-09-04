@@ -1,27 +1,44 @@
-@media (min-width: 1905px) {
 .header-title {
   position: absolute;
   width: 807px;
-  top: 335px;
+  top: 327px;
+}
+
+.header-title_blur {
+  position: absolute;
+  width: 807px;
+  top: 327px;
+  background: linear-gradient(
+    91deg,
+    rgba(181, 254, 239, 0.3) 10.31%,
+    rgba(46, 236, 197, 0.3) 165.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(22.5px);
 }
 
 .header-subtitle {
   position: absolute;
   width: 575px;
-  top: 416px;
+  top: 411px;
 }
 
 .header-subtitle_blur {
-    position: absolute;
+  position: absolute;
   width: 575px;
-  top: 416px;
-    background: linear-gradient(91deg, rgba(181, 254, 239, 0.30) 10.31%, rgba(46, 236, 197, 0.30) 165.09%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-filter: blur(22.5px);
+  top: 411px;
+  background: linear-gradient(
+    91deg,
+    rgba(181, 254, 239, 0.3) 10.31%,
+    rgba(46, 236, 197, 0.3) 165.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(22.5px);
 }
-
 
 .header-description {
   position: absolute;
@@ -30,39 +47,10 @@ filter: blur(22.5px);
 }
 
 .header-description h3::after {
-content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
+  content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
 
 .btn-details {
 }
 .question {
-}
-
-
-
-    .header-subtitle_blur {
-        position: absolute;
-      width: 575px;
-      top: 416px;
-        background: linear-gradient(91deg, rgba(181, 254, 239, 0.30) 10.31%, rgba(46, 236, 197, 0.30) 165.09%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: blur(22.5px);
-    }
-
-    .header-title_blur {
-        position: absolute;
-      width: 807px;
-      top: 335px;
-      background: linear-gradient(
-        91deg,
-        rgba(181, 254, 239, 0.3) 10.31%,
-        rgba(46, 236, 197, 0.3) 165.09%
-      );
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      filter: blur(22.5px);
-    }
 }
