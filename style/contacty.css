@@ -1,0 +1,16 @@
+.contacty-title {
+  position: absolute;
+  top: 4386px;
+  width: 100%;
+  text-align: center;
+}
+
+.contacty-title p {
+  color: var(--Mono-White, #fff);
+  font-family: var(--font-family);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.92px;
+}
