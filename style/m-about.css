@@ -1,0 +1,135 @@
+@media (max-width: 1905px) {
+  .box-block {
+    position: absolute;
+    top: 812px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-title {
+    width: 100%;
+    margin: 12px 0 0 0;
+    text-align: center;
+  }
+
+  .about-subtitle {
+    width: 100%;
+  }
+  .about-subtitle_ {
+    display: none;
+  }
+
+  .btn-about {
+    margin: 45px 0 72px 3px;
+    width: 200px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 0;
+    border-radius: 0px;
+    border: 1.5px solid #2eecc5;
+    background: #161617;
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
+  }
+
+  .btn-about a {
+    width: 114px;
+    font-size: 19px;
+  }
+
+  .btn-about_shadow {
+    position: absolute;
+    margin: 25px -20px 0 0;
+    width: 200px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 0;
+    z-index: -1;
+  }
+
+  .about-box {
+    width: 289px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: linear-gradient(
+      140deg,
+      #303134 10.06%,
+      #282828 53.72%,
+      #282828 88%
+    );
+    box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+  }
+
+  .about-box_price {
+    border-radius: 6px;
+    background: linear-gradient(
+      140deg,
+      #527791 10.06%,
+      #325597 53.72%,
+      #193895 88%
+    );
+    box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+  }
+
+  .about-box_conteiner {
+    max-width: 243px;
+    margin: 25px auto 0;
+  }
+
+  .about-box_title {
+    max-width: 258px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.1%;
+    margin: 0 0 16px 0;
+  }
+
+  .about-box_subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Ruberoid;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.1%;
+    margin: 0 0 16px 0;
+  }
+
+  .about-box_img {
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .img-money {
+    width: 158px;
+    height: 139px;
+    flex-shrink: 0;
+    background-image: url(../img/m-money.svg);
+  }
+
+  .img-time {
+    width: 136px;
+    height: 130px;
+    flex-shrink: 0;
+    background-image: url(../img/m-time.svg);
+  }
+
+  .img-employ {
+    width: 111px;
+    height: 137px;
+    flex-shrink: 0;
+    background-image: url(../img/m-employ.svg);
+  }
+
+  .img-support {
+    width: 125px;
+    height: 126px;
+    flex-shrink: 0;
+    background-image: url(../img/m-support.svg);
+  }
+}
