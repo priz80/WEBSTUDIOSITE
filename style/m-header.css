@@ -104,11 +104,11 @@
   .box-text p::after {
     content: 'Работаем в сфере web-разработки более 3-х лет';
   }
-  .box-text_ p::after {
+  .box-text_next p::after {
     content: 'В нашей команде находятся лучшие исполнители';
   }
 
-  .box-text_ {
+  .box-text_next {
     top: 720px;
   }
 }
