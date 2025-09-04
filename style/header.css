@@ -50,7 +50,11 @@
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
 
-.btn-details {
+
+.btn-header {
+  position: absolute;
+  top: 642px;
 }
+
 .question {
 }
