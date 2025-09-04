@@ -1,0 +1,21 @@
+@media (max-width: 1905px) {
+  .contacty-title {
+    display: none;
+  }
+
+  .slider-contacty {
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    flex-shrink: 0;
+    top: 4686px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(
+      73deg,
+      #313134 -57.16%,
+      #222224 3.42%,
+      #292929 86.16%
+    );
+  }
+}
