@@ -39,3 +39,43 @@ font-style: normal;
 font-weight: 400;
 line-height: 105.6%; /* 13.728px */
 }
+
+
+
+@media (max-width: 1905px) {
+.footer {
+  position: absolute;
+width: 100%;
+  top: 5042px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+
+.copyright {
+margin-bottom: 11px;
+}
+
+.copyright p {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: var(--font-family);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.6%; /* 15.84px */
+}
+
+.agreement {
+margin-bottom: 18px;
+}
+
+.agreement p {
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: var(--font-family);
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 105.6%; /* 13.728px */
+}
+}
