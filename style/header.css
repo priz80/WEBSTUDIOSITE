@@ -50,11 +50,50 @@
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
 
-
-.btn-header {
+.btn-block {
   position: absolute;
   top: 642px;
+  width: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.btn-header {
+  width: 200px;
+  height: 57px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.btn-header a {
+  width: 120px;
+  flex-shrink: 0;
+  margin: 0 0 0 0;
+  /* margin-left: 31px; */
+  letter-spacing: -0.8px;
+
+}
+
+.arrow {
+  width: 9px;
+  height: 16px;
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .question {
+  width: 203px;
+}
+
+.question a {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-family);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
