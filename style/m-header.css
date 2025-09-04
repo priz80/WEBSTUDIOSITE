@@ -3,7 +3,6 @@
     position: absolute;
     width: 228px;
     top: 226px;
-    font-size: 27px;
     z-index: 0;
   }
 
@@ -30,15 +29,49 @@
     top: 304px;
   }
   .header-description h3 {
-  font-size: 13px;
+    font-size: 13px;
   }
 
   .header-description h3::after {
     content: "Мы web-студия которая работает уже больше 3-х лет";
   }
 
-  .btn-details {
+  .btn-block {
+    position: absolute;
+    top: 359px;
+    width: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  .btn-header {
+    width: 129px;
+    height: 38px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-header a {
+    width: 68px;
+    flex-shrink: 0;
+    font-size: 11px;
+    margin: 0 0 0 0;
+    /* margin-left: 31px; */
+    letter-spacing: -0.8px;
+  }
+
+  .arrow {
+    width: 7px;
+    height: 12px;
+    background-image: url(../img/m-arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
   .question {
+    display: none;
   }
 }
