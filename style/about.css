@@ -1,0 +1,38 @@
+.about-title {
+  width: 672px;
+  margin: 12px;
+}
+
+.about-subtitle {
+  width: 670px;
+}
+
+
+.box-block {
+  position: absolute;
+  display: flex;
+  top: 1144px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: linear-gradient(
+    140deg,
+    #527791 10.06%,
+    #325597 53.72%,
+    #193895 88%
+  );
+  box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
+}
+
+
+.btn-about {
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
