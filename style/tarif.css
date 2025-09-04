@@ -1,0 +1,18 @@
+.tarif-title {
+    position: absolute;
+    width: 100%;
+    top: 2984px;
+    text-align: center;
+  }
+  
+  .slider-tarif {
+      position: absolute;
+      width: 100%;
+      top: 3086px;
+  height: 570px;
+  flex-shrink: 0;
+  border-radius: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: linear-gradient(169deg, #313134 9.31%, #292929 61.88%, #282828 111.76%);
+  }
+  
