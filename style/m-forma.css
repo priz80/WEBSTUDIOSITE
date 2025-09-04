@@ -1,19 +1,166 @@
 @media (max-width: 1905px) {
-.forma-title {
+  .forma-title {
     position: absolute;
     top: 3592px;
     width: 277px;
     align-items: center;
-}
-.mb-3 {
+  }
+  .mb-3 {
     position: absolute;
     top: 4023px;
+  }
+  .form-label {
+  }
+  .form-control {
+  }
 
-}
-.form-label {
-}
-.form-control {
-}
-.block-ipone {
-}
+  .iphone {
+    position: absolute;
+    top: 4488px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 254px;
+    height: 492px;
+    flex-shrink: 0;
+    background: url(../img/m-iPhone.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .elipse {
+    width: 39px;
+    height: 39px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .elipse-text {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .elipse-title p {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-family: Ruberoid;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .elipse-subtitle p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Ruberoid;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.6%; /* 12.672px */
+  }
+
+  .note {
+    position: absolute;
+    top: 4591px;
+    right: 168px;
+    width: 164px;
+    height: 48px;
+    background-image: url(../img/m-note.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .note-elipse {
+    background-image: url(../img/ellipse-left.svg);
+  }
+
+  .phone {
+    width: 22px;
+    height: 21px;
+    flex-shrink: 0;
+    background-image: url(../img/ellipse-phone.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .note-title p::after {
+    content: "Уведомление!";
+  }
+
+  .note-title {
+    width: 100px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+
+  .note-title p::after {
+    content: "Уведомление!";
+  }
+
+  .note-subtitle {
+    width: 100px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+
+  .note-subtitle p::after {
+    content: "В скорейшем времени вам перезвонят";
+  }
+
+  .finish {
+    position: absolute;
+    top: 4717px;
+    right: -5px;
+    width: 164px;
+    height: 48px;
+    background-image: url(../img/m-finish.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .finish-elipse {
+    background-image: url(../img/ellipse-right.svg);
+  }
+
+  .ball {
+    width: 29px;
+    height: 29px;
+    flex-shrink: 0;
+    background-image: url(../img/ellipse-ball.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .finish-title {
+    width: 100px;
+    height: 15px;
+    flex-shrink: 0;
+  }
+
+  .finish-title p::after {
+    content: "Работа закончена!";
+  }
+
+  .finish-subtitle {
+    width: 100px;
+    height: 21px;
+    flex-shrink: 0;
+  }
+
+  .finish-subtitle p::after {
+    content: "Мы закончили работу над вашим сайтом";
+  }
 }
