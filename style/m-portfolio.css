@@ -1,0 +1,44 @@
+@media (max-width: 1905px) {
+  .portfolio {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 2436px;
+  }
+
+  .porfolio-title {
+    width: 330px;
+    text-align: center;
+  }
+
+  .porfolio-title h4::after {
+    content: "Портфолио";
+  }
+
+  .porfolio-subtitle {
+    width: 329px;
+    margin-bottom: 45px;
+  }
+
+  .btn-portfolio {
+    width: 269px;
+    height: 51px;
+    flex-shrink: 0;
+  }
+
+  .btn-portfolio a {
+    width: 209px;
+    font-size: 17px;
+  }
+
+  .slider-portfolio {
+    width: 256px;
+    height: 151px;
+    flex-shrink: 0;
+    background-image: url(../img/m-slprewport.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
