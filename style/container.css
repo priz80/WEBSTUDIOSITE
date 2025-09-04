@@ -2,12 +2,13 @@
   position: relative;
   max-width: 1275px;
   margin: 0 auto;
+  /* padding-left: 9px; */
 }
 
-@media (max-width: 1905px) {
+/* @media (max-width: 1905px) {
   .conteiner {
     position: relative;
     max-width: 330px;
     margin: 0 auto;
   }
-}
+} */
