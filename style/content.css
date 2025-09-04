@@ -7,7 +7,6 @@
   background-repeat: no-repeat;
 }
 
-
 .man {
   position: absolute;
   width: 663px;
@@ -126,7 +125,7 @@
   background: #5e3047;
 }
 
-@media (max-width: 1904px) {
+@media (max-width: 1905px) {
   .line-menu {
     display: none;
   }
