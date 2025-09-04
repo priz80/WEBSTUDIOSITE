@@ -1,26 +1,64 @@
-.about-title {
-  width: 672px;
-  margin: 12px;
-}
-
-.about-subtitle {
-  width: 670px;
-}
-
-
 .box-block {
   position: absolute;
   display: flex;
   top: 1144px;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* justify-content: center; */
 }
 
-.box {
+.about-title {
+  width: 672px;
+  margin: 12px 0 0 0;
+}
+
+.about-subtitle {
+  width: 670px;
+}
+
+.btn-about {
+  margin: 45px 0 72px 3px;
+  width: 200px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 0;
+  border-radius: 0px;
+border: 1.5px solid #2EECC5;
+background: #161617;
+box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
+/* z-index: 1; */
+}
+
+.btn-about a {
+  width: 114px;
+  font-size: 19px;
+}
+
+.btn-about_shadow {
+  position: absolute;
+  margin: 25px -20px 0 0;
+  width: 200px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 0;
+  z-index: -1;
+}
+
+.about-box {
   width: 400px;
   height: 400px;
   flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background: linear-gradient(
+    140deg,
+    #303134 10.06%,
+    #282828 53.72%,
+    #282828 88%
+  );
+  box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+}
+
+.about-box_price {
   border-radius: 6px;
   background: linear-gradient(
     140deg,
@@ -31,8 +69,63 @@
   box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
 }
 
+.about-box_conteiner {
+  width: 320px;
+  margin: 40px auto 20px;
+}
 
-.btn-about {
-  margin-top: 45px;
-  margin-bottom: 60px;
+.about-box_title {
+  width: 258px;
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.1%; /* 32.006px */
+  margin: 0 0 22px 0;
+}
+
+.about-box_subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Ruberoid;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.1%; /* 20.927px */
+  /*   margin: 0 0 20px 0; */
+}
+
+.about-box_img {
+  float: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-money {
+  width: 211px;
+  height: 211px;
+  flex-shrink: 0;
+  background-image: url(../img/money.svg);
+}
+
+.img-time {
+  width: 200px;
+  height: 189px;
+  flex-shrink: 0;
+  background-image: url(../img/time.svg);
+}
+
+.img-employ {
+  width: 156px;
+  height: 189px;
+  flex-shrink: 0;
+  background-image: url(../img/employ.svg);
+
+}
+
+.img-support {
+  width: 183px;
+  height: 189px;
+  flex-shrink: 0;
+  background-image: url(../img/support.svg);
 }
