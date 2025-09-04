@@ -1,4 +1,5 @@
-document.querySelector(".burger").addEventListener("click", () => {
-  document.querySelector(".open-menu-burger").classList.toggle("menu-burger")
-  document.querySelector(".open-menu").classList.toggle("m-menu");
-});
+  document.querySelector(".burger").addEventListener("click", () => {
+    document.getElementById("burger").classList.toggle("menu-burger")
+    document.querySelector(".menu-open").classList.toggle("m-menu")
+  });
+  
