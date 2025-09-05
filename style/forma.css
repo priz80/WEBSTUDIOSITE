@@ -65,7 +65,6 @@
   right: 164px;
   width: 224px;
   height: 60px;
-  flex-shrink: 0;
   background-image: url(../img/note.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -118,7 +117,6 @@
   right: -145px;
   width: 213px;
   height: 58px;
-  flex-shrink: 0;
   background-image: url(../img/finish.svg);
   background-size: contain;
   background-repeat: no-repeat;
