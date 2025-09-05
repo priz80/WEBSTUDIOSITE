@@ -116,106 +116,6 @@
   );
 }
 
-.slider-contacty {
-  position: absolute;
-  width: 100%;
-  height: 165px;
-  top: 4586px;
-/*   background: #adcbcf; */
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  gap: 46px;
-}
-
-.circleslider {
-  width: 110px;
-  height: 110px;
-  flex-shrink: 0;
-  stroke-width: 1px;
-  stroke: var(--Mono-White, #fff);
-  opacity: 0.9;
-  background-image: url(../img/slider-contacty/Ellipse\ 233.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ballslider {
-  width: 90px;
-  height: 90px;
-  flex-shrink: 0;
-  background-image: url(../img/slider-contacty/Group\ 26.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.icon-contacty {
-  width: 43px;
-  height: 40px;
-  flex-shrink: 0;
-}
-
-.telegram {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.vk {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.gmail {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.max {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.linked {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.ballslider:hover {
-  width: 140px;
-height: 140px;
-flex-shrink: 0;
-  background-image: url(../img/slider-contacty/LinkedIN.svg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.circleslider:hover {
-  width: 165px;
-height: 165px;
-flex-shrink: 0;
-stroke-width: 1px;
-stroke: #2EECC5;
-opacity: 0.9;
-  background-image: url(../img/slider-contacty/Ellipse\ 236.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (max-width: 1905px) {
   .line-menu {
     display: none;
@@ -321,21 +221,5 @@ opacity: 0.9;
     background-image: url(../img/group-minline.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  }
-
-  .slider-contacty {
-    position: absolute;
-    width: 100%;
-    height: 86px;
-    flex-shrink: 0;
-    top: 4942px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    background: linear-gradient(
-      110deg,
-      #313134 0%,
-      #222224 42.27%,
-      #292929 100%
-    );
   }
 }
