@@ -1,9 +1,9 @@
 @media (max-width: 1905px) {
   .forma-title {
     position: absolute;
-    top: 3592px;
-    width: 277px;
-    align-items: center;
+    top: 3678px;
+    width: 100%;
+    text-align: center;
   }
   .mb-3 {
     position: absolute;
@@ -67,7 +67,7 @@
   .note {
     position: absolute;
     top: 4591px;
-    right: 168px;
+    left: -10px;
     width: 164px;
     height: 48px;
     background-image: url(../img/m-note.svg);
@@ -119,7 +119,7 @@
   .finish {
     position: absolute;
     top: 4717px;
-    right: -5px;
+    right: -10px;
     width: 164px;
     height: 48px;
     background-image: url(../img/m-finish.svg);
