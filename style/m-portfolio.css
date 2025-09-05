@@ -44,6 +44,8 @@
 
   .box-arrow_portfolio {
     top: 2779px;
+    width: 100%;
+    left: 0;
   }
   .arrow-style {
     position: absolute;
