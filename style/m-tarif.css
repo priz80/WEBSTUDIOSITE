@@ -6,12 +6,19 @@
     text-align: center;
   }
 
-  .slider-tarif {
+  .slider-tarif_box {
     position: absolute;
-    top: 3022px;
+    top: 3020px;
     width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .slider-tarif {
+    width: 274px;
     height: 374px;
     flex-shrink: 0;
+    border-radius: 36px;
     border-radius: 36px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: linear-gradient(
@@ -20,5 +27,21 @@
       #292929 61.88%,
       #282828 111.76%
     );
+  }
+
+  .box-arrow_tarif {
+    top: 3473px;
+  }
+
+  .arrow-style {
+    position: absolute;
+  }
+
+  .left-arrow {
+    left: -28px;
+  }
+
+  .right-arrow {
+    right: -28px;
   }
 }
