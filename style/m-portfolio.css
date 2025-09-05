@@ -41,4 +41,19 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
+
+  .box-arrow_portfolio {
+    top: 2779px;
+  }
+  .arrow-style {
+    position: absolute;
+  }
+
+  .left-arrow {
+    left: -28px;
+  }
+
+  .right-arrow {
+    right: -28px;
+  }
 }
