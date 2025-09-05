@@ -31,12 +31,15 @@
 }
 
 .slider-portfolio {
-  /* position: absolute; */
   width: 567px;
   height: 363px;
-  flex-shrink: 0;
-  /* top: 2267px; */
   background-image: url(../img/slprewport.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.box-arrow_portfolio {
+  top: 2308px;
+  width: 852px;
+  left: 565px;
 }
