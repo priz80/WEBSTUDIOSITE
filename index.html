@@ -99,9 +99,9 @@
           <label class="burger" for="burger-checkbox"></label>
         </div>
 
-        <div class="btn-order">
+        <button type="button" class="btn-order">
           <a href="#forma">Заказать</a>
-        </div>
+        </button>
       </span>
       <!-- menu end -->
 
@@ -124,10 +124,10 @@
       <div class="header-description"><h3></h3></div>
 
       <div class="btn-block">
-        <div class="btn-order btn-header">
+        <button type="button" class="btn-order btn-header">
           <a href="#">Подробнее</a>
           <div class="arrow"></div>
-        </div>
+        </button>
         <div class="question"><a href="#contacty">Остались вопросы?</a></div>
       </div>
       <div class="box-text"><p></p></div>
@@ -148,10 +148,10 @@
               портфолио
             </h5>
           </div>
-          <div class="btn-order btn-about">
+          <button type="button" class="btn-order btn-about">
             <a href="#portfolio">Портфолио</a>
             <div class="btn-order btn-about_shadow"></div>
-          </div>
+          </button>
         </div>
 
         <div class="about-box about-box_price">
@@ -208,24 +208,38 @@
               2023 год
             </h5>
           </div>
-          <div class="btn-order btn-portfolio">
+          <button type="button" class="btn-order btn-portfolio">
             <a href="#">Компьютерные версии</a>
-          </div>
+          </button>
         </div>
-        <div class="slider-portfolio"></div>
       </div>
       <div class="box-arrow box-arrow_portfolio">
-        <div class="left-arrow arrow-style"></div>
-        <div class="right-arrow arrow-style"></div>
+        <div class="left-arrow arrow-style" id="next"></div>
+        <div class="right-arrow arrow-style" id="prev"></div>
       </div>
       <!-- portfolio-end -->
+
+<!-- slider portfolio -->
+<div class="slider-portfolio_container">
+  <div class="sliderportfolio">
+    <img id="0" src="./img/slider-portfoloi/Frame 14ывыв 1.svg" alt="">
+    <img id="1" src="./img/slider-portfoloi/Frame 168.svg" alt="">
+    <img id="2" src="./img/slider-portfoloi/Frame 1ы 2.svg" alt="">
+    <img id="3" src="./img/slider-portfoloi/Frame 21.svg" alt="">
+    <img id="4" src="./img/slider-portfoloi/Frame 45731.svg" alt="">
+    <img id="5" src="./img/slider-portfoloi/Frame 78.svg" alt="">
+    <img id="6" src="./img/slider-portfoloi/Frame 9ы.svg" alt="">
+  </div>
+</div>
+<!-- slider portfolio end -->
+
 
       <!-- tarif -->
       <div class="tarif-title"><h4>Тарифы</h4></div>
 
       <div class="box-arrow box-arrow_tarif">
-        <div class="left-arrow arrow-style" id="left"></div>
-        <div class="right-arrow arrow-style" id="right"></div>
+        <button type="button" class="left-arrow arrow-style" id="left"></button>
+        <button type="button" class="right-arrow arrow-style" id="right"></button>
       </div>
       <!-- tarif end -->
 
@@ -298,10 +312,10 @@
                   <p class="price-title">От 60.000₽</p>
                   <p class="price-subtitle">От 15 дней</p>
                 </div>
-                <div class="btn-order btn-header btn-price">
+                <button type="button" class="btn-order btn-header btn-price">
                   <a href="#">Подробнее</a>
                   <div class="arrow"></div>
-                </div>
+                </button>
               </div>
             </div>
           </div>
