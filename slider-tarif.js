@@ -1,5 +1,5 @@
 // Получаем элементы слайдера
-const slider = document.querySelector(".slider-tarif");
+const slider = document.querySelector(".slidertarif");
 const prevButton = document.getElementById("left");
 const nextButton = document.getElementById("right");
 const slides = Array.from(slider.querySelectorAll(".card-tarif"));
@@ -26,7 +26,8 @@ function updateSlider() {
   slides.forEach((slide, index) => {
     if (index === slideIndex) {
       slide.style.display = "block";
-    } else {
+    } 
+    else {
       slide.style.display = "none";
     }
   });
