@@ -8,23 +8,23 @@ let sliderInd = 0;
 /* let sliderI = 1; */
 
 // Устанавливаем обработчики событий для кнопок
-prevButtons.addEventListener('click', showPreviousSlide);
-nextButtons.addEventListener('click', showNextSlide);
+prevButtons.addEventListener('click', showPreviousSlider);
+nextButtons.addEventListener('click', showNextSlider);
 
 // Функция для показа предыдущего слайда
-function showPreviousSlide() {
+function showPreviousSlider() {
   sliderInd = (sliderInd - 1 + slideCounter) % slideCounter;
-  updateSlider();
+  updateSliders();
 }
 
 // Функция для показа следующего слайда
-function showNextSlide() {
+function showNextSlider() {
   sliderInd = (sliderInd + 1) % slideCounter;
-  updateSlider();
+  updateSliders();
 }
 
 // Функция для обновления отображения слайдера
-function updateSlider() {
+function updateSliders() {
   slydes.forEach((slide, index) => {
 
     if (index === sliderInd) {
@@ -43,4 +43,4 @@ function updateSlider() {
 
 
 // Инициализация слайдера
-updateSlider();
+updateSliders();
