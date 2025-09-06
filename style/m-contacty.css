@@ -1,9 +1,13 @@
 @media (max-width: 1905px) {
+  .block-contacty {
+    top: 4902px;
+  }
+
   .contacty-title {
     display: none;
   }
 
-  .slider-contacty {
+  .block-contacty {
     height: 86px;
     top: 4942px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
