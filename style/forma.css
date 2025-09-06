@@ -1,15 +1,53 @@
-.forma-title {
+.forma-conteiner {
   position: absolute;
   top: 3910px;
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+}
+
+.forma-title {
   width: 412px;
+  margin-bottom: 26px;
 }
-.mb-3 {
-  position: absolute;
-  top: 4023px;
+
+.forma-block {
+  display: flex;
+  width: 920px;
+  height: 321px;
 }
-.form-label {
+
+.forma {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-.form-control {
+
+.forma p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-family);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.8%; 
+}
+
+.input-field {
+  width: 437px;
+  height: 52px;
+  border-radius: 41px;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 38px 0 rgba(255, 255, 255, 0.05);
+  margin: 5px 48px 19px 0;
+}
+
+.btn-forma {
+  margin: 24px 0 0 0;
+}
+
+.btn-forma a {
+  width: 120px;
 }
 
 .iphone {
