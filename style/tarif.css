@@ -26,7 +26,7 @@
   position: absolute;
   top: 3086px;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
   justify-content: center;
 }
@@ -34,8 +34,8 @@
 .slider-tarif {
   display: flex;
   justify-content: center;
-  /* gap: 32px; */
-  /* transition: transform 0.5s ease-in-out 1s; */
+  gap: 32px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card-tarif {
@@ -54,6 +54,7 @@
 
 .card-tarif_conteiner {
   width: 325px;
+  
   margin: 0 auto;
 
 }
@@ -77,7 +78,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 153.8%; /* 26.146px */
-  margin: 2px auto 71px;
+  margin: 2px auto 65px;
 }
 
 .cadr-tarif_price {
