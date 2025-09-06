@@ -46,4 +46,11 @@ html {
     appearance: none;
   }
 
-  
+  button {
+    all: unset;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+ 
