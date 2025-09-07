@@ -21,6 +21,12 @@
   left: 357px;
 }
 
+@media (min-width:1905px) {
+.star-left_s {
+  display: none;
+}
+}
+
 
 .star-right {
   position: absolute;
