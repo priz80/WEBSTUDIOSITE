@@ -66,7 +66,7 @@
 
 .line-menu {
   position: absolute;
-  left: 182px;
+  left: 177px;
   width: 2.5px;
   background: linear-gradient(
     70deg,
@@ -116,8 +116,133 @@
   );
 }
 
+.mark {
+  position: absolute;
+  left: 123px;
+  display: flex;
+  align-items: center;
+}
+
+.figure-light {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.oval {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+}
+
+.oval-01 {
+  margin: 10px;
+}
+
+.oval-light_bord {
+  width: 26px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1.5px solid #29ad91;
+}
+
+.oval-light {
+  width: 18px;
+  height: 37px;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #b5feef 0%, #22a98d 100%);
+}
+
+.position-mark-01_ligth {
+  left: 126px;
+  top: 159px;
+}
+.position-mark-02_ligth {
+  top: 1152px;
+}
+.position-mark-03_ligth {
+  top: 2257px;
+}
+.position-mark-04_ligth {
+  top: 2973px;
+}
+
+.figure-dark {
+  font-family: var(--font-family);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: linear-gradient(
+    91deg,
+    rgba(181, 254, 239, 0.5) 10.31%,
+    rgba(46, 236, 197, 0.5) 165.09%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.oval-dark_bord {
+  width: 26px;
+  height: 45px;
+  border-radius: 20px;
+  border: 1.5px solid #597872;
+}
+
+.oval-dark {
+  width: 18px;
+  height: 37px;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #5d7c76 0%, #0a3028 100%);
+}
+
+.position-markfirst-02_dark {
+  top: 751px;
+}
+
+.position-markfirst-03_dark {
+  top: 815px;
+}
+.position-markfirst-04_dark {
+  top: 878px;
+}
+.position-markfirst-05_dark {
+  top: 943px;
+}
+
+.position-marksecond-03_dark {
+  top: 1803px;
+}
+.position-marksecond-04_dark {
+  top: 1866px;
+}
+.position-marksecond-05_dark {
+  top: 1930px;
+}
+.position-markthird-04_dark {
+  top: 2643px;
+}
+.position-markthird-05_dark {
+  top: 2706px;
+}
+.position-markfourth-05_dark {
+  top: 3502px;
+}
+
 @media (max-width: 1905px) {
   .line-menu {
+    display: none;
+  }
+
+  .mark {
     display: none;
   }
 
