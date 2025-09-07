@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="room"></div>
     <div class="line"></div>
+    <div class="man"></div>
+    <div class="circle"></div>
+    <div class="circle-s"></div>
+    <div class="circle-m"></div>
+    <div class="group-line_up"></div>
+    <div class="group-line_down"></div>
+    <div class="btn-up btn-up_hide"></div>
+    <div class="block-forma" id="forma"></div>
+
+    <!--  -->
     <div class="line-menu line-menu_first"></div>
     <div class="line-menu line-menu_second"></div>
     <div class="line-menu line-menu_third"></div>
@@ -99,48 +109,37 @@
           <div class="oval-dark"></div>
         </div>
       </div>
-
-    <div class="man"></div>
-    <div class="circle"></div>
-    <div class="circle-s"></div>
-    <div class="circle-m"></div>
-    <div class="group-line_up"></div>
-    <div class="group-line_down"></div>
-    <div class="btn-up btn-up_hide"></div>
-    <div class="block-forma" id="forma"></div>
-
-    
-    
+<!--  -->    
 
     <!--- block contacty - -->
     <div class="block-contacty" id="contacty">
       <a href="#forma">
-        <div class="circleslider">
-          <div class="ballslider">
+        <div class="circleslider" id="circleslider">
+          <div class="ballslider" id="ballslider">
             <div class="icon-contacty telegram"></div>
           </div></div
       ></a>
       <a href="#forma">
-        <div class="circleslider">
-          <div class="ballslider">
+        <div class="circleslider" id="circlesliderone">
+          <div class="ballslider" id="ballsliderone">
             <div class="icon-contacty vk"></div>
           </div></div
       ></a>
       <a href="#forma">
-        <div class="circleslider">
-          <div class="ballslider">
+        <div class="circleslider" id="circleslidertoo">
+          <div class="ballslider" id="ballslidertoo">
             <div class="icon-contacty gmail"></div>
           </div></div
       ></a>
       <a href="#forma">
-        <div class="circleslider">
-          <div class="ballslider">
+        <div class="circleslider" id="circlesliderthree">
+          <div class="ballslider" id="ballsliderthree">
             <div class="icon-contacty max"></div>
           </div></div
       ></a>
       <a href="#forma">
-        <div class="circleslider">
-          <div class="ballslider">
+        <div class="circleslider" id="circlesliderfour">
+          <div class="ballslider" id="ballsliderfour">
             <div class="icon-contacty linked"></div>
           </div></div
       ></a>
@@ -476,6 +475,12 @@
 
     <!-- slider tarif  -->
     <script async src="./slider-tarif.js"></script>
+
+
+
+    <script async src="./menu-contacty.js"></script>
+
+
 
     <!-- button up  -->
     <script async src="./btn.js"></script>
