@@ -79,7 +79,6 @@
   width: 90px;
   height: 90px;
   flex-shrink: 0;
-  /* background-image: url(../img/slider-contacty/Group\ 26.svg); */
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -125,7 +124,9 @@
   flex-shrink: 0;
 }
 
-.ballslider:hover {
+/* .ballslider:hover { */
+.ballsliders {
+
   width: 140px;
   height: 140px;
   flex-shrink: 0;
@@ -137,7 +138,8 @@
   justify-content: center;
 }
 
-.circleslider:hover {
+/* .circleslider:hover { */
+  .circlesliders {
   width: 165px;
   height: 165px;
   flex-shrink: 0;
