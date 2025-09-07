@@ -15,6 +15,33 @@
   letter-spacing: 1.92px;
 }
 
+.star-left {
+  position: absolute;
+  top: 4486px;
+  left: 357px;
+}
+
+
+.star-right {
+  position: absolute;
+  top: 4406px;
+  left: 890px;
+}
+
+.star-small {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.star-small_left {
+  top: 4532px;
+  left: 400px;
+}
+.star-small_right {
+  top: 4374px;
+  left: 877px;
+}
+
 .block-contacty {
   position: absolute;
   width: 100%;
@@ -55,35 +82,35 @@
 }
 
 @media (min-width: 1905px) {
-.ballslider {
-background-image: url(../img/slider-contacty/Group\ 26.svg);
-}
+  .ballslider {
+    background-image: url(../img/slider-contacty/Group\ 26.svg);
+  }
 
-.telegram {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.vk {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.gmail {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.max {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.linked {
-  background-image: url(../img/slider-contacty/Telegram.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .telegram {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .vk {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .gmail {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .max {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .linked {
+    background-image: url(../img/slider-contacty/Telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 .icon-contacty {
@@ -91,9 +118,6 @@ background-image: url(../img/slider-contacty/Group\ 26.svg);
   height: 40px;
   flex-shrink: 0;
 }
-
-
-
 
 .ballslider:hover {
   width: 140px;
@@ -120,4 +144,34 @@ background-image: url(../img/slider-contacty/Group\ 26.svg);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1905px) {
+  .star-left {
+    display: none;
+  }
+
+  .star-left_s {
+    position: absolute;
+    top: 4766px;
+    left: 0px;
+    opacity: 0.7;
+  }
+
+  .star-right {
+    top: 4450px;
+    left: 277px;
+  }
+
+  .star-small_left {
+    top: 4907px;
+    left: 314px;
+    opacity: 0.3;
+  }
+
+  .star-small_right {
+    top: 4428px;
+    left: 241px;
+    opacity: 0.5;        
+  }
 }
