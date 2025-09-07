@@ -5,36 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./font/stylesheet.css" />
-    <link rel="stylesheet" href="./style/normalize.css" />
-    <link rel="stylesheet" href="./style/font-style.css" />
-    <link rel="stylesheet" href="./style/content.css" />
-    <link rel="stylesheet" href="./style/container.css" />
-    <link rel="stylesheet" href="./style/menu.css" />
-    <link rel="stylesheet" href="./style/m-menu.css" />
-    <link rel="stylesheet" href="./style/menu-burger.css" />
-    <link rel="stylesheet" href="./style/header.css" />
-    <link rel="stylesheet" href="./style/m-header.css" />
-    <link rel="stylesheet" href="./style/about.css" />
-    <link rel="stylesheet" href="./style/m-about.css" />
-    <link rel="stylesheet" href="./style/portfolio.css" />
-    <link rel="stylesheet" href="./style/m-portfolio.css" />
-    <link rel="stylesheet" href="./style/tarif.css" />
-    <link rel="stylesheet" href="./style/m-tarif.css" />
-    <link rel="stylesheet" href="./style/forma.css" />
-    <link rel="stylesheet" href="./style/m-forma.css" />
-    <link rel="stylesheet" href="./style/contacty.css" />
-    <link rel="stylesheet" href="./style/m-contacty.css" />
-    <link rel="stylesheet" href="./style/footer.css" />
-    <link rel="stylesheet" href="./style/btn.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="room"></div>
     <div class="line"></div>
     <div class="line-menu line-menu_first"></div>
-    <div class="line-menu line-menu_second" id="about"></div>
-    <div class="line-menu line-menu_third" id="portfolio"></div>
-    <div class="line-menu line-menu_fourth" id="tarif"></div>
+    <div class="line-menu line-menu_second"></div>
+    <div class="line-menu line-menu_third"></div>
+    <div class="line-menu line-menu_fourth"></div>
 
     <div class="mark position-mark-01_ligth">
       <div class="figure-light">01</div>
@@ -182,8 +161,8 @@
         <div class="menu">
           <li><a href="#">Главная</a></li>
           <li><a href="#about">Почему именно мы?</a></li>
-          <li class="menu-item"><a href="#portfolio">Портфолио</a></li>
-          <li class="menu-item"><a href="#tarif">Тарифы</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#tarif">Тарифы</a></li>
           <li><a href="#contacty">Контакты</a></li>
         </div>
 
@@ -204,7 +183,6 @@
         <div class="menu-item"><a href="#">Главная</a></div>
         <div class="menu-item"><a href="#about">Почему именно мы?</a></div>
         <div class="menu-item"><a href="#portfolio">Портфолио</a></div>
-        <!-- <div class="menu-item"><a href="#tarif">Тарифы</a></div> -->
         <div class="menu-item"><a href="#contacty">Контакты</a></div>
         <div class="menu-item"><a href="#forma">Оставить заявку</a></div>
       </div>
@@ -229,7 +207,7 @@
       <!-- header end  -->
 
       <!-- about  -->
-      <div class="box-block">
+      <div class="box-block" id="about">
         <div class="about-title">
           <h4>Причины сотрудничать с нами</h4>
           <div class="about-subtitle">
@@ -293,7 +271,7 @@
       <!-- about end  -->
 
       <!-- portfolio  -->
-      <div class="portfolio">
+      <div class="portfolio" id="portfolio">
         <div class="porfolio-title">
           <h4></h4>
           <div class="porfolio-subtitle">
@@ -328,7 +306,7 @@
       <!-- slider portfolio end  -->
 
       <!-- tarif  -->
-      <div class="tarif-title"><h4>Тарифы</h4></div>
+      <div class="tarif-title" id="tarif"><h4>Тарифы</h4></div>
 
       <div class="box-arrow box-arrow_tarif">
         <button type="button" class="left-arrow arrow-style" id="left"></button>
