@@ -46,29 +46,27 @@
     right: -28px;
   }
 
-
-  
-.slider-tarif_conteiner {
-  /* position: absolute; */
-  top: 3022px;
-  /* width: 100%; */
-  /* overflow: hidden; */
-  /* display: flex;
+  .slider-tarif_conteiner {
+    /* position: absolute; */
+    top: 3022px;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* display: flex;
   justify-content: center; */
-}
+  }
 
-/* .slider-tarif {
+  /* .slider-tarif {
   display: flex;
   justify-content: center;
   gap: 32px;
   transition: transform 0.5s ease-in-out 1s;
 } */
 
-.card-tarif {
-  width: 274px;
-height: 374px;
+  .card-tarif {
+    width: 274px;
+    height: 374px;
 
-/*   border-radius: 36px;
+    /*   border-radius: 36px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(
     169deg,
@@ -77,65 +75,56 @@ height: 374px;
     #282828 111.76%
   );
   display: flex; */
-}
+  }
 
-.card-tarif_conteiner {
-  width: 240px;
-/*   margin: 0 auto; */
+  .card-tarif_conteiner {
+    width: 240px;
+    /*   margin: 0 auto; */
+  }
 
-}
+  .card-tarif_title {
+    text-align: center;
+    font-size: 25px;
+    margin: 27px auto 24px auto;
+  }
 
-.card-tarif_title {
-/*   color: #fff;
-  font-family: var(--font-family); */
-  text-align: center;
-  font-size: 25px;
-/*   font-style: normal;
-  font-weight: 400;
-  line-height: normal; */
-  margin: 27px auto 24px auto;
-}
+  .card-tarif_subtitle {
 
-.card-tarif_subtitle {
-/*   color: rgba(255, 255, 255, 0.75);
-  font-family: var(--font-family); */
-  font-size: 12px;
-/*   font-style: normal;
-  font-weight: 400;
-  line-height: 153.8%; */
-  margin: 0 auto 65px;
-}
+    font-size: 12px;
+    height: 225px;
+    margin: 0 auto;
+  }
 
-/* .cadr-tarif_price {
+  /* .cadr-tarif_price {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 } */
-/* .price {
+  /* .price {
   display: flex;
   flex-direction: column;
 } */
 
-.price-title {
-/*   color: #fff;
+  .price-title {
+    /*   color: #fff;
   font-family: Ruberoid; */
-  font-size: 16px;
-/*   font-style: normal;
+    font-size: 16px;
+    /*   font-style: normal;
   font-weight: 400;
   line-height: 153.8%; */
-}
-.price-subtitle {
-/*   color: rgba(255, 255, 255, 0.4);
+  }
+  .price-subtitle {
+    /*   color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-family: Ruberoid; */
-  font-size: 13px;
-/*   font-style: normal;
+    font-size: 13px;
+    /*   font-style: normal;
   font-weight: 400;
   line-height: 153.8%; */
-}
+  }
 
-.btn-price {
-width: 126px;
-}
+  .btn-price {
+    width: 126px;
+  }
 }
