@@ -1,0 +1,24 @@
+
+@import "./font/stylesheet.css";
+@import "./style/normalize.css";
+@import "./style/font-style.css";
+@import "./style/content.css";
+@import "./style/container.css";
+@import"./style/menu.css";
+@import"./style/m-menu.css";
+@import"./style/menu-burger.css";
+@import"./style/header.css";
+@import"./style/m-header.css";
+@import"./style/about.css";
+@import"./style/m-about.css";
+@import"./style/portfolio.css";
+@import"./style/m-portfolio.css";
+@import"./style/tarif.css";
+@import"./style/m-tarif.css";
+@import"./style/forma.css";
+@import"./style/m-forma.css";
+@import"./style/contacty.css";
+@import"./style/m-contacty.css";
+@import"./style/footer.css";
+@import"./style/btn.css";
+ 
