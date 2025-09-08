@@ -2,7 +2,7 @@
 const slyder = document.querySelector('.sliderportfolio');
 const prevButtons = document.querySelector('.right-arrow');
 const nextButtons = document.querySelector('.left-arrow');
-const slydes = Array.from(slyder.querySelectorAll('img'));
+const slydes = Array.from(slyder.querySelectorAll('div'));
 const slideCounter = slydes.length;
 let sliderInd = 0;
 /* let sliderI = 1; */
