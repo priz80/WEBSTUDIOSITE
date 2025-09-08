@@ -105,16 +105,16 @@
   .note {
     position: absolute;
     top: 4591px;
-    left: -10px;
+    left: -11px;
     width: 164px;
     height: 48px;
     background-image: url(../img/m-note.svg);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
+/*     align-items: center;
+    justify-content: center; */
+   /* gap: 4px; */ 
   }
 
   .note-elipse {
@@ -135,7 +135,7 @@
   }
 
   .note-title {
-    width: 100px;
+    width: 103px;
     height: 15px;
     flex-shrink: 0;
   }
@@ -157,7 +157,7 @@
   .finish {
     position: absolute;
     top: 4717px;
-    right: -10px;
+    right: -7px;
     width: 164px;
     height: 48px;
     background-image: url(../img/m-finish.svg);
