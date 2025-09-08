@@ -29,9 +29,7 @@
     border: 1.5px solid #2eecc5;
     background: #161617;
     box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
-
-    display: flex
-;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -55,7 +53,7 @@
   .about-box {
     width: 289px;
     height: 289px;
-    flex-shrink: 0;
+    /* flex-shrink: 0;
     border-radius: 6px;
     border: 1px solid #fff;
     background: linear-gradient(
@@ -64,10 +62,10 @@
       #282828 53.72%,
       #282828 88%
     );
-    box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35);
+    box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35); */
   }
 
-  .about-box_price {
+  /* .about-box_price {
     border-radius: 6px;
     background: linear-gradient(
       140deg,
@@ -76,43 +74,54 @@
       #193895 88%
     );
     box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
-  }
+  } */
 
   .about-box_conteiner {
     max-width: 243px;
-    margin: 25px auto 0;
+    margin: 25px auto 15px;
   }
 
   .about-box_title {
     max-width: 258px;
-    color: #fff;
-    font-family: var(--font-family);
+/*     color: #fff;
+    font-family: var(--font-family); */
     font-size: 22px;
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 400;
     line-height: 123.1%;
+    margin: 0 0 16px 0; */
     margin: 0 0 16px 0;
+  }
+
+  .about-box_titlmoney {
+    max-width: 225px;
+    margin: 0 0 5px 0;
   }
 
   .about-box_subtitle {
-    color: rgba(255, 255, 255, 0.9);
-    font-family: Ruberoid;
+    /* color: rgba(255, 255, 255, 0.9);
+    font-family: Ruberoid; */
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 123.1%;
-    margin: 0 0 16px 0;
+    /* font-style: normal;
+    font-weight: 400; */
+   /*  line-height: 123.1%; */
+    /* margin: 0 0 16px 0; */
+    /* margin: 0 0 10px 0; */
   }
 
   .about-box_img {
-    float: right;
-    background-size: contain;
-    background-repeat: no-repeat;
+/*     width: 111px;
+height: 137px; */
+
+
+/*     background-size: contain;
+    background-repeat: no-repeat; */
   }
 
   .img-money {
     width: 158px;
     height: 139px;
+    margin-top: 4px;
     flex-shrink: 0;
     background-image: url(../img/m-money.svg);
   }
@@ -120,6 +129,7 @@
   .img-time {
     width: 136px;
     height: 130px;
+    margin-top: 2px;
     flex-shrink: 0;
     background-image: url(../img/m-time.svg);
   }
@@ -127,7 +137,7 @@
   .img-employ {
     width: 111px;
     height: 137px;
-    flex-shrink: 0;
+    margin-top: -5px;
     background-image: url(../img/m-employ.svg);
   }
 
@@ -135,6 +145,7 @@
     width: 125px;
     height: 126px;
     flex-shrink: 0;
+    margin-top: 6px;
     background-image: url(../img/m-support.svg);
   }
 }
