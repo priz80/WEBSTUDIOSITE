@@ -26,6 +26,13 @@ function updateSlider() {
   slides.forEach((slide, index) => {
     if (index === slideIndex) {
       slide.style.display = "block";
+      
+    } 
+    else if (index === slideIndex + 1) {
+      slide.style.display = 'block';
+    } 
+    else if (index === slideIndex - 1) {
+      slide.style.display = 'block';
     } 
     else {
       slide.style.display = "none";
