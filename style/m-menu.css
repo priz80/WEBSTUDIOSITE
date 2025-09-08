@@ -1,11 +1,12 @@
 @media (max-width: 1905px) {
     .main-menu {
-      position: absolute;
-      margin-top: 55px;
-      display: flex;
+/*       position: absolute; */
+    /*   width: 100%; */
+      top: 56px;
+    /*   display: flex; */
       align-items: center;
       flex-direction: row-reverse;
-      justify-content: space-between;
+    /*   justify-content: space-between; */
     }
   
     .menu {
@@ -33,6 +34,4 @@
       background-size: 100% 100%;
       background-repeat: no-repeat;
     }
-  
-    
   }
