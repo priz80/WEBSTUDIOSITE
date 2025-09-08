@@ -120,7 +120,7 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 .img-time {
   width: 200px;
 height: 189px;
-margin-top: 22px;
+margin-top: 20px;
   flex-shrink: 0;
   background-image: url(../img/time.svg);
   background-size: contain;
@@ -130,7 +130,7 @@ margin-top: 22px;
 .img-employ {
   width: 156px;
 height: 189px;
-margin-top: 22px;
+margin-top: 20px;
   flex-shrink: 0;
   background-image: url(../img/employ.svg);
   background-size: contain;
@@ -140,7 +140,7 @@ margin-top: 22px;
 .img-support {
   width: 183px;
 height: 189px;
-margin-top: 22px;
+margin-top: 19px;
   flex-shrink: 0;
   background-image: url(../img/support.svg);
   background-size: contain;
