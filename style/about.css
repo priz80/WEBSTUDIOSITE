@@ -46,7 +46,6 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 .about-box {
   width: 400px;
   height: 400px;
-  flex-shrink: 0;
   border-radius: 6px;
   border: 1px solid #fff;
   background: linear-gradient(
@@ -98,7 +97,49 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 }
 
 .about-box_img {
-  float: right;
+  width: 100%;
+  /* float: right; */
+  /* margin: 20px 0 0 0; */
+  display: flex;
+  justify-content: right;
+  /* vertical-align: bottom; */
+/*   background-size: contain;
+  background-repeat: no-repeat; */
+  
+}
+
+.img-money {
+  width: 211px;
+  height: 211px;
+  flex-shrink: 0;
+  background-image: url(../img/money.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-time {
+  width: 211px;
+  height: 211px;
+  flex-shrink: 0;
+  background-image: url(../img/time.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-employ {
+  width: 211px;
+  height: 211px;
+  flex-shrink: 0;
+  background-image: url(../img/employ.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img-support {
+  width: 211px;
+  height: 211px;
+  flex-shrink: 0;
+  background-image: url(../img/support.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
