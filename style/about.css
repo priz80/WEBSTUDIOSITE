@@ -1,7 +1,7 @@
 .box-block {
   position: absolute;
   display: flex;
-  top: 1144px;
+  top: 1145px;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -16,7 +16,7 @@
 }
 
 .btn-about {
-  margin: 45px 0 72px 3px;
+  margin: 45px 0 70px 3px;
   width: 200px;
   height: 57px;
   flex-shrink: 0;
@@ -70,7 +70,7 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 
 .about-box_conteiner {
   width: 305px;
-  margin: 39px auto 0;
+  margin: 38px auto 0;
   display: flex;
   flex-direction: column;
 }
@@ -118,8 +118,9 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 }
 
 .img-time {
-  width: 211px;
-  height: 211px;
+  width: 200px;
+height: 189px;
+margin-top: 22px;
   flex-shrink: 0;
   background-image: url(../img/time.svg);
   background-size: contain;
@@ -127,8 +128,9 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 }
 
 .img-employ {
-  width: 211px;
-  height: 211px;
+  width: 156px;
+height: 189px;
+margin-top: 22px;
   flex-shrink: 0;
   background-image: url(../img/employ.svg);
   background-size: contain;
@@ -136,8 +138,9 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 }
 
 .img-support {
-  width: 211px;
-  height: 211px;
+  width: 183px;
+height: 189px;
+margin-top: 22px;
   flex-shrink: 0;
   background-image: url(../img/support.svg);
   background-size: contain;
