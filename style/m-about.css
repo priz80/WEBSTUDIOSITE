@@ -24,17 +24,12 @@
     margin: 26px auto 19px auto;
     width: 131px;
     height: 41px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: 1.5px solid #2eecc5;
-    background: #161617;
-    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .btn-about a {
+  .btn-about p {
     width: 78px;
     font-size: 13px;
   }
@@ -44,7 +39,7 @@
     margin: 25px -20px 0 0;
     width: 129px;
     height: 41px;
-    flex-shrink: 0;
+    
     border-radius: 4px;
     z-index: -1;
     display: flex;
@@ -53,28 +48,7 @@
   .about-box {
     width: 289px;
     height: 289px;
-    /* flex-shrink: 0;
-    border-radius: 6px;
-    border: 1px solid #fff;
-    background: linear-gradient(
-      140deg,
-      #303134 10.06%,
-      #282828 53.72%,
-      #282828 88%
-    );
-    box-shadow: 0 0 80px 0 rgba(44, 44, 45, 0.35); */
   }
-
-  /* .about-box_price {
-    border-radius: 6px;
-    background: linear-gradient(
-      140deg,
-      #527791 10.06%,
-      #325597 53.72%,
-      #193895 88%
-    );
-    box-shadow: 0 0 150px 0 rgba(59, 95, 150, 0.35);
-  } */
 
   .about-box_conteiner {
     max-width: 243px;
@@ -83,13 +57,7 @@
 
   .about-box_title {
     max-width: 258px;
-/*     color: #fff;
-    font-family: var(--font-family); */
     font-size: 22px;
-    /* font-style: normal;
-    font-weight: 400;
-    line-height: 123.1%;
-    margin: 0 0 16px 0; */
     margin: 0 0 16px 0;
   }
 
@@ -99,30 +67,15 @@
   }
 
   .about-box_subtitle {
-    /* color: rgba(255, 255, 255, 0.9);
-    font-family: Ruberoid; */
     font-size: 12px;
-    /* font-style: normal;
-    font-weight: 400; */
-   /*  line-height: 123.1%; */
-    /* margin: 0 0 16px 0; */
-    /* margin: 0 0 10px 0; */
   }
 
-  .about-box_img {
-/*     width: 111px;
-height: 137px; */
-
-
-/*     background-size: contain;
-    background-repeat: no-repeat; */
-  }
 
   .img-money {
     width: 158px;
     height: 139px;
     margin-top: 4px;
-    flex-shrink: 0;
+    
     background-image: url(../img/m-money.svg);
   }
 
@@ -130,7 +83,7 @@ height: 137px; */
     width: 136px;
     height: 130px;
     margin-top: 2px;
-    flex-shrink: 0;
+    
     background-image: url(../img/m-time.svg);
   }
 
@@ -144,7 +97,7 @@ height: 137px; */
   .img-support {
     width: 125px;
     height: 126px;
-    flex-shrink: 0;
+    
     margin-top: 6px;
     background-image: url(../img/m-support.svg);
   }
