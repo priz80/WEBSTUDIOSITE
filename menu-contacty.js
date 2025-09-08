@@ -38,13 +38,16 @@ ballslidertoo.addEventListener("mouseover", () => {
     ballslidertoo.classList.add("ballsliders");
     circleslidertoo.classList.remove("circleslider");
     circleslidertoo.classList.add("circlesliders");
-
+    telegram.classList.remove("telegram");
+    telegram.classList.add("telegrams");
   });
   ballslidertoo.addEventListener("mouseout", () => {
     ballslidertoo.classList.remove("ballsliders");
     ballslidertoo.classList.add("ballslider");
     circleslidertoo.classList.remove("circlesliders");
     circleslidertoo.classList.add("circleslider");
+    telegram.classList.remove("telegrams");
+    telegram.classList.add("telegram");
   });
 
   const ballsliderthree = document.getElementById("ballsliderthree");
@@ -54,6 +57,7 @@ ballsliderthree.addEventListener("mouseover", () => {
     ballsliderthree.classList.add("ballsliders");
     circlesliderthree.classList.remove("circleslider");
     circlesliderthree.classList.add("circlesliders");
+    
 
   });
   ballsliderthree.addEventListener("mouseout", () => {
