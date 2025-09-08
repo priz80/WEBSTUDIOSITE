@@ -1,6 +1,6 @@
 .main-menu {
   position: absolute;
-  margin-top: 48px;
+  top: 48px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -64,11 +64,8 @@
   align-items: center;
 }
 
-.btn-order a {
+.btn-order p {
   width: 97px;
-/*   height: 21px; */
-  flex-shrink: 0;
-  /* margin: 0 auto; */
   color: var(--font-color);
   font-family: var(--font-family);
   font-size: 20px;
