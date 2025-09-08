@@ -22,6 +22,7 @@ ballsliderone.addEventListener("mouseover", () => {
     ballsliderone.classList.add("ballsliders");
     circlesliderone.classList.remove("circleslider");
     circlesliderone.classList.add("circlesliders");
+
   });
   ballsliderone.addEventListener("mouseout", () => {
     ballsliderone.classList.remove("ballsliders");
@@ -37,6 +38,7 @@ ballslidertoo.addEventListener("mouseover", () => {
     ballslidertoo.classList.add("ballsliders");
     circleslidertoo.classList.remove("circleslider");
     circleslidertoo.classList.add("circlesliders");
+
   });
   ballslidertoo.addEventListener("mouseout", () => {
     ballslidertoo.classList.remove("ballsliders");
@@ -52,6 +54,7 @@ ballsliderthree.addEventListener("mouseover", () => {
     ballsliderthree.classList.add("ballsliders");
     circlesliderthree.classList.remove("circleslider");
     circlesliderthree.classList.add("circlesliders");
+
   });
   ballsliderthree.addEventListener("mouseout", () => {
     ballsliderthree.classList.remove("ballsliders");
@@ -67,6 +70,7 @@ ballsliderfour.addEventListener("mouseover", () => {
     ballsliderfour.classList.add("ballsliders");
     circlesliderfour.classList.remove("circleslider");
     circlesliderfour.classList.add("circlesliders");
+
   });
   ballsliderfour.addEventListener("mouseout", () => {
     ballsliderfour.classList.remove("ballsliders");
