@@ -29,7 +29,7 @@
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 153.8%; 
+  line-height: 153.8%;
 }
 
 .input-field {
@@ -46,8 +46,10 @@
   margin: 24px 0 0 0;
 }
 
-.btn-forma a {
-  width: 120px;
+.btn-forma p {
+  width: 97px;
+  color: #fff;
+  font-size: 17px;
 }
 
 .iphone {
