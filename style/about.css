@@ -70,8 +70,10 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 }
 
 .about-box_conteiner {
-  width: 320px;
-  margin: 40px auto 20px;
+  width: 305px;
+  margin: 39px auto 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-box_title {
@@ -99,33 +101,4 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
   float: right;
   background-size: contain;
   background-repeat: no-repeat;
-}
-
-.img-money {
-  width: 211px;
-  height: 211px;
-  flex-shrink: 0;
-  background-image: url(../img/money.svg);
-}
-
-.img-time {
-  width: 200px;
-  height: 189px;
-  flex-shrink: 0;
-  background-image: url(../img/time.svg);
-}
-
-.img-employ {
-  width: 156px;
-  height: 189px;
-  flex-shrink: 0;
-  background-image: url(../img/employ.svg);
-
-}
-
-.img-support {
-  width: 183px;
-  height: 189px;
-  flex-shrink: 0;
-  background-image: url(../img/support.svg);
 }
