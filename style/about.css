@@ -19,16 +19,13 @@
   margin: 45px 0 70px 3px;
   width: 200px;
   height: 57px;
-  flex-shrink: 0;
-  border-radius: 0;
-  border-radius: 0px;
-border: 1.5px solid #2EECC5;
-background: #161617;
-box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
-/* z-index: 1; */
+  border-radius: 4px;
+  border: 1.5px solid #2eecc5;
+  background: #161617;
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
 }
 
-.btn-about a {
+.btn-about p {
   width: 114px;
   font-size: 19px;
 }
@@ -38,7 +35,7 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
   margin: 25px -20px 0 0;
   width: 200px;
   height: 57px;
-  flex-shrink: 0;
+
   border-radius: 4px;
   z-index: -1;
 }
@@ -103,15 +100,14 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
   display: flex;
   justify-content: right;
   /* vertical-align: bottom; */
-/*   background-size: contain;
+  /*   background-size: contain;
   background-repeat: no-repeat; */
-  
 }
 
 .img-money {
   width: 211px;
   height: 211px;
-  flex-shrink: 0;
+
   background-image: url(../img/money.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -119,9 +115,9 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
 
 .img-time {
   width: 200px;
-height: 189px;
-margin-top: 20px;
-  flex-shrink: 0;
+  height: 189px;
+  margin-top: 20px;
+
   background-image: url(../img/time.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -129,9 +125,9 @@ margin-top: 20px;
 
 .img-employ {
   width: 156px;
-height: 189px;
-margin-top: 20px;
-  flex-shrink: 0;
+  height: 189px;
+  margin-top: 20px;
+
   background-image: url(../img/employ.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -139,9 +135,9 @@ margin-top: 20px;
 
 .img-support {
   width: 183px;
-height: 189px;
-margin-top: 19px;
-  flex-shrink: 0;
+  height: 189px;
+  margin-top: 19px;
+
   background-image: url(../img/support.svg);
   background-size: contain;
   background-repeat: no-repeat;
