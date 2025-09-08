@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <!-- <div class="page-main"> -->
     <div class="room"></div>
     <div class="line"></div>
     <div class="man"></div>
@@ -145,7 +146,7 @@
       ></a>
     </div>
     <!-- block contacty end -->
-
+    <div class="page-main" id="page-main">
     <!-- conteiner  -->
     <div class="conteiner">
       <svg class="lamp"></svg>
@@ -196,7 +197,7 @@
 
       <div class="btn-block">
         <button type="button" class="btn-order btn-header">
-          <a href="#">Подробнее</a>
+          <a href="#page-slide" id="header-btn">Подробнее</a>
           <div class="arrow"></div>
         </button>
         <div class="question"><a href="#contacty">Остались вопросы?</a></div>
@@ -296,13 +297,20 @@
       <!-- slider portfolio  -->
       <div class="slider-portfolio_container">
         <div class="sliderportfolio">
-          <img id="0" src="./img/slider-portfoloi/Frame 14ывыв 1.svg" alt="" />
+          <div class="Frame14 slider-portfolio" id="0"></div>
+          <div class="Frame168 slider-portfolio" id="1"></div>
+          <div class="Frame2 slider-portfolio" id="2"></div>
+          <div class="Frame21 slider-portfolio" id="3"></div>
+          <div class="Frame45731 slider-portfolio" id="4"></div>
+          <div class="Frame78 slider-portfolio" id="5"></div>
+          <div class="Frame9 slider-portfolio" id="6"></div>
+          <!-- <img id="0" src="./img/slider-portfoloi/Frame 14ывыв 1.svg" alt="" />
           <img id="1" src="./img/slider-portfoloi/Frame 168.svg" alt="" />
           <img id="2" src="./img/slider-portfoloi/Frame 1ы 2.svg" alt="" />
           <img id="3" src="./img/slider-portfoloi/Frame 21.svg" alt="" />
           <img id="4" src="./img/slider-portfoloi/Frame 45731.svg" alt="" />
           <img id="5" src="./img/slider-portfoloi/Frame 78.svg" alt="" />
-          <img id="6" src="./img/slider-portfoloi/Frame 9ы.svg" alt="" />
+          <img id="6" src="./img/slider-portfoloi/Frame 9ы.svg" alt="" /> -->
         </div>
       </div>
       <!-- slider portfolio end  -->
@@ -460,20 +468,25 @@
         <img src="./img/star-small.svg" alt="star" />
       </div>
       <!-- contacty end  -->
-
-      <!-- footer  -->
-      <footer class="footer">
-        <div class="copyright">
-          <p>© 2019–2025, WEB Studio - Разработка сайтов для предприятий</p>
-        </div>
-        <div class="agreement">
-          <a href="#"><p>Политика сайта и обработка персональных данных</p></a>
-        </div>
-      </footer>
-      <!-- footer end  -->
     </div>
+    
     <!-- conteiner-end  -->
 
+  </div>
+  <!-- footer  -->
+  <footer class="footer">
+    <div class="copyright">
+      <p>© 2019–2025, WEB Studio - Разработка сайтов для предприятий</p>
+    </div>
+    <div class="agreement">
+      <a href="#"><p>Политика сайта и обработка персональных данных</p></a>
+    </div>
+  </footer>
+  <!-- footer end  -->
+  <div class="page-slide" id="page-slide">
+    <h2>Здесь должна открыться страница с анимированным переходом, но анимированный переход еще не готов</h2>
+    <div type="submit" id="refreshBtn"><h3>ВЕРНУТЬСЯ</h3></div>
+  </div>
     <!-- menu-burger  -->
     <script src="./menu-burger.js"></script>
 
@@ -490,5 +503,10 @@
 
     <!-- scroll smooth  -->
     <script async src="./smooth.js"></script>
+
+    <!-- slaide page -->
+  <script src="./slide-page.js"></script>
+
+  
   </body>
 </html>
