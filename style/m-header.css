@@ -48,24 +48,25 @@
   .btn-header {
     width: 129px;
     height: 38px;
-    flex-shrink: 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .btn-header a {
+  .btn-header P {
     width: 68px;
-    flex-shrink: 0;
+
     font-size: 11px;
-    margin: 0 0 0 0;
+/*     margin: 0 0 0 0; */
     /* margin-left: 31px; */
-    letter-spacing: -0.8px;
+ /*    letter-spacing: -0.8px; */
   }
 
   .arrow {
     width: 7px;
     height: 12px;
+    margin-left: 0;
     background-image: url(../img/m-arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -80,7 +81,7 @@
     top: 664px;
     width: 100%;
     min-height: 38px;
-    flex-shrink: 0;
+
     border-radius: 41px;
     border: 1.5px solid #208c76;
     background: rgba(46, 236, 197, 0.04);
