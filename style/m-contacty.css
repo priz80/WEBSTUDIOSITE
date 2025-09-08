@@ -55,12 +55,14 @@
     background-image: url(../img/m-slider-contacty/Vk.svg);
   }
 
-  .ballslider:hover {
+  /* .ballslider:hover { */
+    .ballsliders {
     width: 55px;
     height: 55px;
   }
 
-  .circleslider:hover {
+  /* .circleslider:hover { */
+    .circlesliders{
     width: 65px;
     height: 65px;
   }
