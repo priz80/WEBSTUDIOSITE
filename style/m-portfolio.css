@@ -23,14 +23,15 @@
   }
 
   .btn-portfolio {
-    width: 269px;
+    /* width: 269px;
     height: 51px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
+    display: none;
   }
-
+/* 
   .btn-portfolio a {
     width: 209px;
     font-size: 17px;
-  }
+  } */
 
 }
