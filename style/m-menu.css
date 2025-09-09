@@ -1,12 +1,8 @@
 @media (max-width: 1905px) {
     .main-menu {
-/*       position: absolute; */
-    /*   width: 100%; */
       top: 56px;
-    /*   display: flex; */
       align-items: center;
       flex-direction: row-reverse;
-    /*   justify-content: space-between; */
     }
   
     .menu {
