@@ -32,5 +32,20 @@
 }
 
 .block-arrow_portfolio {
+  position: absolute;
   top: 2414px;
+}
+
+.portfolio-arrow_position {
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.portfolio-arrow_conteiner {
+  position: absolute;
+  width: 636px;
+    display: flex;
+  justify-content: space-between
 }
