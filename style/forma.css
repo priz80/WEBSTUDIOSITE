@@ -43,13 +43,15 @@
 }
 
 .btn-forma {
-  margin: 24px 0 0 0;
+/*   margin: 24px 0 0 0; */
+width: 172px;
+height: 57px;
+background: rgba(46, 236, 197, 0.10);
+box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.10);
 }
 
 .btn-forma p {
   width: 97px;
-  color: #fff;
-  font-size: 17px;
 }
 
 .iphone {
