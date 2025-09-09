@@ -5,6 +5,23 @@
   text-align: center;
 }
 
+
+
 .block-arrow_tarif {
-top: 3438px;
+  position: absolute;
+  top: 3337px;
+}
+
+.tarif-arrow_position {
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tarif-arrow_conteiner {
+  position: absolute;
+  width: 1120px;
+    display: flex;
+  justify-content: space-between
 }
