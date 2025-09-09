@@ -14,17 +14,17 @@
 .slider-tarif_conteiner {
   position: absolute;
   top: 3086px;
-  width: 1024px;
-  left: 143px;
+  width: 100%;
+  /* left: 143px; */
   /* overflow: hidden; */
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 
 .slidertarif {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 32px;
   /* overflow: hidden; */
   /* margin: 0 auto; */
@@ -32,7 +32,7 @@
 }
 
 .card-tarif {
-  min-width: 370px;
+  width: 370px;
   height: 570px;
   border-radius: 36px;
   border: 1px solid rgba(255, 255, 255, 0.2);
