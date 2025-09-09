@@ -4,6 +4,7 @@
 @import "./style/font-style.css";
 @import "./style/content.css";
 @import "./style/container.css";
+@import "style/button-style.css";
 @import"./style/menu.css";
 @import"./style/m-menu.css";
 @import"./style/menu-burger.css";
