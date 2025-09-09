@@ -18,23 +18,6 @@
 
 
 
-
-
-.block-arrow_position {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: right;
-}
-
-.block-arrow_conteiner {
-  position: absolute;
-  width: 636px;
-    display: flex;
-  justify-content: space-between
-}
-
-
 .arrow-circle {
   width: 70px;
   height: 70px;
