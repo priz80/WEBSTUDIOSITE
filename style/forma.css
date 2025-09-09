@@ -59,7 +59,7 @@
   width: 270px;
   height: 529px;
   flex-shrink: 0;
-  background: url(../img/iPhone.svg);
+  background: url(../img/iPhone.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
