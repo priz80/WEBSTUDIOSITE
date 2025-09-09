@@ -48,19 +48,13 @@
   .btn-header {
     width: 129px;
     height: 38px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+background: rgba(46, 236, 197, 0.10);
+box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15);
   }
 
   .btn-header P {
-    width: 68px;
-
+    width: 74px;
     font-size: 11px;
-/*     margin: 0 0 0 0; */
-    /* margin-left: 31px; */
- /*    letter-spacing: -0.8px; */
   }
 
   .arrow {
