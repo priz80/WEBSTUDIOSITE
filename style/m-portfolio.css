@@ -34,23 +34,30 @@
   }
 
   .slider-portfolio_container {
-    position: absolute;
+    /*     position: absolute; */
     top: 2559px;
-    left: 0;
-    width: 338px;
+    /*    left: 745px; */
+    width: 100%;
     height: 151px;
+    /* left: 0; */
+    display: flex;
+    justify-content: center;
     overflow: hidden;
   }
 
   .sliderportfolio {
+    /*     position: absolute; */
+    width: 782px;
+    display: flex;
+    justify-content: flex-end;
     gap: 39px;
+    /* overflow: hidden; */
   }
 
   .slider-portfolio {
     width: 254px;
     height: 151px;
   }
-  
 
   .box-arrow_portfolio {
     top: 2779px;
@@ -105,5 +112,4 @@
     background-size: contain;
     background-repeat: no-repeat;
   }
-  
 }
