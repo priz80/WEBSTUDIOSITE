@@ -6,12 +6,21 @@
     text-align: center;
   }
 
-  .box-arrow_tarif {
-    top: 3473px;
-    width: 100%;
-    /* visibility: hidden; */
+  
+  
+  .block-arrow_tarif {
+    top: 3437px;
   }
-
-
-
+  
+  .tarif-arrow_position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tarif-arrow_conteiner {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
