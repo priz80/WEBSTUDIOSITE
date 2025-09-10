@@ -1,9 +1,57 @@
 @media (max-width: 1905px) {
-  .header-title {
+  .header-block {
+/*     position: absolute; */
+    top: 228px;
+/*     display: flex; */
+/*     width: 100%; */
+  /*   justify-content: center;
+    overflow: hidden; */
+    /* height: 844px; */
+    height: 412px;
+  }
+
+  .man-block {
+    width: 344px;
+    height: 412px;
+  }
+  
+  .man {
     position: absolute;
+    width: 536px;
+    height: 412px;
+    /* top: 211px; */
+    /* right: 118px; */
+    background-image: url(../img/man.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .header-text {
+/*     display: flex; */
+    width: 305px;
+    /* display: flex; */
+    /* flex-direction: column */
+    /* gap: 100px; */
+  }
+
+  .header-text_block {
+    position: absolute;
+    /* top: 327px; */
     width: 228px;
-    top: 226px;
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  
+
+  .header-title {
+    /* position: absolute; */
+    width: 228px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    /* top: 226px; */
+    /* z-index: 0; */
   }
 
   .header-title h1 {
@@ -24,9 +72,10 @@
   }
 
   .header-description {
-    position: absolute;
+    /* position: absolute; */
     width: 218px;
-    top: 304px;
+    margin-bottom: 23px;
+    /* top: 304px; */
   }
   .header-description h3 {
     font-size: 13px;
@@ -37,8 +86,8 @@
   }
 
   .btn-block {
-    position: absolute;
-    top: 359px;
+    /* position: absolute; */
+    /* top: 359px; */
     width: 129px;
     display: flex;
     align-items: center;
