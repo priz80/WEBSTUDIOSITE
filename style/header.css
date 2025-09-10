@@ -1,13 +1,63 @@
-.header-title {
+.header-block {
   position: absolute;
+  top: 211px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  /* height: 844px; */
+  height: 844px;
+}
+
+.man-block {
+  width: 663px;
+  height: 844px;
+}
+
+.man {
+  position: absolute;
+  width: 663px;
+  height: 844px;
+  /* top: 211px; */
+  /* right: 118px; */
+  background-image: url(../img/man.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+
+.header-text {
+  display: flex;
+  width: 1266px;
+  /* display: flex; */
+  /* flex-direction: column */
+  /* gap: 100px; */
+}
+
+.header-text_block {
+  /* position: absolute; */
+  /* top: 327px; */
+  width: 804px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+
+.header-title {
+  /* position: absolute; */
+  position: relative;
   width: 807px;
-  top: 327px;
+  /* top: 327px; */
+  margin-top: 114px;
 }
 
 .header-title_blur {
   position: absolute;
+  bottom: 0;
   width: 807px;
-  top: 327px;
+  /* top: 327px; */
   background: linear-gradient(
     91deg,
     rgba(181, 254, 239, 0.3) 10.31%,
@@ -20,15 +70,18 @@
 }
 
 .header-subtitle {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   width: 575px;
-  top: 411px;
+  /* top: 411px; */
+  margin-bottom: 27px;
 }
 
 .header-subtitle_blur {
   position: absolute;
+  bottom: 0;
   width: 575px;
-  top: 411px;
+  /* top: 411px; */
   background: linear-gradient(
     91deg,
     rgba(181, 254, 239, 0.3) 10.31%,
@@ -41,18 +94,21 @@
 }
 
 .header-description {
-  position: absolute;
+  /* position: absolute; */
   width: 672px;
-  top: 504px;
+  /* top: 504px; */
+  margin-bottom: 53px;
 }
 
 .header-description h3::after {
   content: "Мы - студия web-разработки, работаем уже более 3-х лет, готовы разработать для вас сайт в кротчайшие сроки.";
 }
 
+
+
 .btn-block {
-  position: absolute;
-  top: 642px;
+  /* position: absolute; */
+  /* top: 642px; */
   width: 425px;
   display: flex;
   align-items: center;
