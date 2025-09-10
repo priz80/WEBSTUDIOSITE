@@ -77,11 +77,14 @@
   filter: blur(22.5px);
 }
 
+.header-title_blur h1::after {
+  content: "Разработка сайтов";
+  }
+  
+
 .header-subtitle {
-  /* position: absolute; */
   position: relative;
   width: 575px;
-  /* top: 411px; */
   margin-bottom: 27px;
 }
 
@@ -89,7 +92,6 @@
   position: absolute;
   bottom: 0;
   width: 575px;
-  /* top: 411px; */
   background: linear-gradient(
     91deg,
     rgba(181, 254, 239, 0.3) 10.31%,
@@ -99,6 +101,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: blur(22.5px);
+}
+
+.header-subtitle_blur h2::after {
+content: "Для твоего бизнеса";
 }
 
 .header-description {
