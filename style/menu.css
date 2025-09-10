@@ -11,8 +11,8 @@
 }
 
 .logo p {
-  color: var(--font-color);
-  font-family: var(--font-family);
+  /* color: var(--font-color); */
+  /* font-family: var(--font-family); */
   font-style: normal;
   font-weight: 600;
   line-height: 140.6%;
@@ -42,7 +42,7 @@
 
 .menu li {
   color: var(--font-color);
-  font-family: var(--font-family);
+  /* font-family: var(--font-family); */
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
