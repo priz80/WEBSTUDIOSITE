@@ -19,8 +19,6 @@
 }
 
 .logo p {
-  /* color: var(--font-color); */
-  /* font-family: var(--font-family); */
   font-style: normal;
   font-weight: 600;
   line-height: 140.6%;
@@ -32,10 +30,18 @@
   letter-spacing: 5.27px;
 }
 
+.logo-studio::after {
+  content: 'studio';
+}
+
 .logo-web {
   font-size: 40px;
   letter-spacing: -4.6px;
   transform: translateY(-17px);
+}
+
+.logo-web::after {
+content: 'web';
 }
 
 .menu {
