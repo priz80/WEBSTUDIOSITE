@@ -10,17 +10,13 @@
   .man-block {
     width: 330px;
     height: 412px;
-    
   }
 
   .man {
-   /*  position: absolute; */
     width: 330px;
     height: 412px;
     margin-left: 100px;
     background-image: url(../img/man.svg);
-/*     background-size: 100% 100%;
-    background-repeat: no-repeat; */
     z-index: 1;
   }
 
@@ -105,9 +101,8 @@
   .box-text_block {
     width: 100%;
     display: flex;
-    justify-content: center
+    justify-content: center;
   }
-  
 
   .box-text_conteiner {
     width: 325px;
@@ -135,6 +130,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-/*     margin: 0 15px; */
   }
 }
