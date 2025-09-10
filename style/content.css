@@ -7,19 +7,7 @@
   background-repeat: no-repeat;
 }
 
-.man {
-  position: absolute;
-  width: 663px;
-  height: 844px;
-  top: 211px;
-  right: 118px;
-  background-image: url(../img/man.svg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: 1;
-}
-
-.circle {
+/* .circle {
   position: absolute;
   width: 700px;
   height: 700px;
@@ -28,7 +16,7 @@
   background-image: url(../img/circle.svg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
-}
+} */
 
 .line {
   position: absolute;
@@ -258,7 +246,7 @@
     background-repeat: no-repeat;
   }
 
-  .man {
+  /* .man {
     position: absolute;
     width: 241px;
     height: 412px;
@@ -268,7 +256,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 1;
-  }
+  } */
 
   .line {
     position: absolute;
@@ -285,7 +273,7 @@
     );
   }
 
-  .circle {
+/*   .circle {
     position: absolute;
     width: 200px;
     height: 347px;
@@ -316,7 +304,7 @@
     background-image: url(../img/m-elipse.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-  }
+  } */
 
   .block-forma {
     position: absolute;
