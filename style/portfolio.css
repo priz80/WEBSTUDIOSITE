@@ -38,7 +38,6 @@
 }
 
 .portfolio-arrow_position {
-  /* position: absolute; */
   width: 100%;
   display: flex;
   justify-content: right;
@@ -47,6 +46,6 @@
 .portfolio-arrow_conteiner {
   position: absolute;
   width: 636px;
-    display: flex;
-  justify-content: space-between
+  display: flex;
+  justify-content: space-between;
 }
