@@ -7,11 +7,27 @@
 }
 
 .main-menu {
-/*   position: absolute; */
-/*   top: 48px; */
   width: 1258px;
   display: flex;
   justify-content: space-between;
+}
+.li-main {
+  display: none;
+}
+.li-question a::after {
+  content: "Почему именно мы?";
+}
+.li-portfolio a::after {
+  content: "Портфолио";
+}
+.li-tdrif a::after {
+  content: "Тарифы";
+}
+.li-contacty a::after {
+  content: "Контакты";
+}
+.li-bid {
+  display: none;
 }
 
 .logo {
@@ -31,7 +47,7 @@
 }
 
 .logo-studio::after {
-  content: 'studio';
+  content: "studio";
 }
 
 .logo-web {
@@ -41,7 +57,7 @@
 }
 
 .logo-web::after {
-content: 'web';
+  content: "web";
 }
 
 .menu {
@@ -56,7 +72,6 @@ content: 'web';
 
 .menu li {
   color: var(--font-color);
-  /* font-family: var(--font-family); */
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -74,6 +89,3 @@ content: 'web';
   width: 97px;
   font-size: 20px;
 }
-
-
-
