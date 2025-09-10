@@ -10,23 +10,24 @@
   <body>
     <div class="room"></div>
 
- <!-- menu  -->
+<!------------------ menu  -------------------------->
+<nav id="menu-nav">
  <div class="block-menu">
-    <span class="main-menu">
+    <div class="main-menu">
       <div class="logo">
         <div class="m-logo"></div>
         <p class="logo-studio"></p>
         <p class="logo-web"></p>
       </div>
 
-      <div class="menu">
+      <nav class="menu">
         <li class="li-main"><a href="#"></a></li>
         <li class="li-question"><a href="#about"></a></li>
         <li class="li-portfolio"><a href="#portfolio"></a></li>
         <li class="li-tdrif"><a href="#tarif"></a></li>
         <li class="li-contacty"><a href="#contacty"></a></li>
         <li class="li-bid"><a href="#contacty"></a></li>
-      </div>
+      </nav>
 
 
       <div class="burger" style="display: block;"></div>
@@ -37,11 +38,13 @@
       <button type="button" class="button-style btn-order">
         <a href="#forma"><p>Заказать</p>
       </button></a>
-    </span>
+    </div>
   </div>
-<!-- menu end  -->
+</nav>
+<!---------------- menu end  ------------------------>
 
-<!-- header  -->
+<!-------------- header ----------------------------->
+<Section>
 <div class="header-block">
   <div class="header-text">
     <div class="header-text_block">
@@ -74,8 +77,8 @@
     </div>
   </div>
 </div>
-<!-- header end  -->
-
+</Section>
+<!-------------- header end  ------------------------>
     <div class="line"></div>
     <!-- <div class="man"></div> -->
     <!-- <div class="circle"></div>
@@ -86,7 +89,8 @@
     <div class="btn-up btn-up_hide"></div>
     <div class="block-forma" id="forma"></div>
 
-    <!-- vertical left line  -->
+<!-------------- vertical left line  ---------------->
+<nav id="line-nav">
     <div class="line-menu line-menu_first"></div>
     <div class="line-menu line-menu_second"></div>
     <div class="line-menu line-menu_third"></div>
@@ -176,24 +180,14 @@
         <div class="oval-dark"></div>
       </div>
     </div>
-    <!-- vertical left line end -->
-
-    <!-- slider portfolio  -->
-      <div class="slider-portfolio_container">
-        <div class="sliderportfolio">
-          <div class="Frame14 slider-portfolio" id="0"></div>
-          <div class="Frame168 slider-portfolio" id="1"></div>
-          <div class="Frame2 slider-portfolio" id="2"></div>
-          <div class="Frame21 slider-portfolio" id="3"></div>
-          <div class="Frame45731 slider-portfolio" id="4"></div>
-          <div class="Frame78 slider-portfolio" id="5"></div>
-          <div class="Frame9 slider-portfolio" id="6"></div>
-        </div>
-      </div>
-      <!-- slider portfolio end  -->
+</nav>
+<!-------------- vertical left line end ------------->
 
 
-    <!--- block contacty - -->
+
+
+<!------------------ block contacty ----------------->
+<section id="section-contacty">
     <div class="block-contacty" id="contacty">
       <a href="#forma">
         <div class="circleslider" id="circleslider">
@@ -229,13 +223,14 @@
           </div></div
       ></a>
     </div>
-    <!-- block contacty end -->
+</section>
+<!---------------- block contacty end --------------->
 
-    <!-- conteiner  -->
+<!--------------------------------------- conteiner  --------------------------------------------->
     <div class="conteiner">
       <svg class="lamp"></svg>
 
-      <!-- m-menu  -->
+<!--------------------- m-menu  -->
       <div class="menu-burger" style="display: none;"></div>
       <div class="m-menu" style="display: none;">
         <div class="menu-item"><a href="#">Главная</a></div>
@@ -244,78 +239,81 @@
         <div class="menu-item"><a href="#contacty">Контакты</a></div>
         <div class="menu-item"><a href="#forma">Оставить заявку</a></div>
       </div>
-      <!-- m-menu end  -->
+<!--------------------- m-menu end  -->
 
-      <!-- about  -->
-      <div class="box-block" id="about">
-        <div class="about-text">
-        <div class="about-title">
-          <h4>Причины сотрудничать с нами</h4></div>
-          <div class="about-subtitle">
-            <h5 class="about-subtitle_">
-              Пока конкуренты говорят о том, что они лучшие - мы это доказываем
-              делом.
-            </h5>
-            <h5>
-              Вы можете ознакомиться с информацией о нас и посмотреть наше
-              портфолио
-            </h5>
+<!--------------------- about  ---------------------->
+      <section id="section-about">
+        <div class="box-block" id="about">
+          <div class="about-text">
+          <div class="about-title">
+            <h4>Причины сотрудничать с нами</h4></div>
+            <div class="about-subtitle">
+              <h5 class="about-subtitle_">
+                Пока конкуренты говорят о том, что они лучшие - мы это доказываем
+                делом.
+              </h5>
+              <h5>
+                Вы можете ознакомиться с информацией о нас и посмотреть наше
+                портфолио
+              </h5>
+            </div>
+            <div class="btton-about_conteiner">
+                <a href="#portfolio"><button type="button" class="button-style btn-about">
+                  <p>Портфолио</p></button></a>
+                <div class="button-style btn-about_shadow"></div>
+            </div>
           </div>
-          <div class="btton-about_conteiner">
-              <a href="#portfolio"><button type="button" class="button-style btn-about">
-                <p>Портфолио</p></button></a>
-              <div class="button-style btn-about_shadow"></div>
+
+          <div class="about-box about-box_price">
+            <div class="about-box_conteiner">
+              <p class="about-box_title about-box_titlmoney">Приемлимые цены</p>
+              <p class="about-box_subtitle">
+                Мы максимально оптимизируем наш труд, для того, чтобы цены были
+                доступными
+              </p>
+            </div>
+            <div class="about-box_img">
+              <div class="img-money"></div>
+            </div>
+          </div>
+
+          <div class="about-box">
+            <div class="about-box_conteiner">
+              <p class="about-box_title">В сроки сдаем работу!</p>
+              <p class="about-box_subtitle">
+                Расписываем каждый этап по срокам, и придерживаемся дедлайнов
+              </p>
+            </div>
+            <div class="about-box_img"><div class="img-time"></div></div>
+          </div>
+
+          <div class="about-box">
+            <div class="about-box_conteiner">
+              <p class="about-box_title">Команда специалистов</p>
+              <p class="about-box_subtitle">
+                В нашей команде множество специалистов, и каждый из них хорошо
+                знает свое дело
+              </p>
+            </div>
+            <div class="about-box_img"><div class="img-employ"></div></div>
+          </div>
+
+          <div class="about-box">
+            <div class="about-box_conteiner">
+              <p class="about-box_title">Консультация перед заказом</p>
+              <p class="about-box_subtitle">
+                Наши менеджеры в сети 24/7, и готовы помочь вам, а так же ответить
+                на ваши вопросы
+              </p>
+            </div>
+            <div class="about-box_img"><div class="img-support"></div></div>
           </div>
         </div>
+      </section>
+<!----------------- about end  ---------------------->
 
-        <div class="about-box about-box_price">
-          <div class="about-box_conteiner">
-            <p class="about-box_title about-box_titlmoney">Приемлимые цены</p>
-            <p class="about-box_subtitle">
-              Мы максимально оптимизируем наш труд, для того, чтобы цены были
-              доступными
-            </p>
-          </div>
-          <div class="about-box_img">
-            <div class="img-money"></div>
-          </div>
-        </div>
-
-        <div class="about-box">
-          <div class="about-box_conteiner">
-            <p class="about-box_title">В сроки сдаем работу!</p>
-            <p class="about-box_subtitle">
-              Расписываем каждый этап по срокам, и придерживаемся дедлайнов
-            </p>
-          </div>
-          <div class="about-box_img"><div class="img-time"></div></div>
-        </div>
-
-        <div class="about-box">
-          <div class="about-box_conteiner">
-            <p class="about-box_title">Команда специалистов</p>
-            <p class="about-box_subtitle">
-              В нашей команде множество специалистов, и каждый из них хорошо
-              знает свое дело
-            </p>
-          </div>
-          <div class="about-box_img"><div class="img-employ"></div></div>
-        </div>
-
-        <div class="about-box">
-          <div class="about-box_conteiner">
-            <p class="about-box_title">Консультация перед заказом</p>
-            <p class="about-box_subtitle">
-              Наши менеджеры в сети 24/7, и готовы помочь вам, а так же ответить
-              на ваши вопросы
-            </p>
-          </div>
-          <div class="about-box_img"><div class="img-support"></div></div>
-        </div>
-      </div>
-      <!-- about end  -->
-
-      <!-- portfolio  -->
+<!----------------- portfolio  ---------------------->
+<section id="section-portfolio">
       <div class="portfolio" id="portfolio">
         <div class="porfolio-title">
           <h4></h4>
@@ -330,9 +328,22 @@
           </button></a>
         </div>
       </div>
-      <!-- portfolio-end  -->
 
-      <!-- block arrow for sliders -->
+<!---------------- slider portfolio  ---------------->
+      <div class="slider-portfolio_container">
+        <div class="sliderportfolio">
+          <div class="Frame14 slider-portfolio" id="0"></div>
+          <div class="Frame168 slider-portfolio" id="1"></div>
+          <div class="Frame2 slider-portfolio" id="2"></div>
+          <div class="Frame21 slider-portfolio" id="3"></div>
+          <div class="Frame45731 slider-portfolio" id="4"></div>
+          <div class="Frame78 slider-portfolio" id="5"></div>
+          <div class="Frame9 slider-portfolio" id="6"></div>
+        </div>
+      </div>
+<!-------------- slider portfolio end --------------->
+
+<!----------- block arrow for sliders --------------->
 <div class="portfolio-arrow_position block-arrow_portfolio">
   <div class="portfolio-arrow_conteiner">
       <div class="arrow-circle" id="next-portfolio">
@@ -347,16 +358,17 @@
       </div>
   </div>
 </div>
-<!-- block arrow for sliders end -->
+</section>
+<!-------- block arrow for sliders end --------------->
+<!---------------- portfolio-end  -------------------->
 
-      <!-- tarif  -->
+<!------------------- tarif  ------------------------->
+<section id="section-tarif">
       <div class="tarif-title" id="tarif"><h4>Тарифы</h4></div>
-      <!-- tarif end  -->
 
-      <!-- slider-tarif  -->
+<!----------------- slider-tarif  ------------------->
 <div class="slider-tarif_conteiner">
   <div class="slidertarif">
-
     <div class="card-tarif">
       <div class="card-tarif_conteiner">
         <p class="card-tarif_title">Сайт “Каталог”</p>
@@ -499,9 +511,9 @@
     </div>
   </div>
 </div>
-<!-- slider-tarif end  -->
+<!--------------- slider-tarif end  ------------------>
 
-      <!-- block arrow for sliders -->
+<!---------- block arrow for sliders ----------------->
       <div class="tarif-arrow_position block-arrow_tarif">
         <div class="tarif-arrow_conteiner">
             <div class="arrow-circle" id="next-tarif">
@@ -516,11 +528,12 @@
             </div>
         </div>
       </div>
-      <!-- block arrow for sliders end -->
+</section>
+<!---------- block arrow for sliders end ------------->
+<!------------------- tarif end ---------------------->
 
-      
-      <!-- forma  -->
-
+<!-------------------- forma  ------------------------>
+<section id="section-forma">
       <div class="forma-conteiner">
         <div class="forma-title" id="forma"><h6>Оставь заявку</h6></div>
         <div class="forma-block">
@@ -568,24 +581,24 @@
           <div class="finish-subtitle elipse-subtitle"><p></p></div>
         </div>
       </div>
-      <!-- forma end  -->
+</section>
+<!-------------------- forma end  -------------------->
 
-      <!-- contacty  -->
+<!-------------------- contacty  --------------------->
+<section id="section-contacty">
       <div class="contacty-title"><p></p></div>
-      <div class="star-left"><!-- <img src="./img/star.svg" alt="star" /> --></div>
-      <div class="star-left_s"><!-- <img src="./img/star-s.svg" alt="star" /> --></div>
-      <div class="star-right"><!-- <img src="./img/star.svg" alt="star" /> --></div>
-      <div class="star-small star-small_left">
-        <!-- <img src="./img/star-small.svg" alt="star" /> -->
-      </div>
-      <div class="star-small star-small_right">
-        <!-- <img src="./img/star-small.svg" alt="star" /> -->
-      </div>
-      <!-- contacty end  -->
-    </div>
-    <!-- conteiner-end  -->
+      <div class="star-left"></div>
+      <div class="star-left_s"></div>
+      <div class="star-right"></div>
+      <div class="star-small star-small_left"></div>
+      <div class="star-small star-small_right"></div>
+</section>
+<!-------------------- contacty end  ----------------->
 
-    <!-- footer  -->
+</div>
+<!--------------------------------------- conteiner end -------------------------------------------->
+
+<!-------------------- footer ------------------------>
     <footer class="footer">
       <div class="copyright">
         <p>© 2019–2025, WEB Studio - Разработка сайтов для предприятий</p>
@@ -594,7 +607,7 @@
         <a href="#"><p>Политика сайта и обработка персональных данных</p></a>
       </div>
     </footer>
-    <!-- footer end  -->
+<!-------------------- footer end ------------------->
 
     <!-- menu-burger  -->
     <script src="./menu-burger.js"></script>
@@ -613,15 +626,5 @@
     <!-- scroll smooth  -->
     <script async src="./smooth.js"></script>
 
-    <!-- slaide page -->
-    <script src="./slide-page.js"></script>
-
-    <!-- reload page -->
-    <script src="./reload.js"></script>
-    <script>
-      document.getElementById("refreshBtn").addEventListener("click", () => {
-        location.reload(); // Перезагружает страницу
-      });
-    </script>
   </body>
 </html>
