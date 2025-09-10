@@ -7,17 +7,6 @@
   background-repeat: no-repeat;
 }
 
-/* .circle {
-  position: absolute;
-  width: 700px;
-  height: 700px;
-  top: 334px;
-  right: 8px;
-  background-image: url(../img/circle.svg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-} */
-
 .line {
   position: absolute;
   width: 100%;
@@ -149,7 +138,7 @@
 }
 
 .position-mark-01_ligth p::after {
-content: "01";
+  content: "01";
 }
 
 .position-mark-02_ligth {
@@ -158,7 +147,7 @@ content: "01";
 
 .position-mark-02_ligth p::after {
   content: "02";
-  }
+}
 
 .position-mark-03_ligth {
   top: 2257px;
@@ -166,7 +155,7 @@ content: "01";
 
 .position-mark-03_ligth p::after {
   content: "03";
-  }
+}
 
 .position-mark-04_ligth {
   top: 2973px;
@@ -174,10 +163,9 @@ content: "01";
 
 .position-mark-04_ligth p::after {
   content: "04";
-  }
+}
 
 .figure-dark {
-/*   font-family: var(--font-family); */
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
@@ -277,9 +265,6 @@ content: "01";
   content: "05";
 }
 
-
-
-
 @media (max-width: 1905px) {
   .line-menu {
     display: none;
@@ -329,7 +314,7 @@ content: "01";
     );
   }
 
-/*   .circle {
+  /*   .circle {
     position: absolute;
     width: 200px;
     height: 347px;
@@ -388,14 +373,10 @@ content: "01";
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-
 }
 
-
-
 .page-slide {
-width: 1270px;
-margin: 0 auto;
-top: 100px;
-
+  width: 1270px;
+  margin: 0 auto;
+  top: 100px;
 }
