@@ -6,8 +6,8 @@
 }
 
 .contacty-title p {
-  color: var(--Mono-White, #fff);
-  font-family: var(--font-family);
+/*   color: var(--Mono-White, #fff); */
+/*   font-family: var(--font-family); */
   font-size: 96px;
   font-style: normal;
   font-weight: 600;
@@ -65,7 +65,7 @@
   height: 110px;
   flex-shrink: 0;
   stroke-width: 1px;
-  stroke: var(--Mono-White, #fff);
+/*   stroke: var(--Mono-White, #fff); */
   opacity: 0.9;
   background-image: url(../img/slider-contacty/Ellipse\ 233.svg);
   background-size: contain;
