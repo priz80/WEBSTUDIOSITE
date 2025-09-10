@@ -7,7 +7,10 @@
   /*   justify-content: center;
     overflow: hidden; */
     /* height: 844px; */
-    height: 412px;
+    height: 533px;
+    flex-direction: column;
+        align-items: center;
+gap: 22px;
   }
 
   .man-block {
@@ -120,9 +123,10 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15);
   }
 
   .box-text {
-    position: absolute;
-    top: 664px;
-    width: 100%;
+    /* position: absolute; */
+    /* top: 664px; */
+    /* width: 100%; */
+    min-width: 330px;
     min-height: 38px;
 
     border-radius: 41px;
@@ -145,14 +149,14 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15);
     line-height: normal;
   }
   
-  .box-text p::after {
+ /*  .box-text p::after {
     content: 'Работаем в сфере web-разработки более 3-х лет';
-  }
-  .box-text_next p::after {
+  } */
+/*   .box-text_next p::after {
     content: 'В нашей команде находятся лучшие исполнители';
-  }
+  } */
 
   .box-text_next {
-    top: 720px;
+    /* top: 720px; */
   }
 }
