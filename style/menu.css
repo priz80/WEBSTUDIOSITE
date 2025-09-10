@@ -1,7 +1,15 @@
-.main-menu {
+.block-menu {
   position: absolute;
-  top: 48px;
   width: 100%;
+  top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu {
+/*   position: absolute; */
+/*   top: 48px; */
+  width: 1258px;
   display: flex;
   justify-content: space-between;
 }
