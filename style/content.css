@@ -108,7 +108,7 @@
 }
 
 .figure-light {
-  font-family: var(--font-family);
+/*   font-family: var(--font-family); */
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
@@ -159,7 +159,7 @@
 }
 
 .figure-dark {
-  font-family: var(--font-family);
+/*   font-family: var(--font-family); */
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
