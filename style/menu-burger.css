@@ -1,11 +1,8 @@
-/*  */
-
 @media (max-width: 1905px) {
   .menu-burger {
     position: absolute;
     width: 328px;
     height: 340px;
-    /* background-image: url(../img/burgerX.svg); */
     background: linear-gradient(133deg, #161919 2.37%, #373a3a 100.31%);
     border-radius: 0px 0px 20px 20px;
     border: 1px solid;
@@ -41,7 +38,6 @@
     position: relative;
     width: 328px;
     height: 43px;
-    /* background-image: url(../img/burger.svg); */
     text-align: center;
     z-index: 2;
   }
@@ -58,12 +54,10 @@
   .menu-item a {
     position: relative;
     top: 10px;
-  /*   color: var(--font-color);
-    font-family: var(--font-family); */
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 118.1%; /* 23.62px */
+    line-height: 118.1%;
     background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
     background-clip: text;
     -webkit-background-clip: text;
