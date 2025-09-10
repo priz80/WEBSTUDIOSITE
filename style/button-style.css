@@ -7,16 +7,11 @@
 }
 
 .button-style p {
-/*   color: var(--font-color);
-  font-family: var(--font-family); */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
-
-
 
 .arrow-circle {
   width: 70px;
@@ -62,5 +57,3 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
