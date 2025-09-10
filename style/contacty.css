@@ -6,8 +6,6 @@
 }
 
 .contacty-title p {
-/*   color: var(--Mono-White, #fff); */
-/*   font-family: var(--font-family); */
   font-size: 96px;
   font-style: normal;
   font-weight: 600;
@@ -15,37 +13,66 @@
   letter-spacing: 1.92px;
 }
 
+.contacty-title p::after {
+  content: "Контакты";
+}
+
 .star-left {
   position: absolute;
   top: 4486px;
   left: 357px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-@media (min-width:1905px) {
-.star-left_s {
-  display: none;
+@media (min-width: 1905px) {
+  .star-left_s {
+    display: none;
+  }
 }
-}
-
 
 .star-right {
   position: absolute;
   top: 4406px;
   left: 890px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/star.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .star-small {
   position: absolute;
   opacity: 0.5;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .star-small_left {
   top: 4532px;
   left: 400px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 .star-small_right {
   top: 4374px;
   left: 877px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/star-small.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .block-contacty {
@@ -65,7 +92,6 @@
   height: 110px;
   flex-shrink: 0;
   stroke-width: 1px;
-/*   stroke: var(--Mono-White, #fff); */
   opacity: 0.9;
   background-image: url(../img/slider-contacty/Ellipse\ 233.svg);
   background-size: contain;
@@ -131,9 +157,7 @@
   flex-shrink: 0;
 }
 
-/* .ballslider:hover { */
 .ballsliders {
-
   width: 140px;
   height: 140px;
   flex-shrink: 0;
@@ -146,7 +170,7 @@
 }
 
 /* .circleslider:hover { */
-  .circlesliders {
+.circlesliders {
   width: 165px;
   height: 165px;
   flex-shrink: 0;
@@ -170,7 +194,12 @@
     position: absolute;
     top: 4766px;
     left: 0px;
+    width: 16px;
+    height: 16px;
     opacity: 0.7;
+    background-image: url(../img/star-s.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .star-right {
@@ -187,6 +216,6 @@
   .star-small_right {
     top: 4428px;
     left: 241px;
-    opacity: 0.5;        
+    opacity: 0.5;
   }
 }
