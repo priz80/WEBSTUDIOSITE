@@ -1,16 +1,8 @@
-/* .mainconteiner {
-  width: 200%;
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-} */
-
-
 .conteiner {
   position: relative;
   max-width: 1275px;
   margin: 0 auto;
   left: 7px;
-  /* visibility: hidden; */
 }
 
 .lamp {
@@ -35,27 +27,3 @@
     display: none;
   }
 }
-
-/* .box-arrow {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.arrow-style {
-  width: 282px;
-  height: 282px;
-}
-
-.left-arrow {
-  background-image: url(../img/slider-tarif/l-arrow.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.right-arrow {
-  background-image: url(../img/slider-tarif/r-arrow.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
