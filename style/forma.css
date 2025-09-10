@@ -25,7 +25,7 @@
 
 .forma p {
   color: rgba(255, 255, 255, 0.7);
-  font-family: var(--font-family);
+  /* font-family: var(--font-family); */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +95,7 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.10);
 
 .elipse-subtitle p {
   color: rgba(255, 255, 255, 0.7);
-  font-family: Ruberoid;
+/*   font-family: Ruberoid; */
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
