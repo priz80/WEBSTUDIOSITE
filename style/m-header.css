@@ -8,14 +8,16 @@
   }
 
   .man-block {
-    width: 344px;
+    width: 330px;
     height: 412px;
+    
   }
 
   .man {
     position: absolute;
-    width: 536px;
+    width: 330px;
     height: 412px;
+    margin-left: 100px;
     background-image: url(../img/man.svg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -23,12 +25,12 @@
   }
 
   .header-text {
-    width: 305px;
+    width: 325px;
   }
 
   .header-text_block {
     position: absolute;
-    width: 228px;
+    width: 325px;
     display: flex;
     flex-direction: column;
   }
@@ -58,7 +60,7 @@
 
   .header-description {
     width: 218px;
-    margin-bottom: 23px;
+    margin-bottom: 22px;
   }
   .header-description h3 {
     font-size: 13px;
@@ -100,16 +102,22 @@
     display: none;
   }
 
-  .box-text_conteiner {
-    max-width: 305px;
+  .box-text_block {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center
+  }
+  
+
+  .box-text_conteiner {
+    width: 325px;
+    display: flex;
     flex-direction: column;
     gap: 18px;
   }
 
   .box-text {
-    max-width: 324px;
+    max-width: 325px;
     min-height: 38px;
     border-radius: 41px;
     border: 1.5px solid #208c76;
@@ -127,6 +135,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 15px;
+/*     margin: 0 15px; */
   }
 }
