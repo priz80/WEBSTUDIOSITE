@@ -7,8 +7,8 @@
 }
 
 .button-style p {
-  color: var(--font-color);
-  font-family: var(--font-family);
+/*   color: var(--font-color);
+  font-family: var(--font-family); */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
