@@ -25,7 +25,6 @@
 
 .forma p {
   color: rgba(255, 255, 255, 0.7);
-  /* font-family: var(--font-family); */
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -43,11 +42,10 @@
 }
 
 .btn-forma {
-/*   margin: 24px 0 0 0; */
-width: 172px;
-height: 57px;
-background: rgba(46, 236, 197, 0.10);
-box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.10);
+  width: 172px;
+  height: 57px;
+  background: rgba(46, 236, 197, 0.1);
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
 }
 
 .btn-forma p {
@@ -95,11 +93,10 @@ box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.10);
 
 .elipse-subtitle p {
   color: rgba(255, 255, 255, 0.7);
-/*   font-family: Ruberoid; */
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 105.6%; /* 12.672px */
+  line-height: 105.6%;
 }
 
 .note {
