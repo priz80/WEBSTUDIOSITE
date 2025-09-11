@@ -19,6 +19,8 @@
 .man-block {
   width: 663px;
   height: 844px;
+  display: flex;
+  align-items: flex-end
 }
 
 .man {
@@ -29,6 +31,40 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 1;
+}
+
+.circle-conteiner {
+  position: absolute;
+width: 700px;
+height: 700px;
+margin-left: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  position: absolute;
+  width: 700px;
+height: 700px;
+border-radius: 700px;
+border: 2px solid rgba(46, 236, 197, 0.09);
+}
+
+.circle-s {
+  position: absolute;
+  width: 584px;
+  height: 584px;
+  border-radius: 584px;
+border: 2px solid rgba(46, 236, 197, 0.20);
+}
+
+.circle-m {
+  position: absolute;
+  width: 467px;
+  height: 466px;
+  border-radius: 467px;
+  border: 2px solid rgba(46, 236, 197, 0.60);
 }
 
 .header-text {
