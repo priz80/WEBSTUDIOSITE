@@ -16,7 +16,7 @@
   left: 40%;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1300px) {
   .conteiner {
     position: relative;
     max-width: 330px;
