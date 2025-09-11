@@ -9,7 +9,12 @@
   </head>
   <body>
     <div class="room"></div>
-
+    <div class="line"></div>
+    <div class="group-line_up"></div>
+    <div class="group-line_down"></div>
+    <div class="btn-up btn-up_hide"></div>
+    <div class="block-forma" id="forma"></div>
+    
 <!------------------ menu  -------------------------->
 <nav id="menu-nav">
  <div class="block-menu">
@@ -42,6 +47,21 @@
   </div>
 </nav>
 <!---------------- menu end  ------------------------>
+
+<!--------------------- m-menu  -->
+<div class="menu-burger_conteiner">
+    <div class="menu-burger" style="display: none;">
+      <div class="m-menu" style="display: none;">
+        <div class="menu-item"><a href="#">Главная</a></div>
+        <div class="menu-item"><a href="#about">Почему именно мы?</a></div>
+        <div class="menu-item"><a href="#portfolio">Портфолио</a></div>
+        <div class="menu-item"><a href="#contacty">Контакты</a></div>
+        <div class="menu-item"><a href="#forma">Оставить заявку</a></div>
+      </div>
+    </div>
+</div>
+
+<!--------------------- m-menu end  -->
 
 <!-------------- header ----------------------------->
 <Section>
@@ -85,16 +105,7 @@
 </div>
 </Section>
 <!-------------- header end  ------------------------>
-    <div class="line"></div>
     
-    <!-- <div class="circle"></div>
-    <div class="circle-s"></div>
-    <div class="circle-m"></div> -->
-    <div class="group-line_up"></div>
-    <div class="group-line_down"></div>
-    <div class="btn-up btn-up_hide"></div>
-    <div class="block-forma" id="forma"></div>
-
 <!-------------- vertical left line  ---------------->
 <nav id="line-nav">
     <div class="line-menu line-menu_first"></div>
@@ -395,17 +406,6 @@
     <div class="conteiner">
       <svg class="lamp"></svg>
 
-<!--------------------- m-menu  -->
-      <div class="menu-burger" style="display: none;"></div>
-      <div class="m-menu" style="display: none;">
-        <div class="menu-item"><a href="#">Главная</a></div>
-        <div class="menu-item"><a href="#about">Почему именно мы?</a></div>
-        <div class="menu-item"><a href="#portfolio">Портфолио</a></div>
-        <div class="menu-item"><a href="#contacty">Контакты</a></div>
-        <div class="menu-item"><a href="#forma">Оставить заявку</a></div>
-      </div>
-<!--------------------- m-menu end  -->
-
 <!--------------------- about  ---------------------->
       <section id="section-about">
         <div class="box-block" id="about">
@@ -541,7 +541,7 @@
       <div class="forma-conteiner">
         <div class="forma-title" id="forma"><h6>Оставь заявку</h6></div>
         <div class="forma-block">
-          <form class="forma" action="send-email.php" method="POST">
+          <form class="forma" action="send-email.php" method="GET">
             <p>Ваше ФИО *</p>
             <input class="input-field" type="text" name="fio" required />
 
@@ -557,9 +557,9 @@
             <p>Ваш комментарий ( по желанию )</p>
             <input class="input-field" type="text" name="comment" />
 
-            <a href="#forma"><button type="submit" class="button-style btn-forma">
+            <button type="submit" class="button-style btn-forma">
               <p>Отправить</p>
-            </button></a>
+            </button>
           </form>
         </div>
       </div>
