@@ -5,26 +5,28 @@
   width: 100%;
   justify-content: center;
   overflow: hidden;
-  height: 844px;
-  flex-direction: column;
-  align-items: center;
+  /* height: 844px; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
+
 .box-text {
   display: none;
 }
+
 .box-text_next {
   display: none;
 }
 
 .man-block {
-  width: 663px;
-  height: 844px;
+  /* width: 663px; */
+  /* height: 844px; */
   display: flex;
-  align-items: flex-end
+  /* align-items: flex-end */
 }
 
 .man {
-  position: absolute;
+  position: relative;
   width: 663px;
   height: 844px;
   background-image: url(../img/man.svg);
@@ -38,6 +40,7 @@
 width: 700px;
 height: 700px;
 margin-left: 75px;
+margin-top: 123px;
   display: flex;
   justify-content: center;
   align-items: center;
