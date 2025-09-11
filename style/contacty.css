@@ -115,6 +115,8 @@
 @media (min-width: 1600px) {
   .ballslider {
     background-image: url(../img/slider-contacty/Group\ 26.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .telegram {
