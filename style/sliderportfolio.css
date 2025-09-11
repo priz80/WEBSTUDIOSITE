@@ -62,7 +62,7 @@
   background-repeat: no-repeat;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1300px) {
   .slider-portfolio_container {
     top: 2559px;
     width: 100%;
