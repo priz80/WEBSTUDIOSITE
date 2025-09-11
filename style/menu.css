@@ -7,7 +7,7 @@
 }
 
 .main-menu {
-  width: 1258px;
+  width: 1290px;
   display: flex;
   justify-content: space-between;
 }
@@ -31,6 +31,7 @@
 }
 
 .logo {
+  margin-left: 16px;
   transform: rotate(-0.192deg);
 }
 
@@ -65,7 +66,7 @@
   height: 21px;
   display: flex;
   gap: 36px;
-  padding-inline-start: 188px;
+  padding-inline-start: 267px;
   margin: 18px 0;
   z-index: 1;
 }
