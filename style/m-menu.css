@@ -1,14 +1,15 @@
 @media (max-width: 1300px) {
   .main-menu {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    top: -7px;
+    /* top: -7px; */
     align-items: center;
     flex-direction: row-reverse;
   }
 
   .menu {
-    display: none;
+    /* display: none; */
+    visibility: hidden
   }
 
   .li-main {
