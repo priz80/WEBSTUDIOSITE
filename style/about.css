@@ -1,9 +1,20 @@
-.box-block {
+.box-block_conteiner {
   position: absolute;
-  display: flex;
+  width: 100%;
   top: 1145px;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+
+.box-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  max-width: 1285px;
 }
 
 .about-title {
