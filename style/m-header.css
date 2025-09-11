@@ -1,30 +1,32 @@
 @media (max-width: 1300px) {
   .header-block {
     top: 228px;
+    /* width: 100%; */
     height: 530px;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     gap: 23px;
   }
 
   .man-block {
-    width: 330px;
+    /* width: 330px; */
     height: 412px;
+    width: 100%;
   }
 
   .man {
-    width: 330px;
+    /* width: 330px; */
     height: 412px;
-    margin-left: 100px;
-    background-image: url(../img/man.svg);
-    z-index: 1;
+/*     margin-left: 100px; */
+/*     background-image: url(../img/man.svg); */
+/*     z-index: 1; */
   }
 
   .circle-conteiner {
     position: absolute;
     width: 347px;
     height: 347px;
-    margin-left: 145px;
+    margin-left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +61,7 @@
   }
 
   .header-text_block {
-    position: absolute;
+    /* position: absolute; */
     width: 325px;
     display: flex;
     flex-direction: column;
