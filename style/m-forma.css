@@ -108,6 +108,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
+    display: none;
   }
 
   .note-elipse {
@@ -160,6 +161,7 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
+    display: none;
   }
 
   .finish-elipse {
