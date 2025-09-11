@@ -73,8 +73,8 @@ h6 {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 1600px) {
- /*  h1 {
+@media (max-width: 1366px) {
+  h1 {
     font-size: 27px;
     font-style: normal;
     font-weight: 600;
@@ -84,7 +84,7 @@ h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-  } */
+  }
 
   h3 {
     color: rgba(255, 255, 255, 0.65);
