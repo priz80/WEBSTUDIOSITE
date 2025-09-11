@@ -49,6 +49,7 @@
 .btn-forma {
   width: 172px;
   height: 57px;
+  margin-top: 28px;
   background: rgba(46, 236, 197, 0.1);
   box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
 }
@@ -56,6 +57,9 @@
 .btn-forma p {
   width: 97px;
 }
+
+
+@media (min-width: 1360px) {
 
 .iphone {
   position: absolute;
@@ -68,6 +72,9 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+}
+
+@media (min-width: 1500px) {
 
 .elipse {
   width: 43px;
@@ -202,4 +209,6 @@
 
 .finish-subtitle p::after {
   content: "Мы закончили работу над вашим сайтом";
+}
+ 
 }
