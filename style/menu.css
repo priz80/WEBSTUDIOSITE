@@ -89,3 +89,7 @@
   width: 97px;
   font-size: 20px;
 }
+
+.menu-burger_conteiner {
+  display: none;
+}
