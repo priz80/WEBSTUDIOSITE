@@ -24,7 +24,7 @@
   opacity: 0.5;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1366px) {
   .btn-up {
     /* ширина элемента */
     width: 60px;
