@@ -20,6 +20,10 @@
   margin-bottom: 47px;
 }
 
+.porfolio-subtitle h5::after {
+  content: "В данном партфолио вы сможете увидеть кейсы наших работ на 2022 - 2025 год";
+}
+
 .btn-portfolio {
   width: 269px;
   height: 51px;
