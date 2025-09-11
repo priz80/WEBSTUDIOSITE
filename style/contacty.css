@@ -28,7 +28,7 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1905px) {
+@media (min-width: 1600px) {
   .star-left_s {
     display: none;
   }
@@ -112,7 +112,7 @@
   justify-content: center;
 }
 
-@media (min-width: 1905px) {
+@media (min-width: 1600px) {
   .ballslider {
     background-image: url(../img/slider-contacty/Group\ 26.svg);
   }
@@ -169,7 +169,6 @@
   justify-content: center;
 }
 
-/* .circleslider:hover { */
 .circlesliders {
   width: 165px;
   height: 165px;
@@ -185,7 +184,7 @@
   justify-content: center;
 }
 
-@media (max-width: 1905px) {
+@media (max-width: 1600px) {
   .star-left {
     display: none;
   }
