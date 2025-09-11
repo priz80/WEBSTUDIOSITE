@@ -123,3 +123,16 @@
     background-image: url(../img/m-support.svg);
   }
 }
+
+@media (max-width: 660px) {
+  .box-block {
+    position: relative;
+    /* position: absolute;
+    width: 100%;
+    top: 812px; */
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    top: 0;
+    max-width: 325px;
+  }
