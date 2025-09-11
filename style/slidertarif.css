@@ -106,7 +106,7 @@
   width: 113px;
 }
 
-@media (max-width: 1905px) {
+@media (max-width: 1600px) {
   .slider-tarif_conteiner {
     top: 3022px;
     width: 100%;
