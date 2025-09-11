@@ -2,14 +2,13 @@
   position: relative;
   max-width: 1275px;
   margin: 0 auto;
-  left: 7px;
+  /* margin-left: 7px; */
 }
 
 .lamp {
   position: absolute;
   width: 128px;
   height: 8px;
-  flex-shrink: 0;
   background-image: url(../img/lamp.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,11 +16,11 @@
 }
 
 @media (max-width: 1300px) {
-  .conteiner {
+ /*  .conteiner {
     position: relative;
-    max-width: 330px;
+    max-width: 1260px;
     margin: 0 auto;
-  }
+  } */
 
   .lamp {
     display: none;
