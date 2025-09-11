@@ -33,7 +33,7 @@
   line-height: 105.6%;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1300px) {
   .footer {
     position: absolute;
     width: 100%;
