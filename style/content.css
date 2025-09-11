@@ -265,7 +265,7 @@
   content: "05";
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1905px) {
   .line-menu {
     display: none;
   }
