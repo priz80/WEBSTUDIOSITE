@@ -28,7 +28,7 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1300px) {
   .star-left_s {
     display: none;
   }
@@ -112,7 +112,7 @@
   justify-content: center;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1300px) {
   .ballslider {
     background-image: url(../img/slider-contacty/Group\ 26.svg);
     background-size: contain;
@@ -186,7 +186,7 @@
   justify-content: center;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1300px) {
   .star-left {
     display: none;
   }
