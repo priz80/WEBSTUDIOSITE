@@ -1,4 +1,4 @@
-@media (max-width: 1600px) {
+@media (max-width: 1366px) {
   .header-block {
     top: 228px;
     height: 530px;
@@ -22,9 +22,9 @@
 
   .circle-conteiner {
     position: absolute;
-width: 347px;
-height: 347px;
-margin-left: 145px;
+    width: 347px;
+    height: 347px;
+    margin-left: 145px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,6 @@ margin-left: 145px;
     border-radius: 231px;
     border: 2px solid rgba(46, 236, 197, 0.6);
   }
-
 
   .header-text {
     width: 325px;
