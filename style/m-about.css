@@ -1,12 +1,23 @@
 @media (max-width: 1300px) {
-  .box-block {
+  .box-block_conteiner {
     position: absolute;
     width: 100%;
     top: 812px;
-    display: flex;
-    gap: 35px;
-    justify-content: center;
+    display: flex;justify-content: center;
   }
+
+  .box-block {
+    position: relative;
+    /* position: absolute;
+    width: 100%;
+    top: 812px; */
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    top: 0;
+    max-width: 613px;
+  }
+  
 
   .about-text {
     width: 100%;
@@ -28,7 +39,7 @@
   }
 
   .btton-about_conteiner {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     margin: 26px;
@@ -38,7 +49,8 @@
     margin: 0;
     width: 128px;
     height: 37px;
-    align-items: center;
+    margin-left: 84px;
+    /* align-items: center; */
   }
 
   .btn-about p {
@@ -47,10 +59,12 @@
   }
 
   .btn-about_shadow {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 129px;
     height: 40px;
-    left: 84px;
+    left: -120px;
+    /* align-items: center; */
   }
 
   .about-box {
