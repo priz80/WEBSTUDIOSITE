@@ -40,19 +40,30 @@
   }
 
   .telegram {
-    background-image: url(../img/m-slider-contacty/Vk.svg);
+    margin-left: 5px;
+    background-image: url(../img/slider-contacty/Telegram-s.svg);
   }
+
+  .telegrams {
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/Telegram.svg);
+  }
+
   .vk {
-    background-image: url(../img/m-slider-contacty/Vk.svg);
+    margin-left: 6px;
+    background-image: url(../img/slider-contacty/Vk.svg);
   }
   .gmail {
-    background-image: url(../img/m-slider-contacty/Vk.svg);
+    margin-left: 8px;
+    background-image: url(../img/slider-contacty/gmail.svg);
   }
   .max {
-    background-image: url(../img/m-slider-contacty/Vk.svg);
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/Max.svg);
   }
-  .linked {
-    background-image: url(../img/m-slider-contacty/Vk.svg);
+  .linkedin {
+    margin-left: 3px;
+    background-image: url(../img/slider-contacty/LinkedIN.svg);
   }
 
   .ballsliders {
