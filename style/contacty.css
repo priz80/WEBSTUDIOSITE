@@ -1,8 +1,18 @@
-.contacty-title {
-  position: absolute;
-  top: 4386px;
+.section-contacty {
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-contacty_conteiner {
+  width: 497px;
+  padding-inline-start: 7px;
+}
+
+.contacty-title {
   text-align: center;
+  margin-bottom: 97px;
 }
 
 .contacty-title p {
@@ -17,10 +27,57 @@
   content: "Контакты";
 }
 
-.star-left {
+.block-contacty_conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 25px;
+}
+
+.block-contacty {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+}
+
+.block-stars {
   position: absolute;
-  top: 4486px;
-  left: 357px;
+  width: 100%;
+  top: 4373px;
+  display: flex;
+  justify-content: center;
+}
+
+.block-stars_conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 604px;
+    height: 175px;
+    padding-inline-start: 22px;
+}
+
+
+.block-stars_position {
+  width: 66px;
+  display: flex;
+}
+
+.stars-block_leftgap {
+  gap: 14px;
+}
+.stars-block_rightgap {
+  gap: 0px;
+}
+
+.star-left_s {
+  display: none;
+}
+
+.star-left {
+margin-top: 113px;
   width: 30px;
   height: 30px;
   background-image: url(../img/star.svg);
@@ -28,16 +85,8 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1300px) {
-  .star-left_s {
-    display: none;
-  }
-}
-
 .star-right {
-  position: absolute;
-  top: 4406px;
-  left: 890px;
+  margin-top: 33px;
   width: 30px;
   height: 30px;
   background-image: url(../img/star.svg);
@@ -46,7 +95,6 @@
 }
 
 .star-small {
-  position: absolute;
   opacity: 0.5;
   width: 16px;
   height: 16px;
@@ -56,8 +104,7 @@
 }
 
 .star-small_left {
-  top: 4532px;
-  left: 400px;
+  margin-top: 159px;
   width: 16px;
   height: 16px;
   background-image: url(../img/star-small.svg);
@@ -66,8 +113,6 @@
 }
 
 .star-small_right {
-  top: 4374px;
-  left: 877px;
   width: 16px;
   height: 16px;
   background-image: url(../img/star-small.svg);
@@ -75,17 +120,6 @@
   background-repeat: no-repeat;
 }
 
-.block-contacty {
-  position: absolute;
-  width: 100%;
-  height: 165px;
-  top: 4586px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  gap: 46px;
-}
 
 .circleslider {
   width: 110px;
