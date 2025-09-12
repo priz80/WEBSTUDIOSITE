@@ -1,20 +1,28 @@
-.forma-conteiner {
-  position: absolute;
-  top: 3910px;
-  width: 920px;
+.section-forma_conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 71px;
+}
+
+
+.section-forma {
+  width: 941px;
   display: flex;
   flex-direction: column;
 }
 
 .forma-title {
-  width: 412px;
+  width: 393px;
   margin-bottom: 26px;
+  padding-inline-start: 18px;
 }
 
 .forma-block {
   display: flex;
-  width: 920px;
+  width: 915px;
   height: 321px;
+  margin-left: 19px;
 }
 
 .forma {
@@ -59,20 +67,24 @@
 }
 
 
-@media (min-width: 1360px) {
+.iphone-conteiner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .iphone {
   position: absolute;
-  top: 3842px;
-  right: -4px;
+  bottom: -57px;
   width: 270px;
   height: 529px;
-  flex-shrink: 0;
-  background: url(../img/iPhone.png);
+  background: url(../img/iPhone.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
-}
+
 
 @media (min-width: 1500px) {
 
