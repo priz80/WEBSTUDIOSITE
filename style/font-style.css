@@ -3,15 +3,46 @@
   --font-color: rgba(255, 255, 255, 1);
 }
 
+@font-face {
+  font-family: 'Ruberoid';
+  src: url('Ruberoid-Regular.eot');
+  src: local('Ruberoid'), local('Ruberoid-Regular'),
+      url('Ruberoid-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Ruberoid-Regular.woff2') format('woff2'),
+      url('Ruberoid-Regular.woff') format('woff'),
+      url('Ruberoid-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: Ruberoid;
   color: #fff;
 }
 
-h1 {
-  font-size: 65px;
+/* :root {
+  --font-family: "Ruberoid", sans-serif;
+  --font-color: rgba(255, 255, 255, 1);
+} */
+
+
+@font-face {
+  font-family: 'Ruberoid Extra';
+  src: url('Ruberoid-ExtraBold.eot');
+  src: local('Ruberoid Extra Bold'), local('Ruberoid-ExtraBold'),
+      url('Ruberoid-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('Ruberoid-ExtraBold.woff2') format('woff2'),
+      url('Ruberoid-ExtraBold.woff') format('woff'),
+      url('Ruberoid-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
   font-style: normal;
-  font-weight: 600;
+}
+
+h1 {
+  font-family: 'Ruberoid Extra';
+  font-size: 65px;
+  /* font-style: normal;
+  font-weight: 600; */
   line-height: normal;
   background: linear-gradient(91deg, #b5feef 10.31%, #2eecc5 165.09%);
   background-clip: text;
