@@ -1,32 +1,39 @@
-.header-block {
-  position: absolute;
-  top: 211px;
+.section-header {
+  /* position: absolute; */
+  margin-bottom: 89px;
   display: flex;
   width: 100%;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+
+.section-header_conteiner {
+  display: flex;
+  /* width: 1264px; */
+  width: 100%;
 }
 
 .header-text {
-  display: flex;
-  width: 1266px;
-}
-
-.header-text_block {
-  width: 804px;
+  width: 801px;
   display: flex;
   flex-direction: column;
+  margin-left: 16px;
 }
 
 .header-title {
   position: relative;
   width: 807px;
   margin-top: 114px;
+  /* margin-bottom: 14px; */
+}
+
+.header-title_blur_conteiner {
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .header-title_blur {
-  position: absolute;
-  bottom: 0;
   width: 807px;
   background: linear-gradient(
     91deg,
@@ -43,16 +50,20 @@
   content: "Разработка сайтов";
 }
 
+
 .header-subtitle {
   position: relative;
-  width: 575px;
+  width: 807px;
   margin-bottom: 27px;
 }
 
-.header-subtitle_blur {
+.header-subtitle_blur{
   position: absolute;
-  bottom: 0;
-  width: 575px;
+  width: 100%;
+  top: 0px;
+}
+
+.header-subtitle_blur {
   background: linear-gradient(
     91deg,
     rgba(181, 254, 239, 0.3) 10.31%,
@@ -139,7 +150,7 @@
   position: absolute;
   width: 700px;
   height: 700px;
-  margin-left: 75px;
+  margin-left: 73px;
   margin-top: 123px;
   display: flex;
   justify-content: center;
