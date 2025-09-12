@@ -1,24 +1,28 @@
-.box-block_conteiner {
-  position: absolute;
+.section-about {
+  /* position: absolute; */
   width: 100%;
-  top: 1145px;
+  margin-bottom: 280px;
   display: flex;
   justify-content: center;
 }
 
-
-.box-block {
-  position: relative;
+.section-about_conteiner {
+  /* position: relative; */
   display: flex;
   justify-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 35px;
-  max-width: 1285px;
+  margin-left: 18px;
+  /* width: 1285px; */
+}
+
+.about-text {
+  width: 672px;
 }
 
 .about-title {
-  width: 672px;
+  
   margin-top: 12px;
   margin-bottom: 20px;
 }
@@ -29,14 +33,16 @@
 
 .btton-about_conteiner {
   position: relative;
-  margin-top: 25px;
-  margin: 45px 0 70px 3px;
+  /* margin-top: 25px; */
+  margin-top: 45px;
 }
 
 .btn-about {
-  width: 198px;
-  height: 55px;
+  position: absolute;
+  width: 200px;
+  height: 57px;
   border-radius: 4px;
+  border: 1.5px solid #2eecc5;
   background: #161617;
   box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
 }
@@ -47,12 +53,13 @@
 }
 
 .btn-about_shadow {
-  position: absolute;
+  position: relative;
   left: 12px;
   top: 10px;
-  width: 199px;
+  width: 200px;
   height: 57px;
   border-radius: 4px;
+  border: 1.5px solid rgba(46, 236, 197, 0.4);
   z-index: -1;
 }
 
