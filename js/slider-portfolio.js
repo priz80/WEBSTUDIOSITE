@@ -1,5 +1,5 @@
 // Получаем элементы слайдера
-const slyder = document.querySelector('.sliderportfolio');
+const slyder = document.querySelector('.slider-portfolio_container');
 const prevButtons = document.getElementById('prev-portfolio');
 const nextButtons = document.getElementById('next-portfolio');
 const slydes = Array.from(slyder.querySelectorAll('div'));
