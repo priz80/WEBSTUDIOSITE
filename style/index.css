@@ -1,0 +1,25 @@
+/* @import "/font/stylesheet.css"; */
+@import "normalize.css";
+@import "font-style.css";
+@import "content.css";
+@import "container.css";
+@import "button-style.css";
+@import "menu.css";
+@import "m-menu.css";
+@import "menu-burger.css";
+@import "header.css";
+@import "m-header.css";
+@import "about.css";
+@import "m-about.css";
+@import "portfolio.css";
+@import "sliderportfolio.css";
+@import "m-portfolio.css";
+@import "tarif.css";
+@import "slidertarif.css";
+@import "m-tarif.css";
+@import "forma.css";
+@import "m-forma.css";
+@import "contacty.css";
+@import "m-contacty.css";
+@import "footer.css";
+@import "btnupvidget.css";
