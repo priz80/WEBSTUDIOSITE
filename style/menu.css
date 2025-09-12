@@ -1,12 +1,11 @@
-.block-menu {
-  position: absolute;
+.section-menu {
   width: 100%;
-  top: 48px;
+  margin-bottom:103px;
   display: flex;
   justify-content: center;
 }
 
-.block-menu_container {
+.section-menu_container {
   width: 1290px;
   display: flex;
   justify-content: space-between;
