@@ -1,21 +1,30 @@
 .conteiner {
   position: relative;
-  max-width: 1275px;
-  margin: 0 auto;
+  max-width: 1290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column
 }
 
-.lamp {
-  position: absolute;
-  width: 128px;
-  height: 8px;
-  background-image: url(../img/lamp.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  left: 40%;
-}
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
   .lamp {
     display: none;
   }
+} */
+
+.section-lamp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.section-lamp_conteiner {
+  width: 84px;
+  height: 8px;
+  background-color: rgba(44, 232, 194, 1);
+  fill: #2ce8c2;
+  filter: drop-shadow(0 0 21px rgba(44, 232, 194, 0.35));
+  border-radius: 0 0 20px 20px;
 }
