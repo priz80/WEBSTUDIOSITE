@@ -1,15 +1,8 @@
 @media (max-width: 1300px) {
-  .main-menu {
-    /* position: absolute; */
+  .block-menu_container {
     width: 100%;
-    /* top: -7px; */
     align-items: center;
     flex-direction: row-reverse;
-  }
-
-  .menu {
-    /* display: none; */
-    visibility: hidden
   }
 
   .li-main {
@@ -46,10 +39,9 @@
   .logo {
     width: 69px;
     height: 47px;
-    margin-right: 4px;
+    /* margin-right: 4px; */
     background-image: url(../img/logo.svg);
-    /* fill: #fff; */
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-right: 18px;
   }
