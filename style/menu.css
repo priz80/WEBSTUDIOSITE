@@ -35,13 +35,6 @@
   transform: rotate(-0.192deg);
 }
 
-/* .logo p {
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140.6%;
-  text-transform: uppercase;
-}
- */
 .logo-studio {
   font-style: normal;
   font-weight: 600;
@@ -81,6 +74,11 @@
   padding-inline-start: 267px;
   margin: 18px 0;
   z-index: 1;
+}
+
+
+.m-menu {
+  display: none;
 }
 
 .menu li {
