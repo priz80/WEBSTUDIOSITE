@@ -13,7 +13,7 @@
 }
 
 .forma-title {
-  width: 395px;
+  width: 398px;
   margin-bottom: 26px;
   padding-inline-start: 18px;
 }
@@ -77,7 +77,7 @@
 
 .iphone {
   position: absolute;
-  bottom: -57px;
+  bottom: -60px;
   width: 270px;
   height: 529px;
   background: url(../img/iPhone.svg);
