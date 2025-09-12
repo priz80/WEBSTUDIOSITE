@@ -1,15 +1,16 @@
-.slider-tarif_conteiner {
-  position: absolute;
-  top: 3086px;
+.slider-tarif {
   width: 100%;
   display: flex;
   justify-content: center;
+  /* margin-bottom: 80px; */
 }
 
-.slidertarif {
+.slidertarif_conteiner {
   display: flex;
   justify-content: center;
+  
   gap: 32px;
+  width: 1200px;
 }
 
 .card-tarif {
