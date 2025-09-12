@@ -26,16 +26,16 @@
     background-repeat: no-repeat;
   }
   .burger-x {
-    width: 46px;
-    height: 46px;
-    margin: 14px;
+    width: 40px;
+    height: 40px;
+   margin: 18px 14px;
     background-image: url(../img/burgerX.svg);
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 3;
   }
 
-  .m-menu {
+  .menu {
     position: relative;
     flex-direction: column;
     top: 100px;
