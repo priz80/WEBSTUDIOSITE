@@ -4,7 +4,7 @@
     width: 100%;
     top: 812px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .box-block {
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     gap: 35px;
-    max-width: 613px;
+    min-width: 341px;
   }
   
 
@@ -38,28 +38,33 @@
   .btton-about_conteiner {
     display: flex;
     justify-content: center;
-    margin: 26px;
+    margin-top: 27px;
   }
-
   .btn-about {
-    margin: 0;
-    width: 128px;
-    height: 37px;
-    margin-left: 84px;
+   /*  position: absolute; */
+    width: 131px;
+  height: 41px;
+  border-radius: 4px;
+  border: 1.5px solid #2EECC5;
+  background: #161617;
+  box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.20);
   }
 
   .btn-about p {
-    width: 78px;
+    width: 114px;
     font-size: 13px;
   }
 
   .btn-about_shadow {
     position: relative;
-    display: block;
+    left: 12px;
+    top: 10px;
     width: 129px;
-    height: 40px;
-    left: -120px;
+  height: 41px;
+    border-radius: 4px;
+    z-index: -1;
   }
+  
 
   .about-box {
     width: 289px;
