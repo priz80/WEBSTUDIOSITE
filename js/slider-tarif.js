@@ -1,5 +1,5 @@
 // Получаем элементы слайдера
-const slider = document.querySelector(".slidertarif");
+const slider = document.querySelector(".slidertarif_conteiner");
 const prevButton = document.getElementById("next-tarif");
 const nextButton = document.getElementById("prev-tarif");
 const slides = Array.from(slider.querySelectorAll(".card-tarif"));
