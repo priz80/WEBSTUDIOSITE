@@ -5,6 +5,10 @@
     flex-direction: row-reverse;
   }
 
+  .menu {
+    display: none;
+  }
+
   .li-main {
     display: none;
   }
@@ -21,7 +25,7 @@
     content: "Контакты";
   }
   .li-bid a::after {
-    content: "Осавить заявку";
+    content: "Оставить заявку";
   }
 
   .btn-order {
@@ -39,7 +43,6 @@
   .logo {
     width: 69px;
     height: 47px;
-    /* margin-right: 4px; */
     background-image: url(../img/logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
