@@ -1,7 +1,7 @@
 const page1 = document.querySelector(".burger")
 const page2 = document.querySelector(".burger-x")
 const mbr = document.querySelector(".menu-burger")
-const mmu = document.querySelector(".m-menu")
+const menu = document.querySelector(".menu")
 
 
   document.querySelector(".burger").addEventListener("click", () => {
@@ -10,7 +10,7 @@ const mmu = document.querySelector(".m-menu")
     page2.style.display = `block`;
     page1.style.display = `none`;
     mbr.style.display = `block`;
-    mmu.style.display = `flex`;
+    menu.style.display = `block`;
   });
 
   document.querySelector(".burger-x").addEventListener("click", () => {
@@ -19,5 +19,5 @@ const mmu = document.querySelector(".m-menu")
     page2.style.display = `none`;
     page1.style.display = `block`;
     mbr.style.display = `none`;
-    mmu.style.display = `none`;
+    menu.style.display = `none`;
   });
