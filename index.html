@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style/index.css" />
   </head>
   <body>
     <div class="room"></div>
@@ -30,6 +30,17 @@
             <li class="li-contacty"><a href="#contacty"></a></li>
             <li class="li-bid"><a href="#bid"></a></li>
           </nav>
+          <div class="menu-burger_conteiner">
+            <div class="menu-burger" style="display: none">
+              <nav class="m-menu">
+                <li class="li-question menu-item"><a href="#about"></a></li>
+                <li class="li-portfolio menu-item"><a href="#portfolio"></a></li>
+                <li class="li-tdrif menu-item"><a href="#tarif"></a></li>
+                <li class="li-contacty menu-item"><a href="#contacty"></a></li>
+                <li class="li-bid menu-item"><a href="#forma"></a></li>
+              </nav>
+            </div>
+          </div> 
           <a href="#forma"><button type="button" class="button-style btn-order">
         <p>Заказать</p>
       </button></a>
@@ -39,21 +50,6 @@
   </section>
 
 <!---------------- menu end  ------------------------>
-
-<!--------------------- m-menu  -->
-<!-- <div class="menu-burger_conteiner"> -->
-    <!-- <div class="menu-burger" style="display: none;"> -->
-      <!-- <div class="m-menu" style="display: none;">
-        <div class="menu-item"><a href="index.html">Главная</a></div>
-        <div class="menu-item"><a href="#about">Почему именно мы?</a></div>
-        <div class="menu-item"><a href="#portfolio">Портфолио</a></div>
-        <div class="menu-item"><a href="#contacty">Контакты</a></div>
-        <div class="menu-item"><a href="#forma">Оставить заявку</a></div>
-      </div> -->
-    <!-- </div> -->
-<!-- </div> -->
-
-<!--------------------- m-menu end  -->
 
 <!-------------- header ----------------------------->
 <Section>
@@ -277,6 +273,87 @@
 </div>
 <!-------------- slider portfolio end --------------->
 
+<!------------------ block contacty ----------------->
+<section id="section-contacty">
+    <div class="block-contacty" id="contacty">
+      <a href="#forma">
+        <div class="circleslider" id="circleslider">
+          <div class="ballslider" id="ballslider">
+            <div class="icon-contacty linkedin"></div>
+          </div></div
+      ></a>
+      <a href="#forma">
+        <div class="circleslider" id="circlesliderone">
+          <div class="ballslider" id="ballsliderone">
+            <div class="icon-contacty vk"></div>
+          </div></div
+      ></a>
+      <a href="https://t.me/Studio_WWW" target="_blank">
+        <div class="circleslider" id="circleslidertoo">
+          <div class="ballslider" id="ballslidertoo">
+            <div class="icon-contacty telegram" id="telegram"></div>
+          </div></div
+      ></a>
+      <a
+        href="https://max.ru/u/f9LHodD0cOKqDcV9NLnicfgZZwzUKUxyjbxFrtN4JYNnrU7HK-EHefGjwD0"
+        target="_blank"
+      >
+        <div class="circleslider" id="circlesliderthree">
+          <div class="ballslider" id="ballsliderthree">
+            <div class="icon-contacty max"></div>
+          </div></div
+      ></a>
+      <a href="#forma">
+        <div class="circleslider" id="circlesliderfour">
+          <div class="ballslider" id="ballsliderfour">
+            <div class="icon-contacty gmail"></div>
+          </div></div
+      ></a>
+    </div>
+</section>
+<!---------------- block contacty end --------------->
+
+<!--------------------------------------- conteiner  --------------------------------------------->
+    <div class="conteiner">
+      <svg class="lamp"></svg>
+
+<!----------------- portfolio  ---------------------->
+<section id="section-portfolio">
+      <div class="portfolio" id="portfolio">
+        <div class="porfolio-title">
+          <h4></h4>
+          <div class="porfolio-subtitle">
+            <h5></h5>
+          </div>
+          <a href="index.html"><button type="button" class="button-style btn-portfolio">
+            <p>Компьютерные версии</p>
+          </button></a>
+        </div>
+      </div>
+
+<!----------- block arrow for sliders --------------->
+<div class="portfolio-arrow_position block-arrow_portfolio">
+  <div class="portfolio-arrow_conteiner">
+      <div class="arrow-circle" id="next-portfolio">
+        <div class="arrow-ball">
+          <div class="arrow-next"></div>
+        </div>
+      </div>
+      <div class="arrow-circle" id="prev-portfolio">
+        <div class="arrow-ball">
+          <div class="arrow-prev"></div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>
+<!-------- block arrow for sliders end --------------->
+<!---------------- portfolio-end  -------------------->
+
+<!------------------- tarif  ------------------------->
+<section id="section-tarif">
+      <div class="tarif-title" id="tarif"><h4>Тарифы</h4></div>
+
 <!----------------- slider-tarif  ------------------->
 <div class="slider-tarif_conteiner">
   <div class="slidertarif">
@@ -424,87 +501,6 @@
 </div>
 <!--------------- slider-tarif end  ------------------>
 
-<!------------------ block contacty ----------------->
-<section id="section-contacty">
-    <div class="block-contacty" id="contacty">
-      <a href="#forma">
-        <div class="circleslider" id="circleslider">
-          <div class="ballslider" id="ballslider">
-            <div class="icon-contacty linkedin"></div>
-          </div></div
-      ></a>
-      <a href="#forma">
-        <div class="circleslider" id="circlesliderone">
-          <div class="ballslider" id="ballsliderone">
-            <div class="icon-contacty vk"></div>
-          </div></div
-      ></a>
-      <a href="https://t.me/Studio_WWW" target="_blank">
-        <div class="circleslider" id="circleslidertoo">
-          <div class="ballslider" id="ballslidertoo">
-            <div class="icon-contacty telegram" id="telegram"></div>
-          </div></div
-      ></a>
-      <a
-        href="https://max.ru/u/f9LHodD0cOKqDcV9NLnicfgZZwzUKUxyjbxFrtN4JYNnrU7HK-EHefGjwD0"
-        target="_blank"
-      >
-        <div class="circleslider" id="circlesliderthree">
-          <div class="ballslider" id="ballsliderthree">
-            <div class="icon-contacty max"></div>
-          </div></div
-      ></a>
-      <a href="#forma">
-        <div class="circleslider" id="circlesliderfour">
-          <div class="ballslider" id="ballsliderfour">
-            <div class="icon-contacty gmail"></div>
-          </div></div
-      ></a>
-    </div>
-</section>
-<!---------------- block contacty end --------------->
-
-<!--------------------------------------- conteiner  --------------------------------------------->
-    <div class="conteiner">
-      <svg class="lamp"></svg>
-
-<!----------------- portfolio  ---------------------->
-<section id="section-portfolio">
-      <div class="portfolio" id="portfolio">
-        <div class="porfolio-title">
-          <h4></h4>
-          <div class="porfolio-subtitle">
-            <h5></h5>
-          </div>
-          <a href="index.html"><button type="button" class="button-style btn-portfolio">
-            <p>Компьютерные версии</p>
-          </button></a>
-        </div>
-      </div>
-
-<!----------- block arrow for sliders --------------->
-<div class="portfolio-arrow_position block-arrow_portfolio">
-  <div class="portfolio-arrow_conteiner">
-      <div class="arrow-circle" id="next-portfolio">
-        <div class="arrow-ball">
-          <div class="arrow-next"></div>
-        </div>
-      </div>
-      <div class="arrow-circle" id="prev-portfolio">
-        <div class="arrow-ball">
-          <div class="arrow-prev"></div>
-        </div>
-      </div>
-  </div>
-</div>
-</section>
-<!-------- block arrow for sliders end --------------->
-<!---------------- portfolio-end  -------------------->
-
-<!------------------- tarif  ------------------------->
-<section id="section-tarif">
-      <div class="tarif-title" id="tarif"><h4>Тарифы</h4></div>
-
 <!---------- block arrow for sliders ----------------->
       <div class="tarif-arrow_position block-arrow_tarif">
         <div class="tarif-arrow_conteiner">
@@ -602,21 +598,21 @@
 <!-------------------- footer end ------------------->
 
     <!-- menu-burger  -->
-    <script src="/menu-burger.js"></script>
+    <script src="/js/menu-burger.js"></script>
 
     <!-- slider portfolio  -->
-    <script async src="/slider-portfolio.js"></script>
+    <script async src="/js/slider-portfolio.js"></script>
 
     <!-- slider tarif  -->
-    <script async src="/slider-tarif.js"></script>
+    <script async src="/js/slider-tarif.js"></script>
 
-    <script async src="/menu-contacty.js"></script>
+    <script async src="/js/menu-contacty.js"></script>
 
     <!-- button up  -->
-    <script async src="/btn.js"></script>
+    <script async src="/js/btn.js"></script>
 
     <!-- scroll smooth  -->
-    <script async src="./smooth.js"></script>
+    <script async src="/js/smooth.js"></script>
 
   </body>
 </html>
