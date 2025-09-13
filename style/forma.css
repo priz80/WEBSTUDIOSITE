@@ -1,4 +1,4 @@
-.section-forma_conteiner {
+.section-forma{
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -6,7 +6,7 @@
 }
 
 
-.section-forma {
+.section-forma_conteiner  {
   width: 941px;
   display: flex;
   flex-direction: column;
