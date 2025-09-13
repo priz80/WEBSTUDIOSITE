@@ -324,18 +324,12 @@
 
 @media (max-width: 1300px) {
   .block-forma {
-    position: absolute;
-    width: 100%;
-    height: 677px;
     top: 2870px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    background: linear-gradient(
-      73deg,
-      #313134 -57.16%,
-      #222224 3.42%,
-      #12473c 53.17%,
-      #292929 86.16%
-    );
+  }
+}
+
+@media (max-width: 960px) {
+  .block-forma {
+    top: 2870px;
   }
 }
