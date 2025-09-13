@@ -1,5 +1,4 @@
 .section-about {
-  /* position: absolute; */
   width: 100%;
   margin-bottom: 280px;
   display: flex;
@@ -7,14 +6,11 @@
 }
 
 .section-about_conteiner {
-  /* position: relative; */
   display: flex;
-  justify-content: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 35px;
   margin-left: 18px;
-  /* width: 1285px; */
 }
 
 .about-text {
@@ -22,7 +18,6 @@
 }
 
 .about-title {
-  
   margin-top: 12px;
   margin-bottom: 20px;
 }
@@ -33,7 +28,6 @@
 
 .btton-about_conteiner {
   position: relative;
-  /* margin-top: 25px; */
   margin-top: 45px;
 }
 
@@ -156,4 +150,114 @@
   background-image: url(../img/support.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 1300px) {
+  .section-about_conteiner {
+    justify-content: center;
+  }
+
+  .about-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-text {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+  }
+
+  .about-title {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+
+  .about-subtitle {
+    width: 100%;
+  }
+
+  .about-subtitle_ {
+    display: none;
+  }
+
+  .btton-about_conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+  }
+  .btn-about {
+    width: 131px;
+    height: 41px;
+    border-radius: 4px;
+    border: 1.5px solid #2eecc5;
+    background: #161617;
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.2);
+  }
+
+  .btn-about p {
+    width: 114px;
+    font-size: 13px;
+  }
+
+  .btn-about_shadow {
+    width: 129px;
+    height: 41px;
+  }
+
+  .about-box {
+    width: 289px;
+    height: 289px;
+  }
+
+  .about-box_conteiner {
+    max-width: 243px;
+    margin: 25px auto 15px;
+  }
+
+  .about-box_title {
+    max-width: 258px;
+    font-size: 22px;
+    margin: 0 0 16px 0;
+  }
+
+  .about-box_titlmoney {
+    max-width: 225px;
+    margin: 0 0 5px 0;
+  }
+
+  .about-box_subtitle {
+    font-size: 12px;
+  }
+
+  .img-money {
+    width: 158px;
+    height: 139px;
+    margin-top: 4px;
+
+    background-image: url(../img/m-money.svg);
+  }
+
+  .img-time {
+    width: 136px;
+    height: 130px;
+    margin-top: 2px;
+
+    background-image: url(../img/m-time.svg);
+  }
+
+  .img-employ {
+    width: 111px;
+    height: 137px;
+    margin-top: -5px;
+    background-image: url(../img/m-employ.svg);
+  }
+
+  .img-support {
+    width: 125px;
+    height: 126px;
+
+    margin-top: 6px;
+    background-image: url(../img/m-support.svg);
+  }
 }
