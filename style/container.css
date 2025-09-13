@@ -50,7 +50,7 @@
 @media (max-width: 768px) {
   .conteiner {
     position: relative;
-    max-width: 330px;
+    max-width: 360px;
     display: flex;
     align-items: center;
     flex-direction: column
