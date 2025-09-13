@@ -1,8 +1,9 @@
 .section-tarif {
+  position: relative;
   width: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
+
   margin-bottom: 254px;
 }
 
@@ -11,8 +12,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
 }
-
 
 .tarif-title {
   width: 251px;
@@ -24,11 +25,11 @@
 .tarif-arrow_conteiner {
   position: absolute;
   width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  top: 358px;
+  justify-content: center;
+  gap: 1106px;
 }
 
 @media (max-width: 1300px) {
-
 }
