@@ -50,24 +50,25 @@
 
 
   .iphone {
-    position: absolute;
-    top: 4488px;
-    left: 0;
+    /* position: absolute; */
+    /* top: 4488px; */
+   /*  left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 auto;
+    margin: 0 auto; */
     width: 254px;
     height: 492px;
-    flex-shrink: 0;
-    background: url(../img/iPhone.png);
+
+    background: url(../img/iPhone.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    z-index: 1;
   }
 
   .elipse {
     width: 39px;
     height: 39px;
-    flex-shrink: 0;
+
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -118,7 +119,7 @@
   .phone {
     width: 22px;
     height: 21px;
-    flex-shrink: 0;
+
     background-image: url(../img/ellipse-phone.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -131,7 +132,7 @@
   .note-title {
     width: 103px;
     height: 15px;
-    flex-shrink: 0;
+
   }
 
   .note-title p::after {
@@ -141,7 +142,7 @@
   .note-subtitle {
     width: 100px;
     height: 21px;
-    flex-shrink: 0;
+
   }
 
   .note-subtitle p::after {
@@ -171,7 +172,7 @@
   .ball {
     width: 29px;
     height: 29px;
-    flex-shrink: 0;
+
     background-image: url(../img/ellipse-ball.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -180,7 +181,7 @@
   .finish-title {
     width: 100px;
     height: 15px;
-    flex-shrink: 0;
+
   }
 
   .finish-title p::after {
@@ -190,7 +191,7 @@
   .finish-subtitle {
     width: 100px;
     height: 21px;
-    flex-shrink: 0;
+
   }
 
   .finish-subtitle p::after {
