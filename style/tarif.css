@@ -32,4 +32,9 @@
 }
 
 @media (max-width: 1300px) {
+  .tarif-arrow_conteiner {
+    position: relative;
+    top: 55px;
+    gap: 35px;
+  }
 }
