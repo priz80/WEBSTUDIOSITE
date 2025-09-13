@@ -1,4 +1,6 @@
 .section-contacty {
+  position: absolute;
+  top: 4390px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,14 +29,14 @@
   content: "Контакты";
 }
 
-.block-contacty_conteiner {
+.block-contacty {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-inline-start: 25px;
+  /* padding-inline-start: 25px; */
 }
 
-.block-contacty {
+.block-contacty_conteiner {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -253,4 +255,12 @@ margin-top: 113px;
     left: 241px;
     opacity: 0.5;
   }
+
+  .block-stars {
+    top: 3373px;
+}
+
+.section-contacty {
+  top: 3911px;
+}
 }
