@@ -28,6 +28,8 @@
 
 .arrow-circle:hover {
   cursor: pointer;
+  width: 90px;
+  height: 90px;
 }
 
 .arrow-ball {
@@ -42,6 +44,11 @@
   justify-content: center;
 }
 
+.arrow-ball:hover {
+  width: 80px;
+  height: 80px;
+}
+
 .arrow-next {
   width: 14px;
   height: 24px;
@@ -50,10 +57,24 @@
   background-repeat: no-repeat;
 }
 
+.arrow-next:hover {
+  width: 28px;
+  height: 48px;
+}
+
 .arrow-prev {
   width: 14px;
   height: 24px;
   background-image: url(../img/Arrow-prev.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.arrow-prev:hover {
+  width: 28px;
+  height: 48px;
+}
+
+@media (max-width: 1300px) {
+  
 }
