@@ -1,10 +1,9 @@
-@media (max-width: 1300px) {
+/* @media (x-width: 1300px) {ma
   .box-block_conteiner {
     position: absolute;
     width: 100%;
     top: 812px;
     display: flex;
-    /* justify-content: center; */
   }
 
   .box-block {
@@ -41,7 +40,6 @@
     margin-top: 27px;
   }
   .btn-about {
-   /*  position: absolute; */
     width: 131px;
   height: 41px;
   border-radius: 4px;
@@ -131,4 +129,4 @@
     gap: 35px;
     max-width: 325px;
   }
-}
+} */
