@@ -85,6 +85,34 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1300px)  {
+.section-forma {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.iphone {
+  position: relative;
+
+  width: 270px;
+  height: 529px;
+margin-top: 100px;
+}
+
+.iphone-conteiner {
+  justify-content: center;
+}
+
+
+.iphone {
+
+  bottom: -41px;
+  
+}
+}
+
+
 
 /* @media (min-width: 1500px) {
 
