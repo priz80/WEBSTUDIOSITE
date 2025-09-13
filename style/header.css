@@ -50,14 +50,13 @@
   content: "Разработка сайтов";
 }
 
-
 .header-subtitle {
   position: relative;
   width: 807px;
   margin-bottom: 27px;
 }
 
-.header-subtitle_blur{
+.header-subtitle_blur {
   position: absolute;
   width: 100%;
   top: 0px;
@@ -189,3 +188,165 @@
   display: none;
 }
 
+@media (max-width: 1300px) {
+  .section-header {
+    flex-direction: column;
+  }
+
+  .section-header_conteiner {
+    justify-content: center;
+}
+
+.header-text {
+  width: 325px;
+}
+
+  .header-title {
+    width: 228px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .header-title h1 {
+    font-size: 27px;
+    line-height: 118.1%;
+  }
+
+  .header-title_blur {
+    display: none;
+  }
+
+  .header-subtitle {
+    display: none;
+  }
+
+  .header-subtitle_blur {
+    display: none;
+  }
+
+  .header-description {
+    width: 218px;
+    margin-bottom: 22px;
+  }
+  /* .header-description h3 {
+    font-size: 13px;
+  } */
+
+  .header-description h3::after {
+    content: "Мы web-студия которая работает уже больше 3-х лет";
+  }
+
+  .btn-block {
+    width: 129px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-header {
+    width: 129px;
+    height: 38px;
+    /* background: rgba(46, 236, 197, 0.1);
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.15); */
+  }
+
+  .btn-header P {
+    width: 74px;
+    font-size: 11px;
+  }
+
+  .arrow {
+    width: 7px;
+    height: 12px;
+    margin-left: 0;
+    background-image: url(../img/m-arrow.svg);
+    /*     background-size: contain;
+    background-repeat: no-repeat; */
+  }
+
+  .question {
+    display: none;
+  }
+
+  .man-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .man {
+    /* position: absolute; */
+    width: 330px;
+    height: 412px;
+    /* margin-left: -224px; */
+  }
+
+  .circle-conteiner {
+    /*     position: absolute; */
+    width: 347px;
+    height: 347px;
+    /*     margin-left: -184px; */
+    margin-top: 70px;
+    display: flex;
+    /*     justify-content: center;
+    align-items: center; */
+  }
+
+  .circle {
+    /*     position: absolute; */
+    width: 347px;
+    height: 347px;
+    border-radius: 347px;
+    /*     border: 2px solid rgba(46, 236, 197, 0.09); */
+  }
+
+  .circle-s {
+    /*     position: absolute; */
+    width: 289px;
+    height: 289px;
+    border-radius: 289px;
+    /*     border: 2px solid rgba(46, 236, 197, 0.2); */
+  }
+
+  .circle-m {
+    /*     position: absolute; */
+    width: 231px;
+    height: 231px;
+    border-radius: 231px;
+    /*     border: 2px solid rgba(46, 236, 197, 0.6); */
+  }
+
+  .box-text_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+  }
+
+  .box-text_conteiner {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .box-text {
+    width: 325px;
+    height: 38px;
+    border-radius: 41px;
+    border: 1.5px solid #208c76;
+    background: rgba(46, 236, 197, 0.04);
+    box-shadow: 0 0 38px 0 rgba(46, 236, 197, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-text p {
+    width: 298px;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
